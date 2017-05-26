@@ -1,0 +1,502 @@
+[
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_account.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_account.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_index_info.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_index_info.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_on.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.github.jd-alexander\\likebutton\\unspecified\\res\\drawable\\thumb_on.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_bottom.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\Xstock\\tablefixheaderslibrary\\unspecified\\res\\drawable\\shadow_bottom.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_top.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\Xstock\\tablefixheaderslibrary\\unspecified\\res\\drawable\\shadow_top.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_settings.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_settings.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_background.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\menu_background.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_stock_chart.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_stock_chart.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_favorite_main.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_favorite_main.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_border_left.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\bottom_border_left.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_delete_24.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_delete_24.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\xstock.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\xstock.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_home.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_home.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\miui_back_drawable.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\miui_back_drawable.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_table_family.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\bg_table_family.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_guide.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_guide.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_price_table.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_price_table.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_residemenu.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\bottom_residemenu.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_news_create_date.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_news_create_date.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_message.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_message.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_xstock_10.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_xstock_10.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_news_author.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_news_author.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_trades.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_trades.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_stock_chart_main.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_stock_chart_main.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_border_top.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\bottom_border_top.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_64.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\delete_64.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_news_main.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_news_main.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\star_off.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.github.jd-alexander\\likebutton\\unspecified\\res\\drawable\\star_off.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_logout_main.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_logout_main.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titlebar_menu_selector.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\titlebar_menu_selector.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_back.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_back.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\color_cursor_white.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\Xstock\\searchview\\unspecified\\res\\drawable\\color_cursor_white.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_x24_basic.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_x24_basic.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_border_all.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\bottom_border_all.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_web_main.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_web_main.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_message_main.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_message_main.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_contact.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_contact.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_button_selector.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\menu_button_selector.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_xstock_4.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_xstock_4.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_xstock_7.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_xstock_7.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button.9.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\button.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_guide_main.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_guide_main.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\shadow.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_index_info_main.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_index_info_main.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_table_color1.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\bg_table_color1.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_news.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_news.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_table_color4.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\bg_table_color4.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_border_right.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\bottom_border_right.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\title_bar_menu.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\title_bar_menu.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_contact_main.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_contact_main.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rating_favorite.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\rating_favorite.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_logout.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_logout.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_delete_32.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_delete_32.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\title_bar_menu_on.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\title_bar_menu_on.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_price_table_main.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_price_table_main.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\round_corner_background.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\round_corner_background.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_cursor.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\custom_cursor.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_table_header.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\bg_table_header.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_x24_traders.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_x24_traders.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_on.9.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\button_on.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_off.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.github.jd-alexander\\likebutton\\unspecified\\res\\drawable\\thumb_off.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_xstock_icon.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_xstock_icon.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_table_color3.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\bg_table_color3.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ksw_md_thumb.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\Xstock\\switchButton\\unspecified\\res\\drawable\\ksw_md_thumb.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\star_on.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.github.jd-alexander\\likebutton\\unspecified\\res\\drawable\\star_on.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_x24_chart.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_x24_chart.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_left.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\Xstock\\tablefixheaderslibrary\\unspecified\\res\\drawable\\shadow_left.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\none.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\none.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_table_color2.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\bg_table_color2.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\miui_thumb_drawable.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\miui_thumb_drawable.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_x24_plus.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_x24_plus.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_favorite.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_favorite.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_web.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_web.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_settings_main.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_settings_main.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_filter.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_filter.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_calendar.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_calendar.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mdtp_material_button_background.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\Xstock\\materialdatetimepicker\\unspecified\\res\\drawable\\mdtp_material_button_background.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_search.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_search.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\heart_on.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.github.jd-alexander\\likebutton\\unspecified\\res\\drawable\\heart_on.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mdtp_done_background_color_dark.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\Xstock\\materialdatetimepicker\\unspecified\\res\\drawable\\mdtp_done_background_color_dark.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mdtp_done_background_color.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\Xstock\\materialdatetimepicker\\unspecified\\res\\drawable\\mdtp_done_background_color.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_list_code.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_list_code.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_chart.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_chart.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_right.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\Xstock\\tablefixheaderslibrary\\unspecified\\res\\drawable\\shadow_right.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mdtp_material_button_selected.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\Xstock\\materialdatetimepicker\\unspecified\\res\\drawable\\mdtp_material_button_selected.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\heart_off.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.github.jd-alexander\\likebutton\\unspecified\\res\\drawable\\heart_off.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_delete.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_delete.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_gray_border.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\bottom_gray_border.xml"
+    }
+]

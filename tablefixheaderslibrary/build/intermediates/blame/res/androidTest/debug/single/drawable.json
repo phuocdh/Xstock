@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\tablefixheaderslibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_top.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\tablefixheaderslibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_top.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\tablefixheaderslibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_bottom.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\tablefixheaderslibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_bottom.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\tablefixheaderslibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_left.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\tablefixheaderslibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_left.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\tablefixheaderslibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_right.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\tablefixheaderslibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_right.xml"
+    }
+]

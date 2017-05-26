@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+    <dimen name="photo_size">210dp</dimen>
+    <dimen name="photo_size_dialog">100dp</dimen>
+    <dimen name="photo_spacing">8dp</dimen>
+    <dimen name="photo_spacing_dialog">5dp</dimen>
+    <dimen name="tv_item">25sp</dimen>
+    <dimen name="tv_size">25sp</dimen>
+</resources>

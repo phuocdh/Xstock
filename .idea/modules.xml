@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Xstock.iml" filepath="$PROJECT_DIR$/Xstock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arclayout/arclayout.iml" filepath="$PROJECT_DIR$/arclayout/arclayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autolabel/autolabel.iml" filepath="$PROJECT_DIR$/autolabel/autolabel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatingactionbutton/floatingactionbutton.iml" filepath="$PROJECT_DIR$/floatingactionbutton/floatingactionbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/likebutton/likebutton.iml" filepath="$PROJECT_DIR$/likebutton/likebutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialdatetimepicker/materialdatetimepicker.iml" filepath="$PROJECT_DIR$/materialdatetimepicker/materialdatetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/searchview/searchview.iml" filepath="$PROJECT_DIR$/searchview/searchview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shadowlayout/shadowlayout.iml" filepath="$PROJECT_DIR$/shadowlayout/shadowlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switchButton/switchButton.iml" filepath="$PROJECT_DIR$/switchButton/switchButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tablefixheaderslibrary/tablefixheaderslibrary.iml" filepath="$PROJECT_DIR$/tablefixheaderslibrary/tablefixheaderslibrary.iml" />
+    </modules>
+  </component>
+</project>

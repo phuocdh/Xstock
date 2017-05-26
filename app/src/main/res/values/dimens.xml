@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="photo_size">120dp</dimen>
+    <dimen name="photo_spacing">5dp</dimen>
+    <dimen name="photo_size_dialog">60dp</dimen>
+    <dimen name="photo_spacing_dialog">3dp</dimen>
+    <dimen name="tv_size">12sp</dimen>
+    <dimen name="tv_item">18sp</dimen>
+    <dimen name="tv_tab">12sp</dimen>
+    <dimen name="tv_login_4in">25sp</dimen>
+    <dimen name="tv_login_7in">35sp</dimen>
+    <dimen name="tv_login_10in">55sp</dimen>
+    <dimen name="tv_index_info_4in">15sp</dimen>
+    <dimen name="tv_index_info_detail_4in">15sp</dimen>
+    <dimen name="tv_index_info_4in_land">20sp</dimen>
+    <dimen name="tv_index_info_detail_4in_land">25sp</dimen>
+    <dimen name="tv_index_info_7in">20sp</dimen>
+    <dimen name="tv_index_info_detail_7in">20sp</dimen>
+    <dimen name="tv_index_info_7in_land">20sp</dimen>
+    <dimen name="tv_index_info_detail_7in_land">30sp</dimen>
+    <dimen name="tv_index_info_10in">25sp</dimen>
+    <dimen name="tv_index_info_detail_10in">25sp</dimen>
+    <dimen name="tv_index_info_10in_land">40sp</dimen>
+    <dimen name="tv_index_info_detail_10in_land">35sp</dimen>
+
+    <dimen name="tv_price_table_detail_4in">20sp</dimen>
+    <dimen name="tv_price_table_detail_7in">25sp</dimen>
+    <dimen name="tv_price_table_detail_10in">30sp</dimen>
+
+    <dimen name="layout_radius_large">192dp</dimen>
+    <dimen name="layout_radius_medium">168dp</dimen>
+    <dimen name="layout_radius_small">144dp</dimen>
+    <dimen name="layout_radius_tumblr">135dp</dimen>
+    <dimen name="layout_radius_path">140dp</dimen>
+
+    <dimen name="layout_child_offset_large">144dp</dimen>
+    <dimen name="layout_child_offset_medium">120dp</dimen>
+    <dimen name="layout_child_offset_small">96dp</dimen>
+    <dimen name="layout_child_offset_tumblr">100dp</dimen>
+    <dimen name="layout_child_offset_path">114dp</dimen>
+
+    <dimen name="item_circle_size_large">72dp</dimen>
+    <dimen name="item_circle_size_medium">48dp</dimen>
+    <dimen name="item_circle_size_small">36dp</dimen>
+    <dimen name="item_circle_size_tumblr">70dp</dimen>
+    <dimen name="item_circle_size_path">36dp</dimen>
+
+    <dimen name="item_font_size_large">32sp</dimen>
+    <dimen name="item_font_size_medium">24sp</dimen>
+    <dimen name="item_font_size_small">16sp</dimen>
+    <dimen name="item_font_size_tumblr">30sp</dimen>
+    <dimen name="item_font_size_path">18sp</dimen>
+
+    <dimen name="table_width">100dp</dimen>
+    <dimen name="table_height">40dp</dimen>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2014 Robin Chutaux
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in
+  ~ all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  ~ THE SOFTWARE.
+  -->
+
+<resources>
+    <declare-styleable name="RippleView">
+        <attr name="rv_alpha" format="integer" />
+        <attr name="rv_framerate" format="integer"/>
+        <attr name="rv_rippleDuration" format="integer"/>
+        <attr name="rv_zoomDuration" format="integer" />
+        <attr name="rv_color" format="color" />
+        <attr name="rv_centered" format="boolean" />
+        <attr name="rv_type" format="enum">
+            <enum name="simpleRipple" value="0"/>
+            <enum name="doubleRipple" value="1"/>
+            <enum name="rectangle" value="2" />
+        </attr>
+        <attr name="rv_ripplePadding" format="dimension" />
+        <attr name="rv_zoom" format="boolean" />
+        <attr name="rv_zoomScale" format="float" />
+
+    </declare-styleable>
+    
+    <declare-styleable name="ArcMenu">
+    	<attr name="hintSize" format="dimension|reference" />
+    	<attr name="childSize" format="dimension|reference" />
+    	<attr name="hintNormalColor" format="string" />
+    	<attr name="hintPressColor" format="string" />
+    	<attr name="hintUpperMarkColor" format="string" />
+    	<attr name="hintText" format="string" />
+    	<attr name="hintTextSize" format="dimension" />
+    	<attr name="rotateInClosing" format="boolean" />
+    	<attr name="shadowBorderWidth" format="dimension" />
+    	<attr name="shadowBorderHeight" format="dimension" />
+    	<attr name="shadowElevation" format="dimension" />
+    	<attr name="shadowColor" format="string" />
+    	<attr name="shadowAroundColor" format="string" />
+    	<attr name="shadowMargin" format="dimension" />
+        <attr name="hintTopImage" format="integer"/>
+        <attr name="hintGravity" format="integer">
+            <enum name="Top_Left" value="1" />
+  			<enum name="Top_Right" value="2" />
+  			<enum name="Top_Middle" value="3" />
+            <enum name="Bottom_Left" value="4" />
+  			<enum name="Bottom_Right" value="5" />
+            <enum name="Bottom_Middle" value="6" />
+  			<enum name="Right_Middle" value="7" />
+  			<enum name="Left_Middle" value="8" />
+  			<enum name="Center" value="9" />
+    	</attr>
+    </declare-styleable>
+
+    <declare-styleable name="CirCleRefreshLayout">
+        <attr name="AniBackColor" format="color" />
+        <attr name="AniForeColor" format="color" />
+        <attr name="CircleSmaller" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="RippleViewNew">
+        <attr name="mrippleColor" format="color" />
+        <attr name="alphaFactor" format="float" />
+        <attr name="hover" format="boolean" />
+    </declare-styleable>
+</resources>

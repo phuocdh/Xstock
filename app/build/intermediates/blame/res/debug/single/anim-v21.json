@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\fab_press_elevation.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\Xstock\\floatingactionbutton\\unspecified\\res\\anim-v21\\fab_press_elevation.xml"
+    }
+]

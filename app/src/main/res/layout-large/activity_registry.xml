@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/lnLoginLoading"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="35dp"
+                android:text="@string/btn_register"
+                android:textColor="@color/black"
+                android:textSize="70sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="50dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/input_login_bg"
+                        android:hint="@string/rg_email"
+                        android:inputType="textEmailAddress"
+                        android:padding="25dp"
+                        android:textColor="@color/input_login"
+                        android:textColorHint="@color/input_login_hint"
+                        android:textSize="@dimen/tv_login_7in" />
+
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/input_pass_bg"
+                        android:hint="@string/rg_pass"
+                        android:inputType="textPassword"
+                        android:padding="25dp"
+                        android:textColor="@color/input_login"
+                        android:textColorHint="@color/input_login_hint"
+                        android:textSize="@dimen/tv_login_7in" />
+
+
+                    <EditText
+                        android:id="@+id/repassword"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/input_pass_bg"
+                        android:hint="@string/rg_re_pass"
+                        android:inputType="textPassword"
+                        android:padding="25dp"
+                        android:textColor="@color/input_login"
+                        android:textColorHint="@color/input_login_hint"
+                        android:textSize="@dimen/tv_login_7in" />
+
+                    <EditText
+                        android:id="@+id/mobile"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/input_pass_bg"
+                        android:hint="@string/rg_mobile"
+                        android:inputType="textPassword"
+                        android:padding="25dp"
+                        android:textColor="@color/input_login"
+                        android:textColorHint="@color/input_login_hint"
+                        android:textSize="@dimen/tv_login_7in" />
+
+                    <com.xstock.rippleview.RippleView
+                        android:id="@+id/btnRgRegister"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@color/blue"
+                        android:gravity="center"
+                        android:text="@string/btn_register"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/tv_login_10in"
+                        app:alphaFactor="0.7"
+                        app:hover="true"
+                        app:mrippleColor="#58FAAC" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/registry_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:indicator="BallSpinFadeLoader"
+            app:indicator_color="@android:color/black" />
+
+    </FrameLayout>
+</LinearLayout>

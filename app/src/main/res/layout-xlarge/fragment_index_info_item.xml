@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/border">
+
+    <LinearLayout
+        android:id="@+id/lnIndexInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtIndexInfoDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@color/price_table_bg"
+            android:gravity="center|left"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_index_info_detail_10in" />
+
+        <TextView
+            android:id="@+id/txtIndexInfoVolume"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="1dp"
+            android:background="@color/price_table_bg"
+            android:gravity="center|right"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_index_info_detail_10in" />
+
+        <TextView
+            android:id="@+id/txtIndexInfoPclose"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="1dp"
+            android:background="@color/price_table_bg"
+            android:gravity="center|right"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_index_info_detail_10in" />
+
+        <TextView
+            android:id="@+id/txtIndexInfoUpdownPercent"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/price_table_bg"
+            android:gravity="center|right"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_index_info_detail_10in" />
+    </LinearLayout>
+
+</FrameLayout>

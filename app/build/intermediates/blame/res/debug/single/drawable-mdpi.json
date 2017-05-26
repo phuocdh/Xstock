@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ios_thumb.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable-mdpi\\ios_thumb.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_keyboard_backspace_black_36dp.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable-mdpi\\ic_keyboard_backspace_black_36dp.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_search.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable-mdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ios_thumb_disable.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable-mdpi\\ios_thumb_disable.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_search_black.png",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable-mdpi\\ic_search_black.png"
+    }
+]

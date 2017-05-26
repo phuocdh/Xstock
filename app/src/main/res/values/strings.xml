@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version">1.0.0</string>
+    <string name="app_name">Xstock.vn</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="btn_register">Đăng ký</string>
+    <string name="btn_ct_send">Gửi</string>
+    <string name="btn_forgot_pass">Quên mật khẩu</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">Đăng xuất</string>
+    <string name="name">Fullname</string>
+    <string name="Exit">Thoát</string>
+    <string name="delete">Xóa</string>
+    <string name="item_home">Màn hình chính</string>
+    <string name="save_pass">Ghi nhớ tài khoản</string>
+    <string name="receive_message">Nhận tin nhắn thông báo</string>
+    <string name="item_stock_chart">Biểu đồ chứng khoán</string>
+    <string name="item_price_table">Bảng giá chứng khoán</string>
+    <string name="item_index_info">Thông tin các chỉ số</string>
+    <string name="item_messages">Tín hiệu cảnh báo</string>
+    <string name="item_news">Nhận định thị trường</string>
+    <string name="item_favorite">Danh sách mã theo dõi</string>
+    <string name="item_list_code">Danh sách mã chứng khoán</string>
+    <string name="item_guide">Hướng dẫn sử dụng</string>
+    <string name="item_web">Giao diện web</string>
+    <string name="item_settings">Thiết lập</string>
+    <string name="item_logout">Đăng xuất</string>
+    <string name="item_contact">Liên hệ</string>
+    <string name="txt_X24_basic">X24 Basic</string>
+    <string name="txt_X24_basic_plus">X24 Basic +</string>
+    <string name="txt_X24_traders">X24 Traders</string>
+    <string name="txt_X24_traders_plus">X24 Traders +</string>
+    <string name="txt_X24_plus">X24 Plus</string>
+    <string name="btn_X24_basic_search">Tìm kiếm</string>
+    <string name="txt_X24_basic_trade_image">Biểu đồ chứng khoán</string>
+    <string name="txt_X24_basic_trade_day">Đồ thị ngày</string>
+    <string name="txt_X24_basic_trade_hour">Đồ thị giờ</string>
+    <string name="txt_list_trade">Danh sách mã chứng khoán</string>
+    <string name="dialog_detail_message_title">Nội dung tin nhắn</string>
+    <string name="dialog_detail_message_button">Đồng ý</string>
+    <string name="dialog_x24Traders_sort_title">Sắp xếp theo :</string>
+    <string name="dialog_x24Traders_sort_button">Bỏ qua</string>
+    <string name="dialog_x24Traders_date">Date</string>
+    <string name="dialog_x24Traders_open">Open</string>
+    <string name="dialog_x24Traders_close">Close</string>
+    <string name="dialog_x24Traders_high">High</string>
+    <string name="dialog_x24Traders_low">Low</string>
+    <string name="dialog_x24Traders_buy">Buy</string>
+    <string name="dialog_x24Traders_sell">Sell</string>
+
+    <string name="item_index_info_display">Tên ngành</string>
+    <string name="item_index_info_pclose">Close</string>
+    <string name="item_index_info_volume">Volume</string>
+    <string name="item_index_info_updowns">Updown</string>
+
+    <string name="err_msg_email">Vui lòng nhập địa chỉ email</string>
+    <string name="err_msg_password">Vui lòng nhập mật khẩu</string>
+    <string name="rg_email">Email</string>
+    <string name="rg_pass">Mật khẩu</string>
+    <string name="rg_re_pass">Nhập lại mật khẩu</string>
+    <string name="rg_mobile">Số điện thoại di động</string>
+    <string name="ct_full_name">Họ và tên</string>
+    <string name="ct_mail">Địa chỉ email</string>
+    <string name="ct_mobile">Số điện thoại</string>
+    <string name="ct_content">Nội dung liên lạc</string>
+
+
+    <string-array name="lang_select">
+        <item>Việt Nam</item>
+        <item>English</item>
+    </string-array>
+
+    <string name="str_orange">#fe7b27</string>
+    <string name="str_green">#3cac69</string>
+    <string name="str_red">#FF4444</string>
+    <string name="str_yellow">#FFBB33</string>
+    <string name="str_sky_blue">#33B5E5</string>
+</resources>

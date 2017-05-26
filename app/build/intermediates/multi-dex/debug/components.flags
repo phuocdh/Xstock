@@ -1,0 +1,130 @@
+-injars 'D:\xstock\Project\Xstock\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'D:\xstock\Project\Xstock\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\Android\AndroidStudio\AndroidSDK\build-tools\23.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'D:\xstock\Project\Xstock\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.xstock.app.XstockApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.xstock.activity.ActivityLogin {
+    <init>();
+}
+
+-keep class com.xstock.activity.ActivityMain {
+    <init>();
+}
+
+-keep class com.xstock.activity.ActivityRegistry {
+    <init>();
+}
+
+-keep class com.xstock.activity.ActivityForgotPass {
+    <init>();
+}
+
+-keep class com.xstock.activity.ActivityNewsDetail {
+    <init>();
+}
+
+-keep class com.xstock.activity.ActivityX24BasicMain {
+    <init>();
+}
+
+-keep class com.xstock.activity.ActivityItemSearch {
+    <init>();
+}
+
+-keep class com.xstock.activity.ActivityItemSearchFavorite {
+    <init>();
+}
+
+-keep class com.xstock.activity.ActivityX24BasicTradeImage {
+    <init>();
+}
+
+-keep class com.xstock.activity.ActivityGuideContent {
+    <init>();
+}
+
+-keep class com.xstock.fcm.FCM_Messaging_Service {
+    <init>();
+}
+
+-keep class com.xstock.fcm.FCM_Instance_ID_Service {
+    <init>();
+}
+
+-keep class com.google.firebase.messaging.FirebaseMessagingService {
+    <init>();
+}
+
+-keep class com.google.firebase.crash.internal.service.FirebaseCrashReceiverService {
+    <init>();
+}
+
+-keep class com.google.firebase.crash.internal.service.FirebaseCrashSenderService {
+    <init>();
+}
+
+-keep class com.google.android.gms.common.api.GoogleApiActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver {
+    <init>();
+}
+
+-keep class com.google.firebase.iid.FirebaseInstanceIdInternalReceiver {
+    <init>();
+}
+
+-keep class com.google.firebase.iid.FirebaseInstanceIdService {
+    <init>();
+}
+
+-keep class com.google.firebase.provider.FirebaseInitProvider {
+    <init>();
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

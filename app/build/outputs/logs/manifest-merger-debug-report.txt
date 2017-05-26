@@ -1,0 +1,342 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:2:1-75:12
+	package
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:3:5-25
+		INJECTED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml
+		INJECTED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:5:5-42
+		INJECTED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml
+		INJECTED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml
+		INJECTED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-crash:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:8:22-78
+application
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:10:5-73:19
+MERGED from [com.android.support:design:23.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [Xstock:floatingactionbutton:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\floatingactionbutton\unspecified\AndroidManifest.xml:12:5-20
+MERGED from [Xstock:searchview:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\searchview\unspecified\AndroidManifest.xml:11:5-20
+MERGED from [Xstock:materialdatetimepicker:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\materialdatetimepicker\unspecified\AndroidManifest.xml:28:5-20
+MERGED from [com.github.jd-alexander:likebutton:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.github.jd-alexander\likebutton\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.firebase:firebase-crash:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-base:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:19:5-23:19
+MERGED from [Xstock:shadowlayout:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\shadowlayout\unspecified\AndroidManifest.xml:12:5-20
+MERGED from [com.google.firebase:firebase-core:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-core\9.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+	android:screenOrientation
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:17:9-45
+	android:label
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:15:9-41
+	android:supportsRtl
+		ADDED from [com.github.jd-alexander:likebutton:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.github.jd-alexander\likebutton\unspecified\AndroidManifest.xml:14:9-35
+	android:exported
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:13:9-32
+	android:allowBackup
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:14:9-48
+	android:largeHeap
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:11:9-56
+activity#com.xstock.activity.ActivityLogin
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:18:9-28:20
+	android:screenOrientation
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:22:13-49
+	android:launchMode
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:21:13-44
+	android:configChanges
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:20:13-70
+	android:theme
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:23:13-52
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:19:13-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.xstock.activity.ActivityMain
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:29:9-31:55
+	android:theme
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:31:13-52
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:30:13-60
+activity#com.xstock.activity.ActivityRegistry
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:32:9-35:55
+	android:screenOrientation
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:34:13-49
+	android:theme
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:35:13-52
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:33:13-64
+activity#com.xstock.activity.ActivityForgotPass
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:36:9-38:55
+	android:theme
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:38:13-52
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:37:13-66
+activity#com.xstock.activity.ActivityNewsDetail
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:39:9-41:55
+	android:theme
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:41:13-52
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:40:13-66
+activity#com.xstock.activity.ActivityX24BasicMain
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:42:9-45:55
+	android:configChanges
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:44:13-59
+	android:theme
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:45:13-52
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:43:13-68
+activity#com.xstock.activity.ActivityItemSearch
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:46:9-49:55
+	android:configChanges
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:48:13-59
+	android:theme
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:49:13-52
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:47:13-66
+activity#com.xstock.activity.ActivityItemSearchFavorite
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:50:9-53:55
+	android:configChanges
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:52:13-59
+	android:theme
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:53:13-52
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:51:13-74
+activity#com.xstock.activity.ActivityX24BasicTradeImage
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:54:9-57:55
+	android:configChanges
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:56:13-59
+	android:theme
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:57:13-52
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:55:13-74
+activity#com.xstock.activity.ActivityGuideContent
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:58:9-60:55
+	android:theme
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:60:13-52
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:59:13-68
+service#com.xstock.fcm.FCM_Messaging_Service
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:62:9-66:19
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:62:18-69
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:63:13-65:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:64:17-78
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:64:25-75
+service#com.xstock.fcm.FCM_Instance_ID_Service
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:68:9-72:19
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:68:18-71
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:69:13-71:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:70:17-80
+	android:name
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:70:25-77
+uses-sdk
+INJECTED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [io.realm:realm-android-library:1.1.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\io.realm\realm-android-library\1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.1] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.getkeepsafe.relinker\relinker\1.2.1\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:design:23.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [Xstock:arclayout:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\arclayout\unspecified\AndroidManifest.xml:8:5-10:41
+MERGED from [Xstock:floatingactionbutton:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\floatingactionbutton\unspecified\AndroidManifest.xml:8:5-10:41
+MERGED from [Xstock:switchButton:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\switchButton\unspecified\AndroidManifest.xml:8:5-10:41
+MERGED from [Xstock:searchview:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\searchview\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [Xstock:materialdatetimepicker:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\materialdatetimepicker\unspecified\AndroidManifest.xml:22:5-24:41
+MERGED from [Xstock:autolabel:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\autolabel\unspecified\AndroidManifest.xml:6:5-8:41
+MERGED from [Xstock:tablefixheaderslibrary:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\tablefixheaderslibrary\unspecified\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.jd-alexander:likebutton:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.github.jd-alexander\likebutton\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:1.0.5] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.wang.avi\library\1.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-crash:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.baoyz.swipemenulistview:library:1.3.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.baoyz.swipemenulistview\library\1.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.swipelayout:library:1.2.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.daimajia.swipelayout\library\1.2.0\AndroidManifest.xml:6:5-8:41
+MERGED from [Xstock:shadowlayout:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\shadowlayout\unspecified\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-core:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-core\9.4.0\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml
+		INJECTED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml
+		INJECTED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from [Xstock:materialdatetimepicker:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\materialdatetimepicker\unspecified\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from [Xstock:materialdatetimepicker:unspecified] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\Xstock\materialdatetimepicker\unspecified\AndroidManifest.xml:26:22-63
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\AndroidManifest.xml:25:13-82
+service#com.google.firebase.crash.internal.service.FirebaseCrashReceiverService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\AndroidManifest.xml:26:9-27:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\AndroidManifest.xml:27:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\AndroidManifest.xml:26:18-79
+service#com.google.firebase.crash.internal.service.FirebaseCrashSenderService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\AndroidManifest.xml:29:9-30:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\AndroidManifest.xml:30:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\AndroidManifest.xml:29:18-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:20:19-85
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:37:11-82
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\AndroidManifest.xml:52:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:22:13-58
