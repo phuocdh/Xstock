@@ -15,7 +15,6 @@ import android.widget.Toast;
 
 import com.dpizarro.autolabel.library.AutoLabelUI;
 import com.inqbarna.tablefixheaders.TableFixHeaders;
-import com.wang.avi.AVLoadingIndicatorView;
 import com.wdullaer.materialdatetimepicker.date.DatePickerDialog;
 import com.xstock.R;
 import com.xstock.adapter.DataAnalysisAdapter;
@@ -25,6 +24,7 @@ import com.xstock.helper.SessionManager;
 import com.xstock.models.X24Data;
 import com.xstock.rippleview.RippleView;
 import com.xstock.service.SrvGetDataAnalyis;
+import com.xstock.utils.Utils;
 
 import java.text.DecimalFormat;
 import java.text.ParseException;
@@ -45,20 +45,19 @@ public class ActivityX24BasicMain extends Activity implements DatePickerDialog.O
     RippleView btnX24BasicSearch;
     TextView tvDateFrom, tvDateTo;
     private AutoLabelUI mAutoLabel;
-    AVLoadingIndicatorView avLoading;
     Context context;
     DataAnalysisAdapter baseTableAdapter;
     boolean isSortDate = false;
-    int tradeType;
-    String fromDate;
-    String toDate;
+    int tradeType = 0;
+    String fromDate = "";
+    String toDate = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_x24_basic);
         getActionBar().hide();
-        this.context = getApplicationContext();
+        this.context = this;
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         mAutoLabel = (AutoLabelUI) findViewById(R.id.lbvSearchData);
@@ -73,7 +72,6 @@ public class ActivityX24BasicMain extends Activity implements DatePickerDialog.O
         tvDateTo = (TextView) findViewById(R.id.tvDateTo);
         TextView tvTitleX24 = (TextView) findViewById(R.id.tvTitleX24);
         btnX24BasicSearch = (RippleView) findViewById(R.id.btnX24BasicSearch);
-        avLoading = (AVLoadingIndicatorView) findViewById(R.id.ldx24BasicLoading);
         tradeType = getIntent().getIntExtra("TRADE_TYPE", 0);
         switch (tradeType) {
             case 1:
@@ -281,12 +279,12 @@ public class ActivityX24BasicMain extends Activity implements DatePickerDialog.O
                     SortDefault();
                 }
             }
-            avLoading.setVisibility(View.INVISIBLE);
+            Utils.hideLoadingDialog();
         }
 
         @Override
         protected void onPreExecute() {
-            avLoading.setVisibility(View.VISIBLE);
+            Utils.showLoadingDialog(context);
         }
 
         @Override

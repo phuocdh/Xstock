@@ -11,13 +11,13 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SearchView;
 
-import com.wang.avi.AVLoadingIndicatorView;
 import com.xstock.R;
 import com.xstock.adapter.SearchViewAdapter;
 import com.xstock.helper.SessionManager;
 import com.xstock.models.GetTradeListItem;
 import com.xstock.rippleview.RippleView;
 import com.xstock.service.SrvGetTradeList;
+import com.xstock.utils.Utils;
 
 import java.util.ArrayList;
 
@@ -26,7 +26,6 @@ import java.util.ArrayList;
  */
 public class ActivityItemSearch extends Activity implements SearchView.OnQueryTextListener {
 
-    AVLoadingIndicatorView avLoading;
     ListView lvTradeList;
     SearchViewAdapter searchAdapter;
     SearchView svSearchTradeList;
@@ -39,11 +38,10 @@ public class ActivityItemSearch extends Activity implements SearchView.OnQueryTe
         getActionBar().hide();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        context = this.getApplicationContext();
+        this.context = this;
         svSearchTradeList = (SearchView) findViewById(R.id.svSearchItem);
         lvTradeList = (ListView) findViewById(R.id.lvItemSearch);
         RippleView rvSearchItemBack = (RippleView) findViewById(R.id.rvSearchItemBack);
-        avLoading = (AVLoadingIndicatorView) findViewById(R.id.item_search_loading);
         svSearchTradeList.setOnQueryTextListener(this);
         new AsyncGetTradeListItem().execute();
         rvSearchItemBack.setOnClickListener(new View.OnClickListener() {
@@ -104,12 +102,12 @@ public class ActivityItemSearch extends Activity implements SearchView.OnQueryTe
                 finish();
                 }
             });
-            avLoading.setVisibility(View.GONE);
+            Utils.hideLoadingDialog();
         }
 
         @Override
         protected void onPreExecute() {
-            avLoading.setVisibility(View.VISIBLE);
+            Utils.showLoadingDialog(context);
         }
 
         @Override

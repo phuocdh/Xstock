@@ -9,12 +9,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.wang.avi.AVLoadingIndicatorView;
 import com.xstock.R;
 import com.xstock.commons.Common;
 import com.xstock.constants.Constant;
 import com.xstock.rippleview.RippleView;
 import com.xstock.service.SrvCheckRegistry;
+import com.xstock.utils.Utils;
 
 public class ActivityRegistry extends Activity {
 
@@ -23,7 +23,6 @@ public class ActivityRegistry extends Activity {
     private EditText edtPassword;
     private EditText edtRePassword;
     private EditText edtMobile;
-    private AVLoadingIndicatorView avLoading;
     Context context;
 
     @Override
@@ -50,14 +49,12 @@ public class ActivityRegistry extends Activity {
             }
         });
         getActionBar().setCustomView(mCustomView);
-        context = getApplicationContext();
+        context = this;
         edtEmail = (EditText) findViewById(R.id.email);
         edtPassword = (EditText) findViewById(R.id.password);
         edtRePassword = (EditText) findViewById(R.id.repassword);
         edtMobile = (EditText) findViewById(R.id.mobile);
         btnRegister = (RippleView) findViewById(R.id.btnRgRegister);
-        avLoading = (AVLoadingIndicatorView) findViewById(R.id.registry_loading);
-
         btnRegister.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
@@ -100,12 +97,12 @@ public class ActivityRegistry extends Activity {
             } else {
                 Common.ShowToast(context, Constant.MSG_REGISTRY_SUCCESS, Toast.LENGTH_SHORT);
             }
-            avLoading.setVisibility(View.GONE);
+            Utils.hideLoadingDialog();
         }
 
         @Override
         protected void onPreExecute() {
-            avLoading.setVisibility(View.VISIBLE);
+            Utils.showLoadingDialog(context);
         }
 
         @Override

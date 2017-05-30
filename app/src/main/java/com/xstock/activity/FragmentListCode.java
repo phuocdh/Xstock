@@ -8,13 +8,14 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.Toast;
-import com.wang.avi.AVLoadingIndicatorView;
+
 import com.xstock.R;
 import com.xstock.adapter.SearchViewAdapterFavorite;
 import com.xstock.commons.Common;
@@ -24,43 +25,57 @@ import com.xstock.models.GetTradeListItem;
 import com.xstock.service.SrvAddUserTradeList;
 import com.xstock.service.SrvGetTradeList;
 import com.xstock.swipelistview.ListViewSwipeGesture;
+import com.xstock.utils.Utils;
 
 import java.util.ArrayList;
 
-public class FragmentListCode extends Fragment implements SearchView.OnQueryTextListener  {
-
-    AVLoadingIndicatorView avLoading;
+public class FragmentListCode extends Fragment implements SearchView.OnQueryTextListener {
+    public static final String TAG = FragmentListCode.class.getSimpleName();
     SearchViewAdapterFavorite searchAdapter;
     SearchView svSearchTradeList;
     private Context context;
     ListView lvTradeList;
     FragmentListCodeCommunicator activityCommunicator;
+    SwipeRefreshLayout swipeRefresh;
 
     @Override
-    public void onAttach(Activity activity){
+    public void onAttach(Activity activity) {
         super.onAttach(activity);
-        activityCommunicator =(FragmentListCodeCommunicator)getActivity();
+        activityCommunicator = (FragmentListCodeCommunicator) getActivity();
     }
 
-    public interface FragmentListCodeCommunicator{
-        public void passDataToActivity(String str, int visible);
+    public interface FragmentListCodeCommunicator {
+        void passDataToActivity(String str, int visible);
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_list_code, container, false);
         context = this.getContext();
-        svSearchTradeList = (SearchView)v.findViewById(R.id.svListSearchItem);
-        lvTradeList = (ListView)v.findViewById(R.id.lvTradeList);
-        avLoading = (AVLoadingIndicatorView)v.findViewById(R.id.avListSearchItem);
+        svSearchTradeList = (SearchView) v.findViewById(R.id.svListSearchItem);
+        swipeRefresh = (SwipeRefreshLayout) v.findViewById(R.id.swipeRefresh);
+        lvTradeList = (ListView) v.findViewById(R.id.lvTradeList);
         svSearchTradeList.setOnQueryTextListener(this);
-        activityCommunicator.passDataToActivity(getResources().getString(R.string.item_favorite),View.VISIBLE);
+        activityCommunicator.passDataToActivity(getResources().getString(R.string.item_favorite), View.VISIBLE);
         svSearchTradeList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 svSearchTradeList.setIconified(false);
             }
         });
+        swipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                if (swipeRefresh.isRefreshing())
+                    swipeRefresh.setRefreshing(false);
+                new AsyncGetTradeListItem().execute();
+            }
+        });
+        // Configure the refreshing colors
+        swipeRefresh.setColorSchemeResources(android.R.color.holo_blue_bright,
+                android.R.color.holo_green_light,
+                android.R.color.holo_orange_light,
+                android.R.color.holo_red_light);
         return v;
     }
 
@@ -69,7 +84,7 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
         @Override
         public void FullSwipeListView(int position) {
             // TODO Auto-generated method stub
-            Toast.makeText(getContext(),"Action_2", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), "Action_2", Toast.LENGTH_SHORT).show();
         }
 
         @Override
@@ -89,8 +104,8 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
         public void onDismiss(ListView listView, int[] reverseSortedPositions) {
             // TODO Auto-generated method stub
 //            Toast.makeText(getContext(),"Delete", Toast.LENGTH_SHORT).show();
-            for(int i:reverseSortedPositions){
-                new ThreadAddDeleteUserTradeList(searchAdapter.getItem(i).getId(),"",1).run();
+            for (int i : reverseSortedPositions) {
+                new ThreadAddDeleteUserTradeList(searchAdapter.getItem(i).getId(), "", 1).run();
                 searchAdapter.getTradeListItem.remove(i);
                 searchAdapter.arraylist.remove(i);
                 searchAdapter.notifyDataSetChanged();
@@ -122,7 +137,7 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-        Common.ShowToast(getContext(),"FragmentListCode", Toast.LENGTH_SHORT);
+        Common.ShowToast(getContext(), "FragmentListCode", Toast.LENGTH_SHORT);
     }
 
     @Override
@@ -131,8 +146,8 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
         new AsyncGetTradeListItem().execute();
         ListViewSwipeGesture touchListener = new ListViewSwipeGesture(
                 lvTradeList, swipeListener, getActivity());
-        touchListener.SwipeType	=	ListViewSwipeGesture.Dismiss;    //Set two options at background of list item
-        touchListener.isType	=	ListViewSwipeGesture.Dismiss;
+        touchListener.SwipeType = ListViewSwipeGesture.Dismiss;    //Set two options at background of list item
+        touchListener.isType = ListViewSwipeGesture.Dismiss;
         lvTradeList.setOnTouchListener(touchListener);
     }
 
@@ -153,14 +168,14 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
 
         @Override
         protected void onPostExecute(final ArrayList<GetTradeListItem> alstGetTradeList) {
-            searchAdapter = new SearchViewAdapterFavorite(context, alstGetTradeList,Constant.NOTE_FAVORITE_DELETE);
+            searchAdapter = new SearchViewAdapterFavorite(context, alstGetTradeList, Constant.NOTE_FAVORITE_DELETE);
             lvTradeList.setAdapter(searchAdapter);
-            avLoading.setVisibility(View.GONE);
+            Utils.hideLoadingDialog();
         }
 
         @Override
         protected void onPreExecute() {
-            avLoading.setVisibility(View.VISIBLE);
+            Utils.showLoadingDialog(context);
         }
 
         @Override
@@ -173,7 +188,7 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
         String tradeName = "";
         int modify = 0;
 
-        public ThreadAddDeleteUserTradeList(String tradeid,String tradeName,int modify) {
+        public ThreadAddDeleteUserTradeList(String tradeid, String tradeName, int modify) {
             this.tradeid = tradeid;
             this.modify = modify;
             this.tradeName = tradeName;
@@ -183,18 +198,24 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
         public void run() {
             SessionManager session = new SessionManager(context);
             String token = session.GetPrefToken();
-            final String check = SrvAddUserTradeList.AddDeleteUserTradeList(token, tradeid,tradeName, modify);
+            final String check = SrvAddUserTradeList.AddDeleteUserTradeList(token, tradeid, tradeName, modify);
             Handler handler = new Handler(Looper.getMainLooper());
             handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    if(check.equals("OK") == true){
+                    if (check.equals("OK") == true) {
                         Common.ShowToast(context, Constant.MSG_DELETE_SUCCESS, Toast.LENGTH_SHORT);
-                    }else {
+                    } else {
                         Common.ShowToast(context, Constant.MSG_DELETE_FAIL, Toast.LENGTH_SHORT);
                     }
                 }
             });
         }
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
     }
 }

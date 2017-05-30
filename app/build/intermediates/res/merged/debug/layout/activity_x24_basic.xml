@@ -207,16 +207,6 @@
                 android:layout_height="match_parent"
                 android:scrollbars="horizontal|vertical" />
         </LinearLayout>
-
-        <com.wang.avi.AVLoadingIndicatorView
-            android:id="@+id/ldx24BasicLoading"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:visibility="gone"
-            app:indicator="BallSpinFadeLoader"
-            app:indicator_color="@android:color/black" />
-
     </FrameLayout>
 
 

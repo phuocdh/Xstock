@@ -22,6 +22,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.xstock.R;
@@ -47,6 +48,8 @@ public class PriceTableAdapter extends BaseAdapter {
 
     public class ViewHolder {
         TextView txtPriceTableTrade, txtPriceTablePclose, txtPriceTablePoint, txtPriceTableUpdown, txtPriceTableVolume;
+        View vPriceTable;
+        LinearLayout lnPriceTable;
     }
 
     @Override
@@ -83,11 +86,13 @@ public class PriceTableAdapter extends BaseAdapter {
         if (convertView == null) {
             holder = new ViewHolder();
             convertView = layoutInflater.inflate(R.layout.fragment_price_table_item, null);
+            holder.lnPriceTable = (LinearLayout) convertView.findViewById(R.id.lnPriceTable);
             holder.txtPriceTableTrade = (TextView) convertView.findViewById(R.id.txtPriceTableTrade);
             holder.txtPriceTablePclose = (TextView) convertView.findViewById(R.id.txtPriceTablePclose);
             holder.txtPriceTableUpdown = (TextView) convertView.findViewById(R.id.txtPriceTableUpdown);
             holder.txtPriceTablePoint = (TextView) convertView.findViewById(R.id.txtPriceTablePoint);
             holder.txtPriceTableVolume = (TextView) convertView.findViewById(R.id.txtPriceTableVolume);
+            holder.vPriceTable = convertView.findViewById(R.id.viewPriceTable);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
@@ -98,30 +103,34 @@ public class PriceTableAdapter extends BaseAdapter {
         holder.txtPriceTableUpdown.setText(getlstGetDataPrice.getUpdown());
         holder.txtPriceTablePoint.setText(getlstGetDataPrice.getPoint());
         holder.txtPriceTableVolume.setText(getlstGetDataPrice.getVolume());
+        int mColor = _context.getResources().getColor(R.color.price_table_bg_1);
         if (position % 2 != 0) {
-            holder.txtPriceTableTrade.setBackgroundColor(_context.getResources().getColor(R.color.price_table_bg_1));
-            holder.txtPriceTablePclose.setBackgroundColor(_context.getResources().getColor(R.color.price_table_bg_1));
-            holder.txtPriceTableUpdown.setBackgroundColor(_context.getResources().getColor(R.color.price_table_bg_1));
-            holder.txtPriceTablePoint.setBackgroundColor(_context.getResources().getColor(R.color.price_table_bg_1));
-            holder.txtPriceTableVolume.setBackgroundColor(_context.getResources().getColor(R.color.price_table_bg_1));
+            holder.lnPriceTable.setBackgroundColor(mColor);
         }
 
         if (getlstGetDataPrice.getType() == 1) {
-            holder.txtPriceTablePclose.setTextColor(_context.getResources().getColor(R.color.white));
-            holder.txtPriceTablePoint.setTextColor(_context.getResources().getColor(R.color.white));
-            holder.txtPriceTableUpdown.setTextColor(_context.getResources().getColor(R.color.white));
+            mColor = _context.getResources().getColor(R.color.white);
+            holder.txtPriceTablePclose.setTextColor(mColor);
+            holder.txtPriceTablePoint.setTextColor(mColor);
+            holder.txtPriceTableUpdown.setTextColor(mColor);
         } else if (getlstGetDataPrice.getType() == 2) {
-            holder.txtPriceTablePclose.setTextColor(_context.getResources().getColor(R.color.red));
-            holder.txtPriceTablePoint.setTextColor(_context.getResources().getColor(R.color.red));
-            holder.txtPriceTableUpdown.setTextColor(_context.getResources().getColor(R.color.red));
+            mColor = _context.getResources().getColor(R.color.red);
+            holder.txtPriceTablePclose.setTextColor(mColor);
+            holder.txtPriceTablePoint.setTextColor(mColor);
+            holder.txtPriceTableUpdown.setTextColor(mColor);
+            holder.vPriceTable.setBackgroundColor(mColor);
         } else if (getlstGetDataPrice.getType() == 3) {
-            holder.txtPriceTablePclose.setTextColor(_context.getResources().getColor(R.color.yellow));
-            holder.txtPriceTablePoint.setTextColor(_context.getResources().getColor(R.color.yellow));
-            holder.txtPriceTableUpdown.setTextColor(_context.getResources().getColor(R.color.yellow));
+            mColor = _context.getResources().getColor(R.color.yellow);
+            holder.txtPriceTablePclose.setTextColor(mColor);
+            holder.txtPriceTablePoint.setTextColor(mColor);
+            holder.txtPriceTableUpdown.setTextColor(mColor);
+            holder.vPriceTable.setBackgroundColor(mColor);
         } else {
-            holder.txtPriceTablePclose.setTextColor(_context.getResources().getColor(R.color.green));
-            holder.txtPriceTablePoint.setTextColor(_context.getResources().getColor(R.color.green));
-            holder.txtPriceTableUpdown.setTextColor(_context.getResources().getColor(R.color.green));
+            mColor = _context.getResources().getColor(R.color.green);
+            holder.txtPriceTablePclose.setTextColor(mColor);
+            holder.txtPriceTablePoint.setTextColor(mColor);
+            holder.txtPriceTableUpdown.setTextColor(mColor);
+            holder.vPriceTable.setBackgroundColor(mColor);
         }
         return convertView;
     }

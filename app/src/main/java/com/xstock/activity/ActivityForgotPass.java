@@ -1,6 +1,7 @@
 package com.xstock.activity;
 
 import android.app.Activity;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -10,19 +11,20 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.wang.avi.AVLoadingIndicatorView;
 import com.xstock.R;
 import com.xstock.app.AppConfig;
 import com.xstock.rippleview.RippleView;
+import com.xstock.utils.Utils;
 
 public class ActivityForgotPass extends Activity {
-    AVLoadingIndicatorView avWebForgotPassLoading;
     WebView wvWebForgotPass;
+    private Context mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forgot_pass);
+        this.mContext = this;
         getActionBar().setDisplayShowHomeEnabled(false);
         getActionBar().setDisplayShowTitleEnabled(false);
         getActionBar().setHomeButtonEnabled(false);
@@ -43,8 +45,6 @@ public class ActivityForgotPass extends Activity {
             }
         });
         getActionBar().setCustomView(mCustomView);
-
-        avWebForgotPassLoading = (AVLoadingIndicatorView) findViewById(R.id.avWebForgotLoading);
         wvWebForgotPass = (WebView) findViewById(R.id.wvWebForgotPass);
         new AsyncWebForotPassLoading().execute();
     }
@@ -60,8 +60,6 @@ public class ActivityForgotPass extends Activity {
         @Override
         protected void onPostExecute(Void object) {
             wvWebForgotPass.clearCache(true);
-            String mimeType = "text/html; charset=UTF-8";
-            String encoding = "utf-8";
             wvWebForgotPass.setWebViewClient(new MyWebViewClient());
             WebSettings webSettings = wvWebForgotPass.getSettings();
             webSettings.setJavaScriptEnabled(true);
@@ -71,7 +69,7 @@ public class ActivityForgotPass extends Activity {
 
         @Override
         protected void onPreExecute() {
-            avWebForgotPassLoading.setVisibility(View.VISIBLE);
+            Utils.showLoadingDialog(mContext);
         }
 
         @Override
@@ -97,7 +95,7 @@ public class ActivityForgotPass extends Activity {
         public void onPageFinished(WebView view, String url) {
             // TODO Auto-generated method stub
             super.onPageFinished(view, url);
-            avWebForgotPassLoading.setVisibility(View.GONE);
+            Utils.hideLoadingDialog();
         }
     }
 }

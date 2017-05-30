@@ -72,6 +72,10 @@
         "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\Xstock\\searchview\\unspecified\\res\\layout\\suggest_item.xml"
     },
     {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_progress_dialog.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout\\custom_progress_dialog.xml"
+    },
+    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\x24traders_sort_dialog.xml",
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout\\x24traders_sort_dialog.xml"
     },
@@ -260,16 +264,16 @@
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout\\item_price_table_header_first.xml"
     },
     {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_trade_image_hour.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout\\fragment_trade_image_hour.xml"
+    },
+    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_time_header_label.xml",
         "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\Xstock\\materialdatetimepicker\\unspecified\\res\\layout\\mdtp_time_header_label.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_trade_image_hour.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout\\fragment_trade_image_hour.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",

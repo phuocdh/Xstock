@@ -10,20 +10,19 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.wang.avi.AVLoadingIndicatorView;
 import com.xstock.R;
 import com.xstock.adapter.ListHelpAdapter;
 import com.xstock.helper.SessionManager;
 import com.xstock.models.GetListHelp;
 import com.xstock.service.SrvGetListHelp;
+import com.xstock.utils.Utils;
 
 import java.util.ArrayList;
 
 
 public class FragmentGuide extends Fragment {
-
+    public static final String TAG = FragmentGuide.class.getSimpleName();
     FragmentGuideCommunicator activityCommunicator;
-    AVLoadingIndicatorView avLoading;
     ListView lvListGuide;
     Context context;
     @Override
@@ -31,7 +30,6 @@ public class FragmentGuide extends Fragment {
         View v = inflater.inflate(R.layout.fragment_guide, container, false);
         context = getContext();
         lvListGuide = (ListView)v.findViewById(R.id.lvGuide);
-        avLoading = (AVLoadingIndicatorView)v.findViewById(R.id.avListGuide);
         activityCommunicator.passDataToActivity(getResources().getString(R.string.item_guide),View.INVISIBLE);
         new AsyncGetListHelp().execute();
         return v;
@@ -64,16 +62,22 @@ public class FragmentGuide extends Fragment {
         protected void onPostExecute(final ArrayList<GetListHelp> alstGetListHelp) {
             ListHelpAdapter getListHelpAdapter = new ListHelpAdapter(context, alstGetListHelp);
             lvListGuide.setAdapter(getListHelpAdapter);
-            avLoading.setVisibility(View.GONE);
+            Utils.hideLoadingDialog();
         }
 
         @Override
         protected void onPreExecute() {
-            avLoading.setVisibility(View.VISIBLE);
+            Utils.showLoadingDialog(context);
         }
 
         @Override
         protected void onProgressUpdate(Void... values) {
         }
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
     }
 }

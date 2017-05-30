@@ -13,7 +13,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.kyleduo.switchbutton.SwitchButton;
-import com.wang.avi.AVLoadingIndicatorView;
 import com.xstock.R;
 import com.xstock.commons.Common;
 import com.xstock.constants.Constant;
@@ -23,6 +22,7 @@ import com.xstock.realm.RealmController;
 import com.xstock.rippleview.RippleView;
 import com.xstock.service.SrvAddDevice;
 import com.xstock.service.SrvGetUserDetail;
+import com.xstock.utils.Utils;
 
 import java.util.ArrayList;
 
@@ -37,7 +37,7 @@ public class ActivityLogin extends Activity {
     private RippleView btnForgotPass;
     private EditText edtEmail;
     private EditText edtPassword;
-    private AVLoadingIndicatorView avLoading;
+    private Context mContext;
     private SessionManager session;
     private SwitchButton swSavePass;
     private Realm realm;
@@ -50,13 +50,12 @@ public class ActivityLogin extends Activity {
         NotificationManager notificationManager =
                 (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.cancelAll();
-
+        this.mContext = this;
         edtEmail = (EditText) findViewById(R.id.email);
         edtPassword = (EditText) findViewById(R.id.password);
         btnLogin = (RippleView) findViewById(R.id.btnLogin);
         btnRegister = (RippleView) findViewById(R.id.btnRegister);
         btnForgotPass = (RippleView) findViewById(R.id.btnForgotPass);
-        avLoading = (AVLoadingIndicatorView) findViewById(R.id.login_loading);
         swSavePass = (SwitchButton) findViewById(R.id.swSavePass);
         session = new SessionManager(getApplicationContext());
         realm = Realm.getDefaultInstance();
@@ -176,54 +175,16 @@ public class ActivityLogin extends Activity {
                 }
             }
 
-            avLoading.setVisibility(View.GONE);
-//            lnLoginLoading.setEnabled(false);
-            EnableView(true);
+            Utils.hideLoadingDialog();
         }
 
         @Override
         protected void onPreExecute() {
-//            lnLoginLoading.setEnabled(true);
-            EnableView(false);
-            avLoading.setVisibility(View.VISIBLE);
+            Utils.showLoadingDialog(mContext);
         }
 
         @Override
         protected void onProgressUpdate(Void... values) {
         }
     }
-
-    private void EnableView(boolean isEnable) {
-        btnLogin.setEnabled(isEnable);
-        btnRegister.setEnabled(isEnable);
-        btnForgotPass.setEnabled(isEnable);
-        swSavePass.setEnabled(isEnable);
-    }
-
-//    private boolean validateEmail(String email) {
-//
-//        if (email.isEmpty()) {
-//            inputLayoutEmail.setError(getString(R.string.err_msg_email));
-//            requestFocus(edtEmail);
-//            return false;
-//        }
-//
-//        return true;
-//    }
-//
-//    private boolean validatePassword(String pass) {
-//
-//        if (pass.isEmpty()) {
-//            inputLayoutPassword.setError(getString(R.string.err_msg_password));
-//            requestFocus(edtPassword);
-//            return false;
-//        }
-//        return true;
-//    }
-//
-//    private void requestFocus(View view) {
-//        if (view.requestFocus()) {
-//            getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
-//        }
-//    }
 }

@@ -20,6 +20,7 @@ import com.xstock.service.SrvOnOffPushDevice;
  */
 public class FragmentSettings extends Fragment {
 
+    public static final String TAG = FragmentSettings.class.getSimpleName();
     FragmentSettingsCommunicator activityCommunicator;
     SwitchButton swReceiveMesage;
     SessionManager session;
@@ -74,22 +75,15 @@ public class FragmentSettings extends Fragment {
 
         // overriden from Runnable, which Thread implements
         public void run() {
-
             String token = session.GetPrefToken();
             String deviceToken = session.GetPrefDeviceToken();
-
-            final String check = SrvOnOffPushDevice.OnOffPushDevice(token, deviceToken, isPush);
-//            Handler handler = new Handler(Looper.getMainLooper());
-//            handler.post(new Runnable() {
-//                @Override
-//                public void run() {
-//                    if (check.equals("OK") == true) {
-//                        Common.ShowToast(context, Constant.MSG_DELETE_MSG_SUCCESS, Toast.LENGTH_SHORT);
-//                    } else {
-//                        Common.ShowToast(context, Constant.MSG_DELETE_MSG_FAIL, Toast.LENGTH_SHORT);
-//                    }
-//                }
-//            });
+            SrvOnOffPushDevice.OnOffPushDevice(token, deviceToken, isPush);
         }
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
     }
 }

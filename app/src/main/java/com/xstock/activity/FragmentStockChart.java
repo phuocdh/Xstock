@@ -8,13 +8,12 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 
 import com.xstock.R;
 import com.xstock.rippleview.RippleView;
 
 public class FragmentStockChart extends Fragment {
-
+    public static final String TAG = FragmentStockChart.class.getSimpleName();
     private Context context;
     FragmentStockChartCommunicator activityCommunicator;
 
@@ -84,6 +83,12 @@ public class FragmentStockChart extends Fragment {
     }
 
     public interface FragmentStockChartCommunicator{
-        public void passDataToActivity(String str, int visible);
+        void passDataToActivity(String str, int visible);
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
     }
 }

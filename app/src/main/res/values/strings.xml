@@ -53,7 +53,7 @@
     <string name="dialog_x24Traders_buy">Buy</string>
     <string name="dialog_x24Traders_sell">Sell</string>
 
-    <string name="item_index_info_display">Tên ngành</string>
+    <string name="item_index_info_display">Ngành</string>
     <string name="item_index_info_pclose">Close</string>
     <string name="item_index_info_volume">Volume</string>
     <string name="item_index_info_updowns">Updown</string>

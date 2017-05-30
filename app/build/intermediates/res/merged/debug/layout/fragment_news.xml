@@ -9,19 +9,16 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
 
-        <ListView
-            android:id="@+id/lstNews"
-            android:layout_width="fill_parent"
-            android:divider="@null"
-            android:layout_height="fill_parent" />
-
-        <com.wang.avi.AVLoadingIndicatorView
-            android:id="@+id/news_loading"
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefresh"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:visibility="gone"
-            app:indicator="BallSpinFadeLoader"
-            app:indicator_color="@android:color/black" />
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/lstNews"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@null" />
+        </android.support.v4.widget.SwipeRefreshLayout>
     </FrameLayout>
 </LinearLayout>

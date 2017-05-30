@@ -159,16 +159,6 @@
                 android:scaleType="fitXY"
                 android:adjustViewBounds="true"
                 android:scrollbars="horizontal"></ImageView>
-
-            <com.wang.avi.AVLoadingIndicatorView
-                android:id="@+id/avTradeImageLoading"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:visibility="gone"
-                app:indicator="BallSpinFadeLoader"
-                app:indicator_color="@android:color/black" />
-
         </FrameLayout>
     </LinearLayout>
 </LinearLayout>

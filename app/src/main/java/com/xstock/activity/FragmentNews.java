@@ -23,6 +23,7 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,19 +31,18 @@ import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.ListView;
 
-import com.wang.avi.AVLoadingIndicatorView;
 import com.xstock.R;
 import com.xstock.adapter.NewsAdapter;
 import com.xstock.helper.SessionManager;
 import com.xstock.models.GetNewsHeader;
 import com.xstock.service.SrvGetNewsHeader;
+import com.xstock.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class FragmentNews extends Fragment {
-    AVLoadingIndicatorView avLoading;
-
+    public static final String TAG = FragmentNews.class.getSimpleName();
     ListView lstNews;
     private Context context;
     protected boolean loading = false;
@@ -53,6 +53,7 @@ public class FragmentNews extends Fragment {
     FragmentNewsCommunicator activityCommunicator;
     int totalPages = 0;
     int lastPage = 0;
+    SwipeRefreshLayout swipeRefresh;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -60,8 +61,8 @@ public class FragmentNews extends Fragment {
         View v = inflater.inflate(R.layout.fragment_news, container, false);
         interfaceNew = (InterfaceNews) this.getActivity();
         interfaceNew.SetTitle(getResources().getString(R.string.item_news));
-        avLoading = (AVLoadingIndicatorView) v.findViewById(R.id.news_loading);
         lstNews = (ListView) v.findViewById(R.id.lstNews);
+        swipeRefresh = (SwipeRefreshLayout) v.findViewById(R.id.swipeRefresh);
         this.context = getContext();
 
         new AsyncGetNewsHeader().execute();
@@ -102,6 +103,19 @@ public class FragmentNews extends Fragment {
         });
 
         activityCommunicator.passDataToActivity(getResources().getString(R.string.item_news), View.INVISIBLE);
+        swipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                if (swipeRefresh.isRefreshing())
+                    swipeRefresh.setRefreshing(false);
+                new AsyncGetNewsHeader().execute();
+            }
+        });
+        // Configure the refreshing colors
+        swipeRefresh.setColorSchemeResources(android.R.color.holo_blue_bright,
+                android.R.color.holo_green_light,
+                android.R.color.holo_orange_light,
+                android.R.color.holo_red_light);
         return v;
     }
 
@@ -161,12 +175,17 @@ public class FragmentNews extends Fragment {
             pagingArrayAdapter = new NewsAdapter(context, lstObject);
             lstNews.setAdapter(pagingArrayAdapter);
             lstNews.removeFooterView(footerView);
-            avLoading.setVisibility(View.GONE);
+            Utils.hideLoadingDialog();
         }
 
         @Override
         protected void onPreExecute() {
-            avLoading.setVisibility(View.VISIBLE);
+            try {
+                Thread.sleep(200);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            Utils.showLoadingDialog(context);
         }
 
         @Override
@@ -176,5 +195,11 @@ public class FragmentNews extends Fragment {
 
     public interface InterfaceNews {
         public void SetTitle(String title);
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
     }
 }

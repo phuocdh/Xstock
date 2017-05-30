@@ -47,8 +47,8 @@ public class SessionManager {
         return pref.getBoolean(KEY_PREF_SAVE_PASS, false);
     }
 
-    public void SetPrefOnOff(Boolean token) {
-        editor.putBoolean(KEY_PREF_ON_OFF, token);
+    public void SetPrefOnOff(Boolean isOnOff) {
+        editor.putBoolean(KEY_PREF_ON_OFF, isOnOff);
         editor.commit();
     }
 
@@ -56,8 +56,8 @@ public class SessionManager {
         return pref.getBoolean(KEY_PREF_ON_OFF, false);
     }
 
-    public void SetPrefDeviceToken(String isOnOff) {
-        editor.putString(KEY_PREF_DEVICE_TOKEN, isOnOff);
+    public void SetPrefDeviceToken(String token) {
+        editor.putString(KEY_PREF_DEVICE_TOKEN, token);
         editor.commit();
     }
 

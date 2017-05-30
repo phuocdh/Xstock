@@ -5,7 +5,7 @@
     <color name="bg_main">#428bca</color>
     <color name="white">#ffffff</color>
     <color name="price_table_bg">#333334</color>
-    <color name="price_table_bg_1">#3C3C3E</color>
+    <color name="price_table_bg_1">#AA000000</color>
     <color name="border">#F0F0F0</color>
     <color name="black">#000000</color>
     <color name="red">#ff0000</color>
@@ -34,10 +34,11 @@
     <color name="tb_boder">#626262</color>
     <color name="tb_bg">#D6D6D6</color>
     <color name="txt_Updown">#6DC640</color>
-    <color name="green">#11953D</color>
+    <color name="green">#6DC640</color>
     <color name="green_">#326F46</color>
     <color name="yellow">#FCFF6B</color>
     <color name="shadow">#AA000000</color>
+    <color name="gray_light">#cfcece</color>
 
     <color name="btn_item_stock_chart">#65CC4C</color>
     <color name="btn_item_index_info">#FF0275</color>

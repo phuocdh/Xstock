@@ -6,22 +6,20 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:id="@+id/lnIndexInfo"
+        android:id="@+id/lnPriceTable"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/border"
-        android:orientation="horizontal">
+        android:background="@color/price_table_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
 
         <TextView
             android:id="@+id/txtPriceTableTrade"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_marginBottom="1dp"
-            android:layout_marginLeft="1dp"
-            android:layout_marginRight="1dp"
             android:layout_weight="1"
-            android:background="@color/price_table_bg"
             android:gravity="center|left"
             android:paddingBottom="15dp"
             android:paddingTop="15dp"
@@ -34,9 +32,6 @@
             android:layout_width="150dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_marginBottom="1dp"
-            android:layout_marginRight="1dp"
-            android:background="@color/price_table_bg"
             android:gravity="center|right"
             android:paddingBottom="15dp"
             android:paddingTop="15dp"
@@ -46,17 +41,13 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/border"
-            android:orientation="vertical"
-            android:paddingBottom="1dp">
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/txtPriceTablePoint"
                 android:layout_width="160dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:layout_marginRight="1dp"
-                android:background="@color/price_table_bg"
                 android:gravity="center|right"
                 android:textSize="@dimen/tv_price_table_detail_7in" />
 
@@ -65,9 +56,6 @@
                 android:layout_width="160dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
-                android:background="@color/price_table_bg"
                 android:gravity="center|right"
                 android:textSize="@dimen/tv_price_table_detail_7in" />
         </LinearLayout>
@@ -77,9 +65,6 @@
             android:layout_width="170dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_marginBottom="1dp"
-            android:layout_marginRight="1dp"
-            android:background="@color/price_table_bg"
             android:gravity="center|right"
             android:paddingBottom="15dp"
             android:paddingTop="15dp"

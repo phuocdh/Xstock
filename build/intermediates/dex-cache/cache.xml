@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.2.1_c61eb7f86f081f23347208b681c1e5d7e0bc02bb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\guava\guava\18.0\guava-18.0.jar"
         jumboMode="true"
         optimize="true"
@@ -45,15 +36,6 @@
         revision="23.0.2"
         sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
         <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_2705104e1dc8905265698e5e582a4bec2c231549\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.2.1_1db92925c2724d3ee14620a904f026780afed7a2\classes.dex" />
     </item>
     <item
         jar="D:\xstock\Project\Xstock\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
@@ -82,12 +64,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\jars\classes.jar"
+        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.2.1_668adda652733d62c4dba220062a8ec569b86fca\classes.dex" />
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_d48e3535edb69dda567ede10fdd385992bbb61b3\classes.dex" />
     </item>
     <item
         jar="D:\xstock\Project\Xstock\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
@@ -142,6 +124,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_3820f0e9f7cc7ad936cd1bc0ffd09add6b93485c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
         jumboMode="true"
         optimize="true"
@@ -156,6 +147,15 @@
         revision="23.0.2"
         sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
         <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_db0bb93a46430380d3a617be1d710ce2d5d66f96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_3e02e447e5637067829ade0d36f9d5b25ca946c6\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -186,6 +186,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_a2e6c16f26c01c41993b82ca6f817538c44af636\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.daimajia.swipelayout\library\1.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -195,12 +204,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.2.1\jars\classes.jar"
+        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="ac78f93fc89c497a65f9d9a352cd405996d2f65a">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.2.1_4ce34dd0d57645ec1344bce82d6b68d4d260edb5\classes.dex" />
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_a9dc695f0cbaec77013adf25dbf07e7a09d116f9\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -239,12 +248,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\jars\classes.jar"
+        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.2.1_1265858f82893d804967b56611eecc178e334cfd\classes.dex" />
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.4.0_0c1ddc2182eae7ecebe49a023e95080d62abcfe6\classes.dex" />
     </item>
     <item
         jar="D:\xstock\Project\Xstock\app\libs\ksoap2-android-assembly-2.5.5-jar-with-dependencies.jar"
@@ -264,21 +273,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.2.1_012399c7ec7951bb95af0200582c239e7d4fafeb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.baoyz.swipemenulistview\library\1.3.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="8ec8378e8d7aa3104f60823e6350f2728d3609ba">
         <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.baoyz.swipemenulistview-library-1.3.0_b9c03d296cbb15413371304bd0722cbd85355651\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_d5dbad002d7ce09f9f07401a0165e90db2c5d3ec\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -291,11 +300,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.4.0_cca019fc0a175a99150a74f15ca25c278e2b3d93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\xstock\Project\Xstock\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="df0a00aaec64502e1b5193545b9c4f5375396d09">
+        sha1="28fa220d29bf6e8a55c88a6ad400a62019720a0b">
         <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_73cd9475b94ffe50fb4f2168f99ca7462602ee00\classes.dex" />
     </item>
     <item
@@ -315,6 +333,15 @@
         revision="23.0.2"
         sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
         <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_ac610fd9fe2087012d52afb44381820d64349607\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_aa1f2173cacd982987e40112637a026ee8cba32b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -339,7 +366,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="9527cf15118716eb87b7fe288b6f965a5b06efa7">
+        sha1="24ba0cf109df1146d8ab3c783dee4612c16fe122">
         <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6e0b457d3cb1505302c980cd1afe7dcdd8ee0e0e\classes.dex" />
     </item>
     <item
@@ -350,15 +377,6 @@
         revision="23.0.2"
         sha1="5035aaf60d244038bb143ffad4fbb7cba92ecdc7">
         <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.wang.avi-library-1.0.5_68ea330612c75f4c718a1db02931faf487430606\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.2.1_76655fbe57f98d36401b644781e7c47c085781d6\classes.dex" />
     </item>
     <item
         jar="D:\xstock\Project\Xstock\app\libs\json-lib-2.4-jdk15.jar"

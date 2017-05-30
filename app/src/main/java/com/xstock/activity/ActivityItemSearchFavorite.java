@@ -12,7 +12,6 @@ import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.Toast;
 
-import com.wang.avi.AVLoadingIndicatorView;
 import com.xstock.R;
 import com.xstock.adapter.SearchViewAdapterFavorite;
 import com.xstock.commons.Common;
@@ -23,6 +22,7 @@ import com.xstock.rippleview.RippleView;
 import com.xstock.service.SrvAddUserTradeList;
 import com.xstock.service.SrvGetTradeList;
 import com.xstock.swipelistview.ListViewSwipeGesture;
+import com.xstock.utils.Utils;
 
 import java.util.ArrayList;
 
@@ -31,7 +31,6 @@ import java.util.ArrayList;
  */
 public class ActivityItemSearchFavorite extends Activity implements SearchView.OnQueryTextListener {
 
-    AVLoadingIndicatorView avLoading;
     ListView lvTradeList;
     SearchViewAdapterFavorite searchAdapter;
     SearchView svSearchTradeList;
@@ -44,11 +43,10 @@ public class ActivityItemSearchFavorite extends Activity implements SearchView.O
         getActionBar().hide();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        context = this.getApplicationContext();
+        this.context = this;
         svSearchTradeList = (SearchView) findViewById(R.id.svListSearchItemFavorite);
         lvTradeList = (ListView) findViewById(R.id.lvTradeListFavorite);
         RippleView rvSearchItemBack = (RippleView) findViewById(R.id.rvTradesBack);
-        avLoading = (AVLoadingIndicatorView) findViewById(R.id.avListSearchItemFavorite);
         svSearchTradeList.setOnQueryTextListener(this);
         new AsyncGetTradeListItemFavorite().execute();
 
@@ -141,12 +139,12 @@ public class ActivityItemSearchFavorite extends Activity implements SearchView.O
         protected void onPostExecute(final ArrayList<GetTradeListItem> alstGetTradeList) {
             searchAdapter = new SearchViewAdapterFavorite(context, alstGetTradeList, Constant.NOTE_FAVORITE_ADD);
             lvTradeList.setAdapter(searchAdapter);
-            avLoading.setVisibility(View.GONE);
+            Utils.hideLoadingDialog();
         }
 
         @Override
         protected void onPreExecute() {
-            avLoading.setVisibility(View.VISIBLE);
+            Utils.showLoadingDialog(context);
         }
 
         @Override

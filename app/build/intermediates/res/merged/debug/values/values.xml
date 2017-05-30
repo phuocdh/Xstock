@@ -165,7 +165,8 @@
     <color name="dim_foreground_material_light">#ff323232</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
-    <color name="green">#11953D</color>
+    <color name="gray_light">#cfcece</color>
+    <color name="green">#6DC640</color>
     <color name="green_">#326F46</color>
     <color name="grid_state_focused">#77561e14</color>
     <color name="grid_state_pressed">#BB561e14</color>
@@ -248,7 +249,7 @@
     <color name="path_purple">#49098A</color>
     <color name="pressed">#33000000</color>
     <color name="price_table_bg">#333334</color>
-    <color name="price_table_bg_1">#3C3C3E</color>
+    <color name="price_table_bg_1">#AA000000</color>
     <color name="primary_dark">#303f9f</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
@@ -705,7 +706,7 @@
     <string name="item_guide">Hướng dẫn sử dụng</string>
     <string name="item_home">Màn hình chính</string>
     <string name="item_index_info">Thông tin các chỉ số</string>
-    <string name="item_index_info_display">Tên ngành</string>
+    <string name="item_index_info_display">Ngành</string>
     <string name="item_index_info_pclose">Close</string>
     <string name="item_index_info_updowns">Updown</string>
     <string name="item_index_info_volume">Volume</string>
@@ -791,19 +792,10 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-
-
-
-
-
-        -->
+        
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
+        
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>

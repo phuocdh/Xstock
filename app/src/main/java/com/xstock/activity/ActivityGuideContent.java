@@ -8,17 +8,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
-import com.wang.avi.AVLoadingIndicatorView;
 import com.xstock.R;
 import com.xstock.helper.SessionManager;
 import com.xstock.rippleview.RippleView;
 import com.xstock.service.SrvGetHelp;
+import com.xstock.utils.Utils;
 
 
 public class ActivityGuideContent extends Activity {
 
     private Context context;
-    AVLoadingIndicatorView avLoading;
     TextView tvGuideContent;
 
     @Override
@@ -48,7 +47,6 @@ public class ActivityGuideContent extends Activity {
         getActionBar().setCustomView(mCustomView);
         context = this.getApplicationContext();
         tvGuideContent = (TextView) findViewById(R.id.tvGuideContent);
-        avLoading = (AVLoadingIndicatorView) findViewById(R.id.avGuideContent);
         String id = getIntent().getStringExtra("GUIDE_ID");
         new AsyncGetHelp(id).execute();
     }
@@ -74,12 +72,12 @@ public class ActivityGuideContent extends Activity {
         @Override
         protected void onPostExecute(String guideContent) {
             tvGuideContent.setText(guideContent);
-            avLoading.setVisibility(View.GONE);
+            Utils.hideLoadingDialog();
         }
 
         @Override
         protected void onPreExecute() {
-            avLoading.setVisibility(View.VISIBLE);
+            Utils.showLoadingDialog(context);
         }
 
         @Override

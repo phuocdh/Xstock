@@ -16,9 +16,7 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.dpizarro.autolabel.library.AutoLabelUI;
-import com.wang.avi.AVLoadingIndicatorView;
 import com.xstock.R;
-import com.xstock.adapter.SwipeImageAdapter;
 import com.xstock.commons.Common;
 import com.xstock.constants.Constant;
 import com.xstock.helper.SessionManager;
@@ -28,6 +26,7 @@ import com.xstock.service.SrvGetHelpContent;
 import com.xstock.service.SrvGetImageTrade;
 import com.xstock.tab.SlidingTabLayout;
 import com.xstock.tab.TabPagerAdapter;
+import com.xstock.utils.Utils;
 
 import java.util.ArrayList;
 
@@ -40,22 +39,15 @@ public class ActivityX24BasicTradeImage extends FragmentActivity {
 
     RippleView rvX24BasicSearch;
     private AutoLabelUI mAutoLabel;
-    AVLoadingIndicatorView avLoading;
     Context context;
 
     ArrayList<GetImageTrade> lstGetImageTrade = new ArrayList<GetImageTrade>();
-    RippleView rvX24BasicTradeImageDay, rvX24BasicTradeImageHour;
     int tradeType;
     String pathImage = "";
     String pathImageDay = "";
     String pathImageHour = "";
     ViewPager viewPager;
-    SwipeImageAdapter adapterView;
-    boolean isButtonDay = true;
-    boolean isButtonHour = true;
-    boolean isClickButton = false;
     private WebView wvTradeContent;
-    private String[] tabs = {"Games", "Movies"};
     SlidingTabLayout tabLayout;
     TabPagerAdapter tabPagerAdapter;
     ListenerTradeImageDay itfTradeImageDay;
@@ -69,17 +61,14 @@ public class ActivityX24BasicTradeImage extends FragmentActivity {
         getActionBar().hide();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        context = this.getApplicationContext();
+        context = this;
         viewPager = (ViewPager) findViewById(R.id.pager);
         viewPager.setOffscreenPageLimit(1);
         mAutoLabel = (AutoLabelUI) findViewById(R.id.lbvTradeImageSearchData);
         mAutoLabel.setBackgroundResource(R.drawable.round_corner_background);
         RippleView rvX24BasicBack = (RippleView) findViewById(R.id.rvX24BasicTradeImageBack);
-//        rvX24BasicTradeImageDay = (RippleView) findViewById(R.id.rvX24BasicTradeImageDay);
-//        rvX24BasicTradeImageHour = (RippleView) findViewById(R.id.rvX24BasicTradeImageHour);
         rvX24BasicSearch = (RippleView) findViewById(R.id.rvX24BasicTradeImageSearch);
         ImageButton imbSearch = (ImageButton) findViewById(R.id.imbX24BasicTradeImageSearch);
-        avLoading = (AVLoadingIndicatorView) findViewById(R.id.avTradeImageLoading);
         wvTradeContent = (WebView) findViewById(R.id.wvTradeContent);
         String tabTitles[] = new String[]{getResources().getString(R.string.txt_X24_basic_trade_day),
                 getResources().getString(R.string.txt_X24_basic_trade_hour)};
@@ -205,12 +194,12 @@ public class ActivityX24BasicTradeImage extends FragmentActivity {
             webSettings.setJavaScriptEnabled(true);
             String strHtml = SrvGetHelpContent.GetHelpContent(token);
             wvTradeContent.loadData(strHtml, mimeType, encoding);
-            avLoading.setVisibility(View.GONE);
+            Utils.hideLoadingDialog();
         }
 
         @Override
         protected void onPreExecute() {
-            avLoading.setVisibility(View.VISIBLE);
+            Utils.showLoadingDialog(context);
         }
 
         @Override

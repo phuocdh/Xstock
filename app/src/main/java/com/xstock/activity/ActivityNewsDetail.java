@@ -1,6 +1,7 @@
 package com.xstock.activity;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.res.Configuration;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -12,13 +13,13 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.TextView;
 
-import com.wang.avi.AVLoadingIndicatorView;
 import com.xstock.R;
 import com.xstock.constants.Constant;
 import com.xstock.helper.SessionManager;
 import com.xstock.models.GetNewsHeaderDetail;
 import com.xstock.rippleview.RippleView;
 import com.xstock.service.SrvGetNewsHeaderDetail;
+import com.xstock.utils.Utils;
 
 import java.util.ArrayList;
 
@@ -29,12 +30,13 @@ public class ActivityNewsDetail extends Activity {
     TextView txtNewsAuthorDetail;
     TextView txtNewsSummaryDetail;
     TextView txtNewsCreatorDetail;
-    AVLoadingIndicatorView avNewsDetailLoading;
+    private Context mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_news_detail_item);
+        this.mContext = this;
         getActionBar().setDisplayShowHomeEnabled(false);
         getActionBar().setDisplayShowTitleEnabled(false);
         getActionBar().setHomeButtonEnabled(false);
@@ -69,7 +71,6 @@ public class ActivityNewsDetail extends Activity {
         } else {
             wvNewsDetail.getSettings().setTextZoom(300);
         }
-        avNewsDetailLoading = (AVLoadingIndicatorView) findViewById(R.id.news_detail_loading);
         Bundle bundle = getIntent().getExtras();
         String newsID = bundle.getString(Constant.BUNDLE_NEWS_ID);
         new AsyncGetNewsHeaderDetail().execute(newsID);
@@ -86,10 +87,10 @@ public class ActivityNewsDetail extends Activity {
 
         @Override
         protected ArrayList<GetNewsHeaderDetail> doInBackground(String... params) {
-            ArrayList<GetNewsHeaderDetail> lstGetNewsHeaderDetail = new ArrayList<GetNewsHeaderDetail>();
             SessionManager session = new SessionManager(getApplicationContext());
             String token = session.GetPrefToken();
-            lstGetNewsHeaderDetail = SrvGetNewsHeaderDetail.GetNewsHeaderDetail(token, params[0]);
+            ArrayList<GetNewsHeaderDetail> lstGetNewsHeaderDetail =
+                    SrvGetNewsHeaderDetail.GetNewsHeaderDetail(token, params[0]);
             return lstGetNewsHeaderDetail;
         }
 
@@ -114,7 +115,7 @@ public class ActivityNewsDetail extends Activity {
 
         @Override
         protected void onPreExecute() {
-            avNewsDetailLoading.setVisibility(View.VISIBLE);
+            Utils.showLoadingDialog(mContext);
         }
 
         @Override
@@ -142,7 +143,7 @@ public class ActivityNewsDetail extends Activity {
         public void onPageFinished(WebView view, String url) {
             // TODO Auto-generated method stub
             super.onPageFinished(view, url);
-            avNewsDetailLoading.setVisibility(View.GONE);
+            Utils.hideLoadingDialog();
         }
     }
 }

@@ -1,6 +1,7 @@
 package com.xstock.activity;
 
 import android.app.Activity;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -12,27 +13,21 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.wang.avi.AVLoadingIndicatorView;
 import com.xstock.R;
 import com.xstock.app.AppConfig;
+import com.xstock.utils.Utils;
 
-/**
- * User: special
- * Date: 13-12-22
- * Time: 下午1:33
- * Mail: specialcyci@gmail.com
- */
 public class FragmentContact extends Fragment {
-
+    public static final String TAG = FragmentContact.class.getSimpleName();
     FragmentContactCommunicator activityCommunicator;
     private WebView wvContact;
-    private AVLoadingIndicatorView avLoading;
+    private Context mContext;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_contact, container, false);
+        this.mContext = getContext();
         activityCommunicator.passDataToActivity(getResources().getString(R.string.item_contact), View.INVISIBLE);
-        avLoading = (AVLoadingIndicatorView) v.findViewById(R.id.avContactLoading);
         wvContact = (WebView) v.findViewById(R.id.wvContact);
         new AsyncContact().execute();
         activityCommunicator.onBackData(wvContact);
@@ -46,8 +41,8 @@ public class FragmentContact extends Fragment {
     }
 
     public interface FragmentContactCommunicator {
-        public void passDataToActivity(String str, int visible);
-        public void onBackData(WebView wv);
+        void passDataToActivity(String str, int visible);
+        void onBackData(WebView wv);
     }
 
     private class AsyncContact extends
@@ -70,7 +65,7 @@ public class FragmentContact extends Fragment {
 
         @Override
         protected void onPreExecute() {
-            avLoading.setVisibility(View.VISIBLE);
+            Utils.showLoadingDialog(mContext);
         }
 
         @Override
@@ -96,7 +91,13 @@ public class FragmentContact extends Fragment {
         public void onPageFinished(WebView view, String url) {
             // TODO Auto-generated method stub
             super.onPageFinished(view, url);
-            avLoading.setVisibility(View.GONE);
+            Utils.hideLoadingDialog();
         }
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
     }
 }

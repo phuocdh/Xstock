@@ -4,6 +4,7 @@
     android:versionCode="1"
     android:versionName="@string/version">
 
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -71,5 +72,10 @@
             </intent-filter>
         </service>
     </application>
-
+    <!--<meta-data-->
+        <!--android:name="com.google.firebase.messaging.default_notification_icon"-->
+        <!--android:resource="@drawable/xstock" />-->
+    <!--<meta-data-->
+        <!--android:name="com.google.firebase.messaging.default_notification_color"-->
+        <!--android:resource="@color/white" />-->
 </manifest>

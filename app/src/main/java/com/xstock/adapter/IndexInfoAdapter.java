@@ -22,6 +22,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.xstock.R;
@@ -47,6 +48,7 @@ public class IndexInfoAdapter extends BaseAdapter {
 
     public class ViewHolder {
         TextView txtIndexInfoDisplay, txtIndexInfoPclose, txtIndexInfoVolume, txtIndexInfoUpdown;
+        LinearLayout lnIndexInfo;
     }
 
     @Override
@@ -83,6 +85,7 @@ public class IndexInfoAdapter extends BaseAdapter {
         if (convertView == null) {
             holder = new ViewHolder();
             convertView = layoutInflater.inflate(R.layout.fragment_index_info_item, null);
+            holder.lnIndexInfo = (LinearLayout) convertView.findViewById(R.id.lnIndexInfo);
             holder.txtIndexInfoDisplay = (TextView) convertView.findViewById(R.id.txtIndexInfoDisplay);
             holder.txtIndexInfoPclose = (TextView) convertView.findViewById(R.id.txtIndexInfoPclose);
             holder.txtIndexInfoVolume = (TextView) convertView.findViewById(R.id.txtIndexInfoVolume);
@@ -98,10 +101,7 @@ public class IndexInfoAdapter extends BaseAdapter {
         holder.txtIndexInfoUpdown.setText(getlstGetDataNganh.getUpdown_percent());
 
         if (position % 2 != 0) {
-            holder.txtIndexInfoDisplay.setBackgroundColor(_context.getResources().getColor(R.color.price_table_bg_1));
-            holder.txtIndexInfoPclose.setBackgroundColor(_context.getResources().getColor(R.color.price_table_bg_1));
-            holder.txtIndexInfoVolume.setBackgroundColor(_context.getResources().getColor(R.color.price_table_bg_1));
-            holder.txtIndexInfoUpdown.setBackgroundColor(_context.getResources().getColor(R.color.price_table_bg_1));
+            holder.lnIndexInfo.setBackgroundColor(_context.getResources().getColor(R.color.price_table_bg_1));
         }
 
         if (getlstGetDataNganh.getType() == 3) {

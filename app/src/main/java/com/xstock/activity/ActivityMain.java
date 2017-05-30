@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.MotionEvent;
 import android.view.View;
@@ -56,7 +57,7 @@ public class ActivityMain extends FragmentActivity implements View.OnClickListen
         btTrades.setVisibility(View.INVISIBLE);
         setUpMenu();
         if (savedInstanceState == null) {
-            changeFragment(new FragmentMain(), getResources().getString(R.string.app_name), View.INVISIBLE);
+            changeFragment(new FragmentMain(), getResources().getString(R.string.app_name), View.INVISIBLE, FragmentMain.TAG);
         }
 
         btTrades.setOnClickListener(new View.OnClickListener() {
@@ -144,27 +145,27 @@ public class ActivityMain extends FragmentActivity implements View.OnClickListen
     @Override
     public void onClick(View view) {
         if (view == itemHome) {
-            changeFragment(new FragmentMain(), getResources().getString(R.string.app_name), View.INVISIBLE);
+            changeFragment(new FragmentMain(), getResources().getString(R.string.app_name), View.INVISIBLE, FragmentMain.TAG);
         } else if (view == itemStockChart) {
-            changeFragment(new FragmentStockChart(), getResources().getString(R.string.item_stock_chart), View.INVISIBLE);
+            changeFragment(new FragmentStockChart(), getResources().getString(R.string.item_stock_chart), View.INVISIBLE, FragmentStockChart.TAG);
         } else if (view == itemPriceTable) {
-            changeFragment(new FragmentPriceTable(), getResources().getString(R.string.item_price_table), View.INVISIBLE);
+            changeFragment(new FragmentPriceTable(), getResources().getString(R.string.item_price_table), View.INVISIBLE, FragmentPriceTable.TAG);
         } else if (view == itemIndexInfo) {
-            changeFragment(new FragmentIndexInfo(), getResources().getString(R.string.item_index_info), View.INVISIBLE);
+            changeFragment(new FragmentIndexInfo(), getResources().getString(R.string.item_index_info), View.INVISIBLE, FragmentIndexInfo.TAG);
         } else if (view == itemMessages) {
-            changeFragment(new FragmentMessage(), getResources().getString(R.string.item_messages), View.INVISIBLE);
+            changeFragment(new FragmentMessage(), getResources().getString(R.string.item_messages), View.INVISIBLE, FragmentMessage.TAG);
         } else if (view == itemNews) {
-            changeFragment(new FragmentNews(), getResources().getString(R.string.item_news), View.INVISIBLE);
+            changeFragment(new FragmentNews(), getResources().getString(R.string.item_news), View.INVISIBLE, FragmentNews.TAG);
         } else if (view == itemListCode) {
-            changeFragment(new FragmentListCode(), getResources().getString(R.string.item_favorite), View.VISIBLE);
+            changeFragment(new FragmentListCode(), getResources().getString(R.string.item_favorite), View.VISIBLE, FragmentListCode.TAG);
         } else if (view == itemGuide) {
-            changeFragment(new FragmentGuide(), getResources().getString(R.string.item_guide), View.INVISIBLE);
+            changeFragment(new FragmentGuide(), getResources().getString(R.string.item_guide), View.INVISIBLE, FragmentGuide.TAG);
         } else if (view == itemContact) {
-            changeFragment(new FragmentContact(), getResources().getString(R.string.item_contact), View.INVISIBLE);
+            changeFragment(new FragmentContact(), getResources().getString(R.string.item_contact), View.INVISIBLE, FragmentContact.TAG);
         } else if (view == itemWeb) {
-            changeFragment(new FragmentWeb(), getResources().getString(R.string.item_web), View.INVISIBLE);
+            changeFragment(new FragmentWeb(), getResources().getString(R.string.item_web), View.INVISIBLE, FragmentWeb.TAG);
         } else if (view == itemSetting) {
-            changeFragment(new FragmentSettings(), getResources().getString(R.string.item_settings), View.INVISIBLE);
+            changeFragment(new FragmentSettings(), getResources().getString(R.string.item_settings), View.INVISIBLE, FragmentSettings.TAG);
         } else if (view == itemLogOut) {
             this.finish();
         }
@@ -181,19 +182,39 @@ public class ActivityMain extends FragmentActivity implements View.OnClickListen
         }
     };
 
-    private void changeFragment(Fragment targetFragment, String text, int visible) {
+    private void changeFragment(Fragment targetFragment, String text, int visible, String tag) {
         txtTitleBar.setText(text);
         btTrades.setVisibility(visible);
         resideMenu.clearIgnoredViewList();
-        getSupportFragmentManager()
-                .beginTransaction()
-                .replace(R.id.main_fragment, targetFragment, "fragment")
-                .setTransitionStyle(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
-                .commit();
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.main_fragment, targetFragment, tag);
+        fragmentTransaction.addToBackStack(tag);
+        fragmentTransaction.commitAllowingStateLoss();
     }
 
-    public ResideMenu getResideMenu() {
-        return resideMenu;
+    private Fragment getCurrentFragment() {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        String fragmentTag = fragmentManager.getBackStackEntryAt(fragmentManager.getBackStackEntryCount() - 1).getName();
+        return fragmentManager
+                .findFragmentByTag(fragmentTag);
+    }
+
+    public void clearFragmentByTag(String tag) {
+        try {
+            FragmentManager fm = getSupportFragmentManager();
+
+            for (int i = fm.getBackStackEntryCount() - 1; i >= 0; i--) {
+                String backEntry = fm.getBackStackEntryAt(i).getName();
+                if (backEntry.equals(tag)) {
+                    break;
+                } else {
+                    fm.popBackStack();
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
@@ -202,8 +223,8 @@ public class ActivityMain extends FragmentActivity implements View.OnClickListen
     }
 
     @Override
-    public void passDataToActivity(String str, int visiable) {
-        btTrades.setVisibility(visiable);
+    public void passDataToActivity(String str, int visible) {
+        btTrades.setVisibility(visible);
         txtTitleBar.setText(str);
     }
 
@@ -216,6 +237,9 @@ public class ActivityMain extends FragmentActivity implements View.OnClickListen
 
     @Override
     public void onBackPressed() {
+        if (getCurrentFragment() instanceof FragmentMain) {
+            return;
+        }
         if (wv != null) {
             if (this.wv.canGoBack()) {
                 this.wv.goBack();
@@ -228,7 +252,7 @@ public class ActivityMain extends FragmentActivity implements View.OnClickListen
     }
 
     @Override
-    public void passDataToActivity(Fragment targetFragment, String str, int visiable) {
-        changeFragment(targetFragment, str, visiable);
+    public void passDataToActivity(Fragment targetFragment, String str, int visible, String tag) {
+        changeFragment(targetFragment, str, visible, tag);
     }
 }

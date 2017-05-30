@@ -87,7 +87,7 @@
                         android:layout_marginBottom="10dp"
                         android:background="@color/input_pass_bg"
                         android:hint="@string/rg_mobile"
-                        android:inputType="textPassword"
+                        android:inputType="phone"
                         android:padding="15dp"
                         android:textColor="@color/input_login"
                         android:textColorHint="@color/input_login_hint"
@@ -110,16 +110,5 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-
-
-        <com.wang.avi.AVLoadingIndicatorView
-            android:id="@+id/registry_loading"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:visibility="gone"
-            app:indicator="BallSpinFadeLoader"
-            app:indicator_color="@android:color/black" />
-
     </FrameLayout>
 </LinearLayout>

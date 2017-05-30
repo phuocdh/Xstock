@@ -1,6 +1,7 @@
 package com.xstock.activity;
 
 import android.app.Activity;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -12,27 +13,21 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.wang.avi.AVLoadingIndicatorView;
 import com.xstock.R;
 import com.xstock.app.AppConfig;
+import com.xstock.utils.Utils;
 
-/**
- * User: special
- * Date: 13-12-22
- * Time: 下午1:33
- * Mail: specialcyci@gmail.com
- */
 public class FragmentWeb extends Fragment {
-    AVLoadingIndicatorView avWebLoading;
+    public static final String TAG = FragmentWeb.class.getSimpleName();
     FragmentWebCommunicator activityCommunicator;
     WebView wvWebDetail;
+    private Context mContext;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_web, container, false);
+        this.mContext = getContext();
         activityCommunicator.passDataToActivity(getResources().getString(R.string.item_web), View.INVISIBLE);
-
-        avWebLoading = (AVLoadingIndicatorView) v.findViewById(R.id.avWebLoading);
         wvWebDetail = (WebView) v.findViewById(R.id.wvWebDetail);
         new AsyncWebLoading().execute();
         activityCommunicator.onBackData(wvWebDetail);
@@ -71,7 +66,7 @@ public class FragmentWeb extends Fragment {
 
         @Override
         protected void onPreExecute() {
-            avWebLoading.setVisibility(View.VISIBLE);
+            Utils.showLoadingDialog(mContext);
         }
 
         @Override
@@ -97,7 +92,13 @@ public class FragmentWeb extends Fragment {
         public void onPageFinished(WebView view, String url) {
             // TODO Auto-generated method stub
             super.onPageFinished(view, url);
-            avWebLoading.setVisibility(View.GONE);
+            Utils.hideLoadingDialog();
         }
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
     }
 }
