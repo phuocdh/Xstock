@@ -19,7 +19,7 @@
 
             <ImageView
                 android:layout_width="520dp"
-                android:layout_height="249dp"
+                android:layout_height="221dp"
                 android:layout_gravity="center|top"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/ic_xstock_7" />
@@ -31,63 +31,54 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
-
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <!--<android.support.design.widget.TextInputLayout-->
-                    <!--android:id="@+id/inputLayoutEmail"-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_marginBottom="15dp">-->
-
                     <EditText
                         android:id="@+id/email"
                         android:layout_width="fill_parent"
-                        android:layout_height="70dp"
+                        android:layout_height="90dp"
                         android:layout_marginBottom="15dp"
-                        android:background="@color/input_login_bg"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/border_as_gradient"
                         android:hint="@string/hint_email"
                         android:inputType="textEmailAddress"
                         android:padding="5dp"
                         android:textColor="@color/input_login"
                         android:textColorHint="@color/input_login_hint"
                         android:textSize="@dimen/tv_login_7in" />
-                    <!--</android.support.design.widget.TextInputLayout>-->
-
-                    <!--<android.support.design.widget.TextInputLayout-->
-                    <!--android:id="@+id/inputLayoutPass"-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_marginBottom="15dp">-->
 
                     <EditText
                         android:id="@+id/password"
                         android:layout_width="fill_parent"
-                        android:layout_height="70dp"
+                        android:layout_height="90dp"
                         android:layout_marginBottom="15dp"
-                        android:background="@color/input_pass_bg"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/border_as_gradient"
                         android:hint="@string/hint_password"
                         android:inputType="textPassword"
                         android:padding="5dp"
                         android:textColor="@color/input_login"
                         android:textColorHint="@color/input_login_hint"
                         android:textSize="@dimen/tv_login_7in" />
-                    <!--</android.support.design.widget.TextInputLayout>-->
 
                     <LinearLayout
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
                         android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:textColor="@color/input_login"
                             android:text="@string/save_pass"
+                            android:textColor="@color/input_login"
                             android:textSize="30sp" />
 
                         <LinearLayout
@@ -111,12 +102,15 @@
                         android:id="@+id/btnLogin"
                         android:layout_width="fill_parent"
                         android:layout_height="80dp"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="25dp"
                         android:background="@color/btn_login"
                         android:gravity="center"
                         android:text="@string/btn_login"
                         android:textColor="@color/white"
                         android:textSize="@dimen/tv_login_7in"
+                        android:textStyle="bold"
                         app:alphaFactor="0.7"
                         app:hover="true"
                         app:mrippleColor="#58FAAC" />
@@ -125,12 +119,15 @@
                         android:id="@+id/btnRegister"
                         android:layout_width="fill_parent"
                         android:layout_height="80dp"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="15dp"
                         android:background="@color/btn_register"
                         android:gravity="center"
                         android:text="@string/btn_register"
                         android:textColor="@color/white"
                         android:textSize="@dimen/tv_login_7in"
+                        android:textStyle="bold"
                         app:alphaFactor="0.7"
                         app:hover="true"
                         app:mrippleColor="#58FAAC" />
@@ -139,12 +136,15 @@
                         android:id="@+id/btnForgotPass"
                         android:layout_width="fill_parent"
                         android:layout_height="80dp"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="15dp"
                         android:background="@color/btn_forgot_pass"
                         android:gravity="center"
                         android:text="@string/btn_forgot_pass"
                         android:textColor="@color/white"
                         android:textSize="@dimen/tv_login_7in"
+                        android:textStyle="bold"
                         app:alphaFactor="0.7"
                         app:hover="true"
                         app:mrippleColor="#58FAAC" />

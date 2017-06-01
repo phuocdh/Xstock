@@ -27,8 +27,7 @@
     <uses-permission android:name="com.Xstock.permission.C2D_MESSAGE" />
 
     <application
-        name="com.xstock.app.XstockApplication"
-        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:name="com.xstock.app.XstockApplication"
         android:allowBackup="true"
         android:exported="true"
         android:icon="@drawable/ic_xstock_icon"
@@ -166,6 +165,11 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="com.Xstock.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

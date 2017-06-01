@@ -85,10 +85,4 @@ public class FragmentStockChart extends Fragment {
     public interface FragmentStockChartCommunicator{
         void passDataToActivity(String str, int visible);
     }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
-    }
 }

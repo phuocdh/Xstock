@@ -36,11 +36,6 @@
     </style>
 
 
-    <style name="animation">
-        <item name="android:windowEnterAnimation">@anim/in_animation</item>
-        <item name="android:windowExitAnimation">@anim/out_animation</item>
-    </style>
-
     <style name="CustomAlertDialog" parent="android:style/Theme.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsFloating">true</item>

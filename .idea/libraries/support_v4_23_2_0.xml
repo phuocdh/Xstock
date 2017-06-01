@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="support-v4-23.2.0">
-    <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/likebutton/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/annotations.zip!/" />
-    </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/likebutton/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar!/" />
-      <root url="jar://$PROJECT_DIR$/likebutton/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar!/" />
-      <root url="file://$PROJECT_DIR$/likebutton/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/8e2f779e0f965020783fbf3f35fb1c660103fb0f/output/jars/libs/internal_impl-23.2.0.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/8e2f779e0f965020783fbf3f35fb1c660103fb0f/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/8e2f779e0f965020783fbf3f35fb1c660103fb0f/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

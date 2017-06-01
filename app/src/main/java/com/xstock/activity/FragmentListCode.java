@@ -95,15 +95,8 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
         }
 
         @Override
-        public void LoadDataForScroll(int count) {
-            // TODO Auto-generated method stub
-
-        }
-
-        @Override
         public void onDismiss(ListView listView, int[] reverseSortedPositions) {
             // TODO Auto-generated method stub
-//            Toast.makeText(getContext(),"Delete", Toast.LENGTH_SHORT).show();
             for (int i : reverseSortedPositions) {
                 new ThreadAddDeleteUserTradeList(searchAdapter.getItem(i).getId(), "", 1).run();
                 searchAdapter.getTradeListItem.remove(i);
@@ -211,11 +204,5 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
                 }
             });
         }
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
     }
 }

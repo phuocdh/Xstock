@@ -86,12 +86,6 @@ public class ActivityItemSearchFavorite extends Activity implements SearchView.O
         }
 
         @Override
-        public void LoadDataForScroll(int count) {
-            // TODO Auto-generated method stub
-
-        }
-
-        @Override
         public void onDismiss(ListView listView, int[] reverseSortedPositions) {
             // TODO Auto-generated method stub
 //            Toast.makeText(getContext(),"Delete", Toast.LENGTH_SHORT).show();

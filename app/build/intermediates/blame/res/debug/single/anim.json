@@ -1,7 +1,7 @@
 [
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_snackbar_in.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c908ace46a32389b1c185723e566fd04493f843d\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_show_amin.xml",
@@ -13,7 +13,7 @@
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_snackbar_out.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c908ace46a32389b1c185723e566fd04493f843d\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\out_animation.xml",
@@ -29,15 +29,15 @@
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_exit.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_top.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_enter.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\in_animation.xml",
@@ -45,7 +45,7 @@
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_fab_in.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c908ace46a32389b1c185723e566fd04493f843d\\output\\res\\anim\\design_fab_in.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_scale.xml",
@@ -61,15 +61,15 @@
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_out_top.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_out_bottom.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_show_amination.xml",
@@ -77,15 +77,15 @@
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c908ace46a32389b1c185723e566fd04493f843d\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_fade_out.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_translate.xml",
@@ -101,7 +101,7 @@
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c908ace46a32389b1c185723e566fd04493f843d\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_translate_image.xml",
@@ -109,7 +109,7 @@
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_bottom.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_alpha.xml",
@@ -117,7 +117,7 @@
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_fab_out.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c908ace46a32389b1c185723e566fd04493f843d\\output\\res\\anim\\design_fab_out.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_hide_amination.xml",
@@ -125,6 +125,6 @@
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_fade_in.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\anim\\abc_fade_in.xml"
     }
 ]

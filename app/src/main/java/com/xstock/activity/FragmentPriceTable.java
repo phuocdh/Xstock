@@ -69,10 +69,9 @@ public class FragmentPriceTable extends Fragment {
 
         @Override
         protected ArrayList<GetDataPrice> doInBackground(String... params) {
-            ArrayList<GetDataPrice> lstGetDataPrice = new ArrayList<GetDataPrice>();
-            SessionManager session = new SessionManager(getActivity().getApplicationContext());
+            SessionManager session = new SessionManager(context);
             String date = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
-            lstGetDataPrice = SrvGetPriceTable.GetPriceTable(session.GetPrefToken(), date);
+            ArrayList<GetDataPrice> lstGetDataPrice = SrvGetPriceTable.GetPriceTable(session.GetPrefToken(), date);
             return lstGetDataPrice;
         }
 
@@ -91,11 +90,5 @@ public class FragmentPriceTable extends Fragment {
         @Override
         protected void onProgressUpdate(Void... values) {
         }
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
     }
 }

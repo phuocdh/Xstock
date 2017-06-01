@@ -183,6 +183,9 @@ public class ActivityMain extends FragmentActivity implements View.OnClickListen
     };
 
     private void changeFragment(Fragment targetFragment, String text, int visible, String tag) {
+        if (!tag.equals(FragmentMain.TAG)) {
+            clearFragmentByTag(tag);
+        }
         txtTitleBar.setText(text);
         btTrades.setVisibility(visible);
         resideMenu.clearIgnoredViewList();
@@ -206,7 +209,7 @@ public class ActivityMain extends FragmentActivity implements View.OnClickListen
 
             for (int i = fm.getBackStackEntryCount() - 1; i >= 0; i--) {
                 String backEntry = fm.getBackStackEntryAt(i).getName();
-                if (backEntry.equals(tag)) {
+                if (backEntry.equals(tag) || backEntry.equals(FragmentMain.TAG)) {
                     break;
                 } else {
                     fm.popBackStack();

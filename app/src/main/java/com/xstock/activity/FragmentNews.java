@@ -180,11 +180,6 @@ public class FragmentNews extends Fragment {
 
         @Override
         protected void onPreExecute() {
-            try {
-                Thread.sleep(200);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
             Utils.showLoadingDialog(context);
         }
 
@@ -194,12 +189,6 @@ public class FragmentNews extends Fragment {
     }
 
     public interface InterfaceNews {
-        public void SetTitle(String title);
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
+        void SetTitle(String title);
     }
 }

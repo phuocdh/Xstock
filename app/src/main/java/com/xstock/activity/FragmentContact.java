@@ -94,10 +94,4 @@ public class FragmentContact extends Fragment {
             Utils.hideLoadingDialog();
         }
     }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
-    }
 }

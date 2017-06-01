@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/blue"
+        android:orientation="horizontal">
+
+        <com.xstock.rippleview.RippleView
+            android:id="@+id/rvX24BasicBack"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_back"
+            android:gravity="center"
+            app:alphaFactor="0.7"
+            app:hover="true"
+            app:mrippleColor="@color/pressed" />
+
+        <TextView
+            android:id="@+id/tvTitleX24"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/txt_X24_basic"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.xstock.rippleview.RippleView
+            android:id="@+id/rvX24BasicFliter"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_filter"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:alphaFactor="0.7"
+            app:hover="true"
+            app:mrippleColor="@color/pressed" />
+
+        <com.xstock.rippleview.RippleView
+            android:id="@+id/rvX24BasicChart"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_chart"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:alphaFactor="0.7"
+            app:hover="true"
+            app:mrippleColor="@color/pressed" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/border"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <com.dpizarro.autolabel.library.AutoLabelUI
+                android:id="@+id/lbvSearchData"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="8dp"
+                app:icon_cross="@drawable/cross"
+                app:label_background_res="@color/autolabel_bg"
+                app:label_clickable="true"
+                app:max_labels="1"
+                app:show_cross="true"
+                app:text_color="@android:color/black"
+                app:text_size="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:gravity="right">
+
+            <ImageButton
+                android:id="@+id/imbX24BasicMainSearch"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/ic_search_black"
+                android:backgroundTint="@color/black" />
+        </LinearLayout>
+
+        <com.xstock.rippleview.RippleView
+            android:id="@+id/btnX24BasicSearch"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/btn_x24_plus_search"
+            android:gravity="center"
+            android:text="@string/btn_X24_basic_search"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:alphaFactor="0.7"
+            app:hover="true"
+            app:mrippleColor="@color/pressed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/border"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvDateFrom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/imbDateFrom"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_calendar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvDateTo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/imbDateTo"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_calendar" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+            <com.inqbarna.tablefixheaders.TableFixHeaders
+                android:id="@+id/tbX24Basic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="horizontal|vertical" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

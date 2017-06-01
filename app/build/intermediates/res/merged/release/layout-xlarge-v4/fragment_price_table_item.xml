@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lnPriceTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/price_table_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <View
+            android:id="@+id/viewPriceTable"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:background="@color/red" />
+
+        <TextView
+            android:id="@+id/txtPriceTableTrade"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:paddingLeft="30dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_price_table_detail_10in" />
+
+        <TextView
+            android:id="@+id/txtPriceTablePclose"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center|right"
+            android:textSize="@dimen/tv_price_table_detail_10in" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtPriceTablePoint"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center|right"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtPriceTableUpdown"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center|right"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtPriceTableVolume"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center|right"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_price_table_detail_10in" />
+    </LinearLayout>
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0.1dp"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:background="@color/border"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginRight="20dp" />-->
+</FrameLayout>

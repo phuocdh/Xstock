@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\activity_item_search.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\activity_item_search.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\residemenu_custom_left_scrollview.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\residemenu_custom_left_scrollview.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\fragment_index_info_item.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\fragment_index_info_item.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\activity_main.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\fragment_stock_chart.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\fragment_stock_chart.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\swipe_msg_item_1.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\swipe_msg_item_1.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\activity_registry.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\activity_registry.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\activity_x24_basic.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\activity_x24_basic.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\activity_login.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\fragment_main.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\fragment_main.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\activity_list_code_favorite.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\activity_list_code_favorite.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\residemenu_item.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\residemenu_item.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\fragment_price_table_item.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\fragment_price_table_item.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\activity_x24_basic_trade_image.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\activity_x24_basic_trade_image.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\fragment_index_info.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\fragment_index_info.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-v4\\fragment_setting.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\fragment_setting.xml"
+    }
+]

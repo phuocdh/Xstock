@@ -13,7 +13,7 @@ public class FCM_Instance_ID_Service extends FirebaseInstanceIdService {
     public void onTokenRefresh() {
         super.onTokenRefresh();
         String refreshedToken = FirebaseInstanceId.getInstance().getToken();
-        SessionManager session = new SessionManager(getApplicationContext());
+        SessionManager session = new SessionManager(this);
         session.SetPrefDeviceToken(refreshedToken);
         Log.d(TAG, "Device token: " + refreshedToken);
     }

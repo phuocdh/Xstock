@@ -24,17 +24,16 @@ public class ActivityGuideContent extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guide_detail);
+        this.context = this;
         getActionBar().setDisplayShowHomeEnabled(false);
         getActionBar().setDisplayShowTitleEnabled(false);
         getActionBar().setHomeButtonEnabled(false);
         getActionBar().setDisplayHomeAsUpEnabled(false);
         getActionBar().setDisplayShowCustomEnabled(true);
         getActionBar().setBackgroundDrawable(getResources().getDrawable(R.color.blue));
-
         LayoutInflater mInflater = LayoutInflater.from(this);
         View mCustomView = mInflater.inflate(R.layout.back_button,
                 null);
-
         RippleView rvBackButton = (RippleView) mCustomView
                 .findViewById(R.id.rvBackButton);
         rvBackButton.setOnClickListener(new View.OnClickListener() {
@@ -45,7 +44,6 @@ public class ActivityGuideContent extends Activity {
         });
 
         getActionBar().setCustomView(mCustomView);
-        context = this.getApplicationContext();
         tvGuideContent = (TextView) findViewById(R.id.tvGuideContent);
         String id = getIntent().getStringExtra("GUIDE_ID");
         new AsyncGetHelp(id).execute();

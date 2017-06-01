@@ -28,10 +28,6 @@ public class SrvGetListHelp {
         final String NAMESPACE = AppConfig.SOAP_NAMESPACE;
         final String URL = AppConfig.XSTOCK_URL_SERVICE;
 
-        // Chứa table của dataset trả về thông qua SoapObject
-        SoapObject table = null;
-        SoapObject tableRow = null;
-
         // Its the client petition to the web
         SoapObject client = null;
         SoapSerializationEnvelope sse = null;

@@ -80,10 +80,4 @@ public class FragmentSettings extends Fragment {
             SrvOnOffPushDevice.OnOffPushDevice(token, deviceToken, isPush);
         }
     }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
-    }
 }

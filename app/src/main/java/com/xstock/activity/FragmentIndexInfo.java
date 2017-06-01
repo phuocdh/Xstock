@@ -67,9 +67,8 @@ public class FragmentIndexInfo extends Fragment {
 
         @Override
         protected ArrayList<GetDataNganh> doInBackground(String... params) {
-            ArrayList<GetDataNganh> lstGetDataNganh = new ArrayList<GetDataNganh>();
-            SessionManager session = new SessionManager(getActivity().getApplicationContext());
-            lstGetDataNganh = SrvGetDataNganh.GetDataNganh(session.GetPrefToken());
+            SessionManager session = new SessionManager(context);
+            ArrayList<GetDataNganh> lstGetDataNganh = SrvGetDataNganh.GetDataNganh(session.GetPrefToken());
             return lstGetDataNganh;
         }
 
@@ -88,11 +87,5 @@ public class FragmentIndexInfo extends Fragment {
         @Override
         protected void onProgressUpdate(Void... values) {
         }
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
     }
 }

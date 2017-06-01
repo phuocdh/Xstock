@@ -42,7 +42,7 @@ public class FragmentGuide extends Fragment {
     }
 
     public interface FragmentGuideCommunicator{
-        public void passDataToActivity(String str, int visible);
+        void passDataToActivity(String str, int visible);
     }
 
     private class AsyncGetListHelp extends
@@ -73,11 +73,5 @@ public class FragmentGuide extends Fragment {
         @Override
         protected void onProgressUpdate(Void... values) {
         }
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
     }
 }

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="autolabel-unspecified">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/Xstock/autolabel/unspecified/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/Xstock/autolabel/unspecified/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/a0242e13f9d0da7122f610ed84a9aba0195c31a1/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/a0242e13f9d0da7122f610ed84a9aba0195c31a1/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -87,7 +87,7 @@ public class ActivityNewsDetail extends Activity {
 
         @Override
         protected ArrayList<GetNewsHeaderDetail> doInBackground(String... params) {
-            SessionManager session = new SessionManager(getApplicationContext());
+            SessionManager session = new SessionManager(mContext);
             String token = session.GetPrefToken();
             ArrayList<GetNewsHeaderDetail> lstGetNewsHeaderDetail =
                     SrvGetNewsHeaderDetail.GetNewsHeaderDetail(token, params[0]);
@@ -135,6 +135,12 @@ public class ActivityNewsDetail extends Activity {
     private class MyWebViewClient extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            Utils.showLoadingDialog(mContext);
+            if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
+                view.getSettings().setTextZoom(100);
+            } else {
+                view.getSettings().setTextZoom(120);
+            }
             view.loadUrl(url);
             return true;
         }

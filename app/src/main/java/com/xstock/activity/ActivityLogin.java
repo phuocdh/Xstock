@@ -57,7 +57,7 @@ public class ActivityLogin extends Activity {
         btnRegister = (RippleView) findViewById(R.id.btnRegister);
         btnForgotPass = (RippleView) findViewById(R.id.btnForgotPass);
         swSavePass = (SwitchButton) findViewById(R.id.swSavePass);
-        session = new SessionManager(getApplicationContext());
+        session = new SessionManager(mContext);
         realm = Realm.getDefaultInstance();
         realmController = new RealmController();
 
@@ -78,13 +78,13 @@ public class ActivityLogin extends Activity {
                 String password = edtPassword.getText().toString().trim();
                 if (email.isEmpty()) {
                     edtEmail.setHintTextColor(getResources().getColor(R.color.red));
-                    Common.ShowToast(getApplicationContext(), getString(R.string.err_msg_email), Toast.LENGTH_LONG);
+                    Common.ShowToast(mContext, getString(R.string.err_msg_email), Toast.LENGTH_LONG);
                     return;
                 }
 
                 if (password.isEmpty()) {
                     edtPassword.setHintTextColor(getResources().getColor(R.color.red));
-                    Common.ShowToast(getApplicationContext(), getString(R.string.err_msg_password), Toast.LENGTH_LONG);
+                    Common.ShowToast(mContext, getString(R.string.err_msg_password), Toast.LENGTH_LONG);
                     return;
                 }
                 if (!email.isEmpty() && !password.isEmpty()) {
@@ -92,7 +92,7 @@ public class ActivityLogin extends Activity {
                     edtPassword.setHintTextColor(getResources().getColor(R.color.input_login_hint));
                     edtEmail.setHintTextColor(getResources().getColor(R.color.input_login_hint));
                 } else {
-                    Common.ShowToast(getApplicationContext(), Constant.MSG_TEXT_EMPTY, Toast.LENGTH_LONG);
+                    Common.ShowToast(mContext, Constant.MSG_TEXT_EMPTY, Toast.LENGTH_LONG);
                 }
             }
         });
@@ -145,10 +145,10 @@ public class ActivityLogin extends Activity {
         protected void onPostExecute(final String token) {
 
             if (token.trim().equals(Constant.TIMEOUT) == true) {
-                Common.ShowToast(getApplicationContext(), Constant.MSG_LOGIN_TIMEOUT, Toast.LENGTH_LONG);
+                Common.ShowToast(mContext, Constant.MSG_LOGIN_TIMEOUT, Toast.LENGTH_LONG);
             } else {
                 if (token.trim().equals(Constant.RETURN_NG) == true || token.isEmpty() == true) {
-                    Common.ShowToast(getApplicationContext(), Constant.MSG_LOGIN_FAIL, Toast.LENGTH_LONG);
+                    Common.ShowToast(mContext, Constant.MSG_LOGIN_FAIL, Toast.LENGTH_LONG);
                 } else {
                     session.SetPrefToken(token);
                     session.SetPrefSavePass(swSavePass.isChecked());

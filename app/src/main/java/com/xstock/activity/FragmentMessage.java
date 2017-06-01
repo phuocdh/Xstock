@@ -98,7 +98,6 @@ public class FragmentMessage extends Fragment {
                 }
             }
         });
-
         return v;
     }
 
@@ -113,15 +112,6 @@ public class FragmentMessage extends Fragment {
         @Override
         public void HalfSwipeListView(int position) {
             // TODO Auto-generated method stub
-
-//            Toast.makeText(getContext(),searchAdapter.getItem(position).getName(), Toast.LENGTH_SHORT).show();
-        }
-
-        @Override
-        public void LoadDataForScroll(int count) {
-            // TODO Auto-generated method stub
-            Toast.makeText(getContext(), "LoadDataForScroll", Toast.LENGTH_SHORT).show();
-
         }
 
         @Override
@@ -257,11 +247,5 @@ public class FragmentMessage extends Fragment {
                 }
             });
         }
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        ((ActivityMain)getContext()).clearFragmentByTag(TAG);
     }
 }

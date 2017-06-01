@@ -188,14 +188,14 @@ public class ActivityX24BasicMain extends Activity implements DatePickerDialog.O
         imbSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivityForResult(new Intent(getApplicationContext(), ActivityItemSearch.class), 1);
+                startActivityForResult(new Intent(context, ActivityItemSearch.class), 1);
             }
         });
 
         mAutoLabel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivityForResult(new Intent(getApplicationContext(), ActivityItemSearch.class), 1);
+                startActivityForResult(new Intent(context, ActivityItemSearch.class), 1);
             }
         });
 

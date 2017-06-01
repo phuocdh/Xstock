@@ -115,7 +115,7 @@ public class ActivityX24BasicTradeImage extends FragmentActivity {
         mAutoLabel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivityForResult(new Intent(getApplicationContext(), ActivityItemSearch.class), 2);
+                startActivityForResult(new Intent(context, ActivityItemSearch.class), 2);
             }
         });
 
@@ -133,7 +133,7 @@ public class ActivityX24BasicTradeImage extends FragmentActivity {
         imbSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivityForResult(new Intent(getApplicationContext(), ActivityItemSearch.class), 2);
+                startActivityForResult(new Intent(context, ActivityItemSearch.class), 2);
             }
         });
     }
