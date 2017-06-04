@@ -26,6 +26,7 @@ import com.xstock.rippleview.RippleView;
 import com.xstock.service.SrvGetDataAnalyis;
 import com.xstock.utils.Utils;
 
+import java.text.DateFormat;
 import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -35,6 +36,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 /**
  * Created by PhuocDH on 7/8/2016.
@@ -101,30 +103,14 @@ public class ActivityX24BasicMain extends Activity implements DatePickerDialog.O
         tvDateFrom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Calendar now = Calendar.getInstance();
-                DatePickerDialog dpdFrom = DatePickerDialog.newInstance(
-                        ActivityX24BasicMain.this,
-                        now.get(Calendar.YEAR),
-                        now.get(Calendar.MONTH),
-                        now.get(Calendar.DAY_OF_MONTH)
-                );
-                dpdFrom.vibrate(false);
-                dpdFrom.show(getFragmentManager(), "FROM");
+                setDateFrom();
             }
         });
 
         tvDateTo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Calendar now = Calendar.getInstance();
-                DatePickerDialog dpdTo = DatePickerDialog.newInstance(
-                        ActivityX24BasicMain.this,
-                        now.get(Calendar.YEAR),
-                        now.get(Calendar.MONTH),
-                        now.get(Calendar.DAY_OF_MONTH)
-                );
-                dpdTo.vibrate(false);
-                dpdTo.show(getFragmentManager(), "TO");
+                setDateTo();
             }
         });
         rvX24BasicChart.setOnClickListener(new View.OnClickListener() {
@@ -151,30 +137,14 @@ public class ActivityX24BasicMain extends Activity implements DatePickerDialog.O
         imbDateFrom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Calendar now = Calendar.getInstance();
-                DatePickerDialog dpdFrom = DatePickerDialog.newInstance(
-                        ActivityX24BasicMain.this,
-                        now.get(Calendar.YEAR),
-                        now.get(Calendar.MONTH),
-                        now.get(Calendar.DAY_OF_MONTH)
-                );
-                dpdFrom.vibrate(false);
-                dpdFrom.show(getFragmentManager(), "FROM");
+                setDateFrom();
             }
         });
 
         imbDateTo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Calendar now = Calendar.getInstance();
-                DatePickerDialog dpdTo = DatePickerDialog.newInstance(
-                        ActivityX24BasicMain.this,
-                        now.get(Calendar.YEAR),
-                        now.get(Calendar.MONTH),
-                        now.get(Calendar.DAY_OF_MONTH)
-                );
-                dpdTo.vibrate(false);
-                dpdTo.show(getFragmentManager(), "TO");
+                setDateTo();
             }
         });
 
@@ -277,6 +247,8 @@ public class ActivityX24BasicMain extends Activity implements DatePickerDialog.O
                 tableFixHeaders.setAdapter(baseTableAdapter);
                 if (baseTableAdapter != null || baseTableAdapter.lstTest.size() > 0) {
                     SortDefault();
+                } else {
+                    Common.ShowToast(context, Constant.MSG_EMPTY_DATA, Toast.LENGTH_LONG);
                 }
             }
             Utils.hideLoadingDialog();
@@ -325,7 +297,6 @@ public class ActivityX24BasicMain extends Activity implements DatePickerDialog.O
                         @Override
                         public int compare(ArrayList<String> lhs, ArrayList<String> rhs) {
                             isSortDate = false;
-
                             Date d1 = null;
                             Date d2 = null;
                             try {
@@ -543,4 +514,53 @@ public class ActivityX24BasicMain extends Activity implements DatePickerDialog.O
         baseTableAdapter.notifyDataSetChanged();
     }
 
+    private void setDateFrom() {
+        Calendar now = Calendar.getInstance();
+        int year;
+        int month;
+        int day;
+        String dateTo = tvDateFrom.getText().toString().trim();
+        if (!dateTo.isEmpty()) {
+            day = Integer.valueOf(dateTo.split("/")[0]);
+            month = Integer.valueOf(dateTo.split("/")[1]) - 1;
+            year = Integer.valueOf(dateTo.split("/")[2]);
+        } else {
+            day = now.get(Calendar.DAY_OF_MONTH);
+            month = now.get(Calendar.MONTH);
+            year = now.get(Calendar.YEAR);
+        }
+        DatePickerDialog dpdFrom = DatePickerDialog.newInstance(
+                ActivityX24BasicMain.this,
+                year,
+                month,
+                day
+        );
+        dpdFrom.vibrate(false);
+        dpdFrom.show(getFragmentManager(), "FROM");
+    }
+
+    private void setDateTo() {
+        Calendar now = Calendar.getInstance();
+        int year;
+        int month;
+        int day;
+        String dateTo = tvDateTo.getText().toString().trim();
+        if (!dateTo.isEmpty()) {
+            day = Integer.valueOf(dateTo.split("/")[0]);
+            month = Integer.valueOf(dateTo.split("/")[1]) - 1;
+            year = Integer.valueOf(dateTo.split("/")[2]);
+        } else {
+            day = now.get(Calendar.DAY_OF_MONTH);
+            month = now.get(Calendar.MONTH);
+            year = now.get(Calendar.YEAR);
+        }
+        DatePickerDialog dpdTo = DatePickerDialog.newInstance(
+                ActivityX24BasicMain.this,
+                year,
+                month,
+                day
+        );
+        dpdTo.vibrate(false);
+        dpdTo.show(getFragmentManager(), "TO");
+    }
 }

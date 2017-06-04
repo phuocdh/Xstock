@@ -1,5 +1,8 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">  
    <style name="Theme.MyAppTheme" parent="android:style/Theme.Holo.Light">
+       <item name="android:windowIsTranslucent">true</item>
+       <item name="colorPrimary">@color/colorPrimary</item>
+       <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
          <item name="android:actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
    </style>         
    <style name="Theme.MyAppTheme.ActionBar" parent="android:style/Widget.Holo.Light.ActionBar">

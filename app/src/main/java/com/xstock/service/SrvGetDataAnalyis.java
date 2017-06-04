@@ -117,6 +117,8 @@ public class SrvGetDataAnalyis {
                             x24Keys.add(keyWithoutColor);
                             if (keyWithoutColor.equals("Buy") || keyWithoutColor.equals("Sell")) {
                                 x24Widths.add(60);
+                            } else if (keyWithoutColor.trim().equals("Tên doanh nghiệp") || keyWithoutColor.trim().equals("Ngành nghề chính")) {
+                                x24Widths.add(170);
                             } else {
                                 x24Widths.add(100);
                             }

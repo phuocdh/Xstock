@@ -15,8 +15,8 @@ public final class R {
         public static final int sl_shadowRadius = 0x7f01012c;
     }
     public static final class color {
-        public static final int default_fill_color = 0x7f0a0040;
-        public static final int default_shadow_color = 0x7f0a0041;
+        public static final int default_fill_color = 0x7f0a0043;
+        public static final int default_shadow_color = 0x7f0a0044;
     }
     public static final class dimen {
         public static final int default_corner_radius = 0x7f07006f;

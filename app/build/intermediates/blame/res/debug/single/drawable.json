@@ -12,16 +12,16 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_on.png",
-        "source": "D:\\xstock\\Project\\Xstock\\likebutton\\build\\intermediates\\bundles\\default\\res\\drawable\\thumb_on.png"
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_top.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\tablefixheaderslibrary\\build\\intermediates\\bundles\\default\\res\\drawable\\shadow_top.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_bottom.xml",
         "source": "D:\\xstock\\Project\\Xstock\\tablefixheaderslibrary\\build\\intermediates\\bundles\\default\\res\\drawable\\shadow_bottom.xml"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_top.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\tablefixheaderslibrary\\build\\intermediates\\bundles\\default\\res\\drawable\\shadow_top.xml"
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_on.png",
+        "source": "D:\\xstock\\Project\\Xstock\\likebutton\\build\\intermediates\\bundles\\default\\res\\drawable\\thumb_on.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
@@ -52,12 +52,12 @@
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable\\ic_item_favorite_main.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_border_left.xml",

@@ -7,6 +7,7 @@ import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.app.ActionBar.LayoutParams;
 import android.app.Activity;
+import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
@@ -31,7 +32,7 @@ import java.util.List;
 @SuppressWarnings("ConstantConditions")
 @TargetApi(Build.VERSION_CODES.HONEYCOMB_MR1)
 public class ListViewSwipeGesture implements View.OnTouchListener {
-    Activity activity;
+    Context activity;
 
     // Cached ViewConfiguration and system-wide constant values
     private int mSlop;
@@ -82,7 +83,7 @@ public class ListViewSwipeGesture implements View.OnTouchListener {
     public static int Double = 2;
     public static int Dismiss = 3;
 
-    public ListViewSwipeGesture(ListView listView, TouchCallbacks Callbacks, Activity context) {
+    public ListViewSwipeGesture(ListView listView, TouchCallbacks Callbacks, Context context) {
         ViewConfiguration vc = ViewConfiguration.get(listView.getContext());
         mSlop = vc.getScaledTouchSlop();
         mMinFlingVelocity = vc.getScaledMinimumFlingVelocity() * 16;
@@ -302,7 +303,7 @@ public class ListViewSwipeGesture implements View.OnTouchListener {
         mDownView_parent_txt1.setWidth(textwidth2);
         mDownView_parent_txt1.setPadding(0, textheight / 4, 0, 0);
         mDownView_parent_txt1.setHeight(textheight);
-        mDownView_parent_txt1.setBackgroundColor(activity.getResources().getColor(Color.parseColor(HalfColor)));
+        mDownView_parent_txt1.setBackgroundColor(Color.parseColor(HalfColor));
         mDownView_parent_txt1.setCompoundDrawablesWithIntrinsicBounds(null, HalfDrawable, null, null);
         mDownView_parent.addView(mDownView_parent_txt1, 0);
 
@@ -317,8 +318,8 @@ public class ListViewSwipeGesture implements View.OnTouchListener {
             mDownView_parent_txt2.setWidth(textwidth);
             mDownView_parent_txt2.setPadding(0, textheight / 4, 0, 0);
             mDownView_parent_txt2.setHeight(textheight);
-            mDownView_parent_txt2.setBackgroundColor(activity.getResources().getColor(Color.parseColor(FullColor)));
-            mDownView_parent_txt2.setTextColor(activity.getResources().getColor(Color.parseColor(TextColor)));
+            mDownView_parent_txt2.setBackgroundColor(Color.parseColor(FullColor));
+            mDownView_parent_txt2.setTextColor(Color.parseColor(TextColor));
             mDownView_parent_txt2.setCompoundDrawablesWithIntrinsicBounds(null, FullDrawable, null, null);
             mDownView_parent.addView(mDownView_parent_txt2, 1);
         }

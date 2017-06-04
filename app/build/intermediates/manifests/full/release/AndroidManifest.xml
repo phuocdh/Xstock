@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.Xstock"
-    android:versionCode="1"
-    android:versionName="1.0.0" > <!-- <meta-data -->
+    android:versionCode="2"
+    android:versionName="1.0.1" > <!-- <meta-data -->
     <!-- android:name="com.google.firebase.messaging.default_notification_icon" -->
     <!-- android:resource="@drawable/xstock" /> -->
     <!-- <meta-data -->
@@ -40,13 +40,19 @@
             android:configChanges="locale|orientation|keyboardHidden"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.MyAppTheme" >
+            android:theme="@style/Theme.MyAppTheme"
+            android:windowSoftInputMode="stateHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- <activity -->
+        <!-- android:name="com.xstock.activity.ActivityLogin" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/Theme.MyAppTheme" /> -->
         <activity
             android:name="com.xstock.activity.ActivityMain"
             android:theme="@style/Theme.MyAppTheme" />

@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_item_search.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout\\activity_item_search.xml"
-    },
-    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_trade_image_day.xml",
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout\\fragment_trade_image_day.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_item_search.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout\\activity_item_search.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
@@ -180,12 +180,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout\\residemenu_custom.xml",
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout\\residemenu_custom.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
@@ -194,6 +194,10 @@
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_year_label_text_view.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\4082d2754f448ea4118e0c9e7cbc8a958da55904\\output\\res\\layout\\mdtp_year_label_text_view.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_splash.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_setting.xml",

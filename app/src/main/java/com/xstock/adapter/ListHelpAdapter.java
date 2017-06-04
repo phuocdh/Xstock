@@ -52,6 +52,10 @@ public class ListHelpAdapter extends BaseAdapter {
     }
 
     @Override
+    public int getItemViewType(int position) {
+        return position;
+    }
+    @Override
     public int getCount() {
         return lstGetListHelp.size();
     }

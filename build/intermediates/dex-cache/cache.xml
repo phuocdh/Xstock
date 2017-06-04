@@ -83,21 +83,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\77e77a0f5f8df63ca8d4eef8ae3404b81635ae78\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_356f2583f3a6e51575f21acd1a511245d0dd4256\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\xstock\Project\Xstock\app\libs\ksoap2-android-assembly-2.5.5-jar-with-dependencies.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="bba626f0c650e1077750168dc6c786952af42c2c">
         <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-2.5.5-jar-with-dependencies_a84bd5fb00926213adc7d07cf55fae347c3a1ec9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\77e77a0f5f8df63ca8d4eef8ae3404b81635ae78\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_356f2583f3a6e51575f21acd1a511245d0dd4256\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -443,17 +443,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0fbc8d9185c4d4c47a2542dfea59fea2bed8005d">
+        sha1="6cb25d294ac9102773ec58a89ff67d44b6891bdc">
         <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_73cd9475b94ffe50fb4f2168f99ca7462602ee00\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_2428dbd5eabf65ae69bc01abd6e4b72d08e545aa\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -463,6 +454,15 @@
         revision="25.0.0"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6e0b457d3cb1505302c980cd1afe7dcdd8ee0e0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_2428dbd5eabf65ae69bc01abd6e4b72d08e545aa\classes.dex" />
     </item>
     <item
         is-multidex="true"

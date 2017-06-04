@@ -62,19 +62,19 @@ public class DataAnalysisAdapter extends BaseTableAdapter {
         final View view;
         switch (getItemViewType(row, column)) {
             case 0:
-                view = getFirstHeader(row, column, convertView, parent);
+                view = getFirstHeader(convertView, parent);
                 break;
             case 1:
-                view = getHeader(row, column, convertView, parent);
+                view = getHeader(column, convertView, parent);
                 break;
             case 2:
-                view = getFirstBody(row, column, convertView, parent);
+                view = getFirstBody(row, convertView, parent);
                 break;
             case 3:
                 view = getBody(row, column, convertView, parent);
                 break;
             case 4:
-                view = getFamilyView(row, column, convertView, parent);
+                view = getFamilyView( convertView, parent);
                 break;
             default:
                 throw new RuntimeException("wtf?");
@@ -82,20 +82,20 @@ public class DataAnalysisAdapter extends BaseTableAdapter {
         return view;
     }
 
-    private View getFirstHeader(int row, int column, View convertView, ViewGroup parent) {
+    private View getFirstHeader(View convertView, ViewGroup parent) {
         if (convertView == null) {
             convertView = layoutInflater.inflate(R.layout.item_table_header_first, parent, false);
         }
         convertView.setBackgroundColor(context.getResources().getColor(R.color.tb_boder));
         TextView tv = ((TextView) convertView.findViewById(R.id.tvHeaderTrade));
-        String[] firstHearder = headers[0].split("\\|");
-        tv.setText(firstHearder[0]);
-        ((TextView) convertView.findViewById(R.id.tvHeaderDate)).setText(firstHearder[1]);
+        String[] firstHeader = headers[0].split("\\|");
+        tv.setText(firstHeader[0]);
+        ((TextView) convertView.findViewById(R.id.tvHeaderDate)).setText(firstHeader[1]);
         convertView.setPadding(1, 1, 1, 1);
         return convertView;
     }
 
-    private View getHeader(int row, int column, View convertView, ViewGroup parent) {
+    private View getHeader(int column, View convertView, ViewGroup parent) {
         if (convertView == null) {
             convertView = layoutInflater.inflate(R.layout.item_table_header, parent, false);
         }
@@ -106,7 +106,7 @@ public class DataAnalysisAdapter extends BaseTableAdapter {
         return convertView;
     }
 
-    private View getFirstBody(int row, int column, View convertView, ViewGroup parent) {
+    private View getFirstBody(int row, View convertView, ViewGroup parent) {
         if (convertView == null) {
             convertView = layoutInflater.inflate(R.layout.item_table_first, parent, false);
         }
@@ -143,7 +143,7 @@ public class DataAnalysisAdapter extends BaseTableAdapter {
         return convertView;
     }
 
-    private View getFamilyView(int row, int column, View convertView, ViewGroup parent) {
+    private View getFamilyView(View convertView, ViewGroup parent) {
         if (convertView == null) {
             convertView = layoutInflater.inflate(R.layout.item_table_family, parent, false);
         }
@@ -193,15 +193,6 @@ public class DataAnalysisAdapter extends BaseTableAdapter {
             x24Index++;
         }
         return row == 0;
-    }
-
-    private GetDataAnalysis GetData(int row) {
-        int x24Data = 0;
-        while (row >= 0) {
-            row -= getDataAnalysis[x24Data].get(0).x24Data.size() + 1;
-            x24Data++;
-        }
-        return getDataAnalysis[x24Data - 1];
     }
 
     private X24Data GetX24Data(int row) {

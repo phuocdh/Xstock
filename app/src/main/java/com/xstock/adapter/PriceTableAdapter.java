@@ -69,12 +69,6 @@ public class PriceTableAdapter extends BaseAdapter {
     }
 
     @Override
-    public int getViewTypeCount() {
-        // TODO Auto-generated method stub
-        return getCount();
-    }
-
-    @Override
     public long getItemId(int position) {
         return position;
     }

@@ -8,8 +8,8 @@ package com.inqbarna.tablefixheaders;
 
 public final class R {
     public static final class color {
-        public static final int shadow_end = 0x7f0a00a8;
-        public static final int shadow_start = 0x7f0a00a9;
+        public static final int shadow_end = 0x7f0a00ab;
+        public static final int shadow_start = 0x7f0a00ac;
     }
     public static final class dimen {
         public static final int shadow_size = 0x7f0700ad;

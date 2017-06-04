@@ -41,6 +41,11 @@ public class SearchViewAdapterFavorite extends BaseAdapter {
     }
 
     @Override
+    public int getItemViewType(int position) {
+        return position;
+    }
+
+    @Override
     public int getCount() {
         return getTradeListItem.size();
     }

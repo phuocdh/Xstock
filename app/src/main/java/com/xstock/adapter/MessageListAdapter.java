@@ -37,7 +37,6 @@ public class MessageListAdapter extends BaseAdapter {
     private LayoutInflater layoutInflater;
     private Context _context;
     public List<GetDetailMessage> lstGetDetailMessage;
-    boolean isRead = false;
 
     public MessageListAdapter(Context context, List<GetDetailMessage> lstObject) {
         this.lstGetDetailMessage = lstObject;
@@ -49,6 +48,10 @@ public class MessageListAdapter extends BaseAdapter {
         TextView txtDetailMsg, txtDateMsg;
     }
 
+    @Override
+    public int getItemViewType(int position) {
+        return position;
+    }
     @Override
     public int getCount() {
         return lstGetDetailMessage.size();

@@ -48,7 +48,7 @@ public class FragmentMessage extends Fragment {
         context = this.getContext();
         lvMessageList = (ListView) v.findViewById(R.id.lvMessageList);
         swipeRefresh = (SwipeRefreshLayout) v.findViewById(R.id.swipeRefresh);
-        new AsyncGetDetailMessager().execute();
+        new AsyncGetDetailMessage().execute();
         ListViewSwipeGesture touchListener = new ListViewSwipeGesture(
                 lvMessageList, swipeListener, getActivity());
         touchListener.SwipeType = ListViewSwipeGesture.Dismiss;    //Set two options at background of list item
@@ -58,7 +58,7 @@ public class FragmentMessage extends Fragment {
             public void onRefresh() {
                 if (swipeRefresh.isRefreshing())
                     swipeRefresh.setRefreshing(false);
-                new AsyncGetDetailMessager().execute();
+                new AsyncGetDetailMessage().execute();
             }
         });
         // Configure the refreshing colors
@@ -189,7 +189,7 @@ public class FragmentMessage extends Fragment {
         }
     }
 
-    private class AsyncGetDetailMessager extends
+    private class AsyncGetDetailMessage extends
             AsyncTask<String, Void, ArrayList<GetDetailMessage>> {
 
         @Override

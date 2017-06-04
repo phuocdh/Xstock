@@ -32,4 +32,5 @@ public class Constant {
 	public static final String MSG_REGISTRY_FAIL = "Đăng ký thông tin thất bại !";
 	public static final String MSG_REPASS = "Mật khẩu không trùng khớp !";
 	public static final String MSG_RG_EMPTY = "Vui lòng nhập đầy đủ thông tin !";
+	public static final String MSG_EMPTY_DATA= "Không tìm thấy dữ liệu phù hợp !";
 }

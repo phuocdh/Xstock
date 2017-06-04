@@ -2,6 +2,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'realm-android'
 
 android {
+    signingConfigs {
+        Xstock {
+            keyAlias 'Xstock'
+            keyPassword 'Xstock'
+            storeFile file('D:/xstock/Xstock.jks')
+            storePassword 'Xstock'
+        }
+    }
     compileSdkVersion 23
     buildToolsVersion '25.0.0'
     useLibrary 'org.apache.http.legacy'
@@ -10,15 +18,18 @@ android {
         minSdkVersion 11
         targetSdkVersion 23
         multiDexEnabled = true
-        versionCode 1
-        versionName "1.0.0"
+        versionCode 2
+        versionName "1.0.1"
     }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.Xstock
         }
+    }
+    lintOptions {
+        disable "ResourceType"
     }
 }
 
