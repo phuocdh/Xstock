@@ -2,13 +2,5 @@
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\menu\\listviewdelete.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\menu\\listviewdelete.xml"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\menu\\search_item.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\menu\\search_item.xml"
     }
 ]

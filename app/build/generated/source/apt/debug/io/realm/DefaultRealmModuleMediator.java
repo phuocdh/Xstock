@@ -26,6 +26,7 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
     static {
         Set<Class<? extends RealmModel>> modelClasses = new HashSet<Class<? extends RealmModel>>();
         modelClasses.add(com.xstock.models.GetTradeList.class);
+        modelClasses.add(com.xstock.models.GetUserProduct.class);
         modelClasses.add(com.xstock.models.UserDetail.class);
         MODEL_CLASSES = Collections.unmodifiableSet(modelClasses);
     }
@@ -36,6 +37,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
         if (clazz.equals(com.xstock.models.GetTradeList.class)) {
             return io.realm.GetTradeListRealmProxy.initTable(transaction);
+        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+            return io.realm.GetUserProductRealmProxy.initTable(transaction);
         } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return io.realm.UserDetailRealmProxy.initTable(transaction);
         } else {
@@ -49,6 +52,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
         if (clazz.equals(com.xstock.models.GetTradeList.class)) {
             return io.realm.GetTradeListRealmProxy.validateTable(transaction);
+        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+            return io.realm.GetUserProductRealmProxy.validateTable(transaction);
         } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return io.realm.UserDetailRealmProxy.validateTable(transaction);
         } else {
@@ -62,6 +67,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
         if (clazz.equals(com.xstock.models.GetTradeList.class)) {
             return io.realm.GetTradeListRealmProxy.getFieldNames();
+        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+            return io.realm.GetUserProductRealmProxy.getFieldNames();
         } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return io.realm.UserDetailRealmProxy.getFieldNames();
         } else {
@@ -75,6 +82,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
         if (clazz.equals(com.xstock.models.GetTradeList.class)) {
             return io.realm.GetTradeListRealmProxy.getTableName();
+        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+            return io.realm.GetUserProductRealmProxy.getTableName();
         } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return io.realm.UserDetailRealmProxy.getTableName();
         } else {
@@ -88,6 +97,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
         if (clazz.equals(com.xstock.models.GetTradeList.class)) {
             return clazz.cast(new io.realm.GetTradeListRealmProxy(columnInfo));
+        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+            return clazz.cast(new io.realm.GetUserProductRealmProxy(columnInfo));
         } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return clazz.cast(new io.realm.UserDetailRealmProxy(columnInfo));
         } else {
@@ -108,6 +119,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
         if (clazz.equals(com.xstock.models.GetTradeList.class)) {
             return clazz.cast(io.realm.GetTradeListRealmProxy.copyOrUpdate(realm, (com.xstock.models.GetTradeList) obj, update, cache));
+        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+            return clazz.cast(io.realm.GetUserProductRealmProxy.copyOrUpdate(realm, (com.xstock.models.GetUserProduct) obj, update, cache));
         } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return clazz.cast(io.realm.UserDetailRealmProxy.copyOrUpdate(realm, (com.xstock.models.UserDetail) obj, update, cache));
         } else {
@@ -123,6 +136,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
         if (clazz.equals(com.xstock.models.GetTradeList.class)) {
             io.realm.GetTradeListRealmProxy.insert(realm, (com.xstock.models.GetTradeList) object, cache);
+        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+            io.realm.GetUserProductRealmProxy.insert(realm, (com.xstock.models.GetUserProduct) object, cache);
         } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
             io.realm.UserDetailRealmProxy.insert(realm, (com.xstock.models.UserDetail) object, cache);
         } else {
@@ -144,6 +159,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
             if (clazz.equals(com.xstock.models.GetTradeList.class)) {
                 io.realm.GetTradeListRealmProxy.insert(realm, (com.xstock.models.GetTradeList) object, cache);
+            } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+                io.realm.GetUserProductRealmProxy.insert(realm, (com.xstock.models.GetUserProduct) object, cache);
             } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
                 io.realm.UserDetailRealmProxy.insert(realm, (com.xstock.models.UserDetail) object, cache);
             } else {
@@ -152,6 +169,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
             if (iterator.hasNext()) {
                 if (clazz.equals(com.xstock.models.GetTradeList.class)) {
                     io.realm.GetTradeListRealmProxy.insert(realm, iterator, cache);
+                } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+                    io.realm.GetUserProductRealmProxy.insert(realm, iterator, cache);
                 } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
                     io.realm.UserDetailRealmProxy.insert(realm, iterator, cache);
                 } else {
@@ -169,6 +188,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
         if (clazz.equals(com.xstock.models.GetTradeList.class)) {
             io.realm.GetTradeListRealmProxy.insertOrUpdate(realm, (com.xstock.models.GetTradeList) obj, cache);
+        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+            io.realm.GetUserProductRealmProxy.insertOrUpdate(realm, (com.xstock.models.GetUserProduct) obj, cache);
         } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
             io.realm.UserDetailRealmProxy.insertOrUpdate(realm, (com.xstock.models.UserDetail) obj, cache);
         } else {
@@ -190,6 +211,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
             if (clazz.equals(com.xstock.models.GetTradeList.class)) {
                 io.realm.GetTradeListRealmProxy.insertOrUpdate(realm, (com.xstock.models.GetTradeList) object, cache);
+            } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+                io.realm.GetUserProductRealmProxy.insertOrUpdate(realm, (com.xstock.models.GetUserProduct) object, cache);
             } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
                 io.realm.UserDetailRealmProxy.insertOrUpdate(realm, (com.xstock.models.UserDetail) object, cache);
             } else {
@@ -198,6 +221,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
             if (iterator.hasNext()) {
                 if (clazz.equals(com.xstock.models.GetTradeList.class)) {
                     io.realm.GetTradeListRealmProxy.insertOrUpdate(realm, iterator, cache);
+                } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+                    io.realm.GetUserProductRealmProxy.insertOrUpdate(realm, iterator, cache);
                 } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
                     io.realm.UserDetailRealmProxy.insertOrUpdate(realm, iterator, cache);
                 } else {
@@ -214,6 +239,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
         if (clazz.equals(com.xstock.models.GetTradeList.class)) {
             return clazz.cast(io.realm.GetTradeListRealmProxy.createOrUpdateUsingJsonObject(realm, json, update));
+        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+            return clazz.cast(io.realm.GetUserProductRealmProxy.createOrUpdateUsingJsonObject(realm, json, update));
         } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return clazz.cast(io.realm.UserDetailRealmProxy.createOrUpdateUsingJsonObject(realm, json, update));
         } else {
@@ -228,6 +255,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
         if (clazz.equals(com.xstock.models.GetTradeList.class)) {
             return clazz.cast(io.realm.GetTradeListRealmProxy.createUsingJsonStream(realm, reader));
+        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+            return clazz.cast(io.realm.GetUserProductRealmProxy.createUsingJsonStream(realm, reader));
         } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return clazz.cast(io.realm.UserDetailRealmProxy.createUsingJsonStream(realm, reader));
         } else {
@@ -243,6 +272,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
 
         if (clazz.equals(com.xstock.models.GetTradeList.class)) {
             return clazz.cast(io.realm.GetTradeListRealmProxy.createDetachedCopy((com.xstock.models.GetTradeList) realmObject, 0, maxDepth, cache));
+        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
+            return clazz.cast(io.realm.GetUserProductRealmProxy.createDetachedCopy((com.xstock.models.GetUserProduct) realmObject, 0, maxDepth, cache));
         } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return clazz.cast(io.realm.UserDetailRealmProxy.createDetachedCopy((com.xstock.models.UserDetail) realmObject, 0, maxDepth, cache));
         } else {

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\swipe_msg_item_1.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-normal\\swipe_msg_item_1.xml"
-    },
-    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\fragment_main.xml",
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-normal\\fragment_main.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\swipe_msg_item_1.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-normal\\swipe_msg_item_1.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\fragment_web.xml",
@@ -48,12 +48,12 @@
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-normal\\activity_registry.xml"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\fragment_setting.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-normal\\fragment_setting.xml"
-    },
-    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\activity_x24_basic_trade_image.xml",
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-normal\\activity_x24_basic_trade_image.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\fragment_setting.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-normal\\fragment_setting.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal-v4\\residemenu_item.xml",

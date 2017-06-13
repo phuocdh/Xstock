@@ -16,4 +16,6 @@ public interface UserDetailRealmProxyInterface {
     public void realmSet$sexid(String value);
     public int realmGet$is_active();
     public void realmSet$is_active(int value);
+    public int realmGet$groupID();
+    public void realmSet$groupID(int value);
 }

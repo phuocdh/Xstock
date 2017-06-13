@@ -13,18 +13,15 @@ public class UserDetail extends RealmObject {
     String lastname;
     String sexid;
     int is_active;
+    int groupID;
 
-    public UserDetail(String email, String password) {
-        this.email = email;
-        this.password = password;
-    }
-
-    public UserDetail(String username, String firstname, String lastname, String sexid, int is_active) {
+    public UserDetail(String username, String firstname, String lastname, String sexid, int is_active, int groupID) {
         this.username = username;
         this.firstname = firstname;
         this.lastname = lastname;
         this.sexid = sexid;
         this.is_active = is_active;
+        this.groupID = groupID;
     }
 
     public UserDetail() {
@@ -85,5 +82,13 @@ public class UserDetail extends RealmObject {
 
     public void setIsActive(int is_active) {
         this.is_active = is_active;
+    }
+
+    public int getGroupID() {
+        return groupID;
+    }
+
+    public void setGroupID(int groupID) {
+        this.groupID = groupID;
     }
 }

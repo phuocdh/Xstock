@@ -26,17 +26,17 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             android:gravity="center|left"
-            android:paddingLeft="30dp"
+            android:paddingLeft="10dp"
             android:textColor="@color/white"
-            android:textSize="@dimen/tv_price_table_detail_10in" />
+            android:textSize="@dimen/_17sdp" />
 
         <TextView
             android:id="@+id/txtPriceTablePclose"
-            android:layout_width="170dp"
+            android:layout_width="@dimen/_80sdp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center|right"
-            android:textSize="@dimen/tv_price_table_detail_10in" />
+            android:textSize="@dimen/_17sdp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -45,36 +45,28 @@
 
             <TextView
                 android:id="@+id/txtPriceTablePoint"
-                android:layout_width="130dp"
+                android:layout_width="@dimen/_80sdp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:gravity="center|right"
-                android:textSize="25sp" />
+                android:textSize="@dimen/_14sdp" />
 
             <TextView
                 android:id="@+id/txtPriceTableUpdown"
-                android:layout_width="130dp"
+                android:layout_width="@dimen/_80sdp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:gravity="center|right"
-                android:textSize="25sp" />
+                android:textSize="@dimen/_14sdp" />
         </LinearLayout>
 
         <TextView
             android:id="@+id/txtPriceTableVolume"
-            android:layout_width="170dp"
+            android:layout_width="@dimen/_90sdp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center|right"
             android:textColor="@color/white"
-            android:textSize="@dimen/tv_price_table_detail_10in" />
+            android:textSize="@dimen/_17sdp" />
     </LinearLayout>
-
-    <!--<View-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="0.1dp"-->
-    <!--android:layout_gravity="bottom"-->
-    <!--android:background="@color/border"-->
-    <!--android:layout_marginLeft="20dp"-->
-    <!--android:layout_marginRight="20dp" />-->
 </FrameLayout>

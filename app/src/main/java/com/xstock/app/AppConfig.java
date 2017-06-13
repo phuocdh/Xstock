@@ -24,6 +24,7 @@ public class AppConfig {
     public static String GET_NEWS_HEADER_SERVICE = "GetNewsHeader";
     public static String GET_DETAIL_NEWS_SERVICE = "GetDetailNews";
     public static String GET_USER_DETAIL = "GetUserDetail";
+    public static String GET_USER_PRODUCT = "GetUserProduct";
     public static String GET_DATA_NGANH = "GetDataNganh";
     public static String GET_TRADE_LIST = "GetTradeList";
     public static String GET_USER_TRADE_LIST = "GetUserTradeList";

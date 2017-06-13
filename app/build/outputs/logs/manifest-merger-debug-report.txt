@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:2:1-87:12
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:2:1-76:12
 	package
 		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:3:5-25
 		INJECTED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml
@@ -32,7 +32,7 @@ ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:9:5-81
 	android:name
 		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:9:22-78
 application
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:11:5-80:19
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:11:5-75:19
 MERGED from [com.android.support:design:23.4.0] C:\Users\Administrator\.android\build-cache\c908ace46a32389b1c185723e566fd04493f843d\output\AndroidManifest.xml:22:5-20
 MERGED from [Xstock:floatingactionbutton:unspecified] C:\Users\Administrator\.android\build-cache\b5d94a6a8b3707de3344b01d30a7a696130d757a\output\AndroidManifest.xml:12:5-20
 MERGED from [Xstock:searchview:unspecified] C:\Users\Administrator\.android\build-cache\694081000f022132e6d513ed8bddca7ca9f60b75\output\AndroidManifest.xml:11:5-20
@@ -94,89 +94,89 @@ ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
 		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.xstock.activity.ActivityMain
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:36:9-38:55
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:31:9-33:55
 	android:theme
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:38:13-52
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:33:13-52
 	android:name
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:37:13-60
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:32:13-60
 activity#com.xstock.activity.ActivityRegistry
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:39:9-42:55
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:34:9-37:55
 	android:screenOrientation
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:41:13-49
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:36:13-49
 	android:theme
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:42:13-52
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:37:13-52
 	android:name
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:40:13-64
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:35:13-64
 activity#com.xstock.activity.ActivityForgotPass
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:43:9-45:55
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:38:9-40:55
 	android:theme
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:45:13-52
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:40:13-52
 	android:name
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:44:13-66
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:39:13-66
 activity#com.xstock.activity.ActivityNewsDetail
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:46:9-48:55
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:41:9-43:55
 	android:theme
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:48:13-52
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:43:13-52
 	android:name
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:47:13-66
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:42:13-66
 activity#com.xstock.activity.ActivityX24BasicMain
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:49:9-52:55
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:44:9-47:55
 	android:configChanges
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:51:13-59
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:46:13-59
 	android:theme
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:52:13-52
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:47:13-52
 	android:name
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:50:13-68
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:45:13-68
 activity#com.xstock.activity.ActivityItemSearch
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:53:9-56:55
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:48:9-51:55
 	android:configChanges
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:55:13-59
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:50:13-59
 	android:theme
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:56:13-52
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:51:13-52
 	android:name
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:54:13-66
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:49:13-66
 activity#com.xstock.activity.ActivityItemSearchFavorite
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:57:9-60:55
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:52:9-55:55
 	android:configChanges
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:59:13-59
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:54:13-59
 	android:theme
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:60:13-52
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:55:13-52
 	android:name
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:58:13-74
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:53:13-74
 activity#com.xstock.activity.ActivityX24BasicTradeImage
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:61:9-64:55
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:56:9-59:55
 	android:configChanges
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:63:13-59
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:58:13-59
 	android:theme
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:64:13-52
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:59:13-52
 	android:name
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:62:13-74
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:57:13-74
 activity#com.xstock.activity.ActivityGuideContent
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:65:9-67:55
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:60:9-62:55
 	android:theme
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:67:13-52
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:62:13-52
 	android:name
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:66:13-68
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:61:13-68
 service#com.xstock.fcm.FCM_Messaging_Service
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:69:9-73:19
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:64:9-68:19
 	android:name
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:69:18-69
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:64:18-69
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:70:13-72:29
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:65:13-67:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:71:17-78
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:66:17-78
 	android:name
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:71:25-75
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:66:25-75
 service#com.xstock.fcm.FCM_Instance_ID_Service
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:75:9-79:19
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:70:9-74:19
 	android:name
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:75:18-71
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:70:18-71
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:76:13-78:29
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:71:13-73:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:77:17-80
+ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:72:17-80
 	android:name
-		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:77:25-77
+		ADDED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml:72:25-77
 uses-sdk
 INJECTED from D:\xstock\Project\Xstock\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [io.realm:realm-android-library:1.1.0] C:\Users\Administrator\.android\build-cache\93a65425b7ce424fe0c61390c4c28b04fb304830\output\AndroidManifest.xml:5:5-7:41
@@ -201,6 +201,7 @@ MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\Administr
 MERGED from [com.baoyz.swipemenulistview:library:1.3.0] C:\Users\Administrator\.android\build-cache\acbf45fa28f854aa155ccad8b687aeeb27c3b75b\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Administrator\.android\build-cache\ec84d4df0a53cf2b27c2db91e3aba29b0abc361f\output\AndroidManifest.xml:6:5-8:41
 MERGED from [Xstock:shadowlayout:unspecified] C:\Users\Administrator\.android\build-cache\d43677c867af1aa7338a50ace4a5ab7c42e4c24d\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.4] C:\Users\Administrator\.android\build-cache\6d51ca6268185744b185440dec3f49d0a4fab9aa\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-core:9.4.0] C:\Users\Administrator\.android\build-cache\d1757d0ad35066042a64f1662d7d7f3142a5da88\output\AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Administrator\.android\build-cache\7d8727e3e51a6cab824e459c35fe78e82c4edbfe\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\Administrator\.android\build-cache\db30d0ce3a87c6be5d722187584018cfc181d51a\output\AndroidManifest.xml:18:5-42

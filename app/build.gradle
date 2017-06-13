@@ -15,11 +15,11 @@ android {
     useLibrary 'org.apache.http.legacy'
     defaultConfig {
         applicationId "com.Xstock"
-        minSdkVersion 11
+        minSdkVersion 13
         targetSdkVersion 23
         multiDexEnabled = true
-        versionCode 2
-        versionName "1.0.1"
+        versionCode 4
+        versionName "1.0.0"
     }
     buildTypes {
         release {
@@ -58,6 +58,7 @@ dependencies {
     compile 'com.baoyz.swipemenulistview:library:1.3.0'
     compile 'com.daimajia.swipelayout:library:1.2.0@aar'
     compile project(':shadowlayout')
+    compile 'com.intuit.sdp:sdp-android:1.0.4'
 }
 
 apply plugin: 'com.google.gms.google-services'

@@ -36,9 +36,10 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
         public final long lastnameIndex;
         public final long sexidIndex;
         public final long is_activeIndex;
+        public final long groupIDIndex;
 
         UserDetailColumnInfo(String path, Table table) {
-            final Map<String, Long> indicesMap = new HashMap<String, Long>(7);
+            final Map<String, Long> indicesMap = new HashMap<String, Long>(8);
             this.emailIndex = getValidColumnIndex(path, table, "UserDetail", "email");
             indicesMap.put("email", this.emailIndex);
 
@@ -60,6 +61,9 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
             this.is_activeIndex = getValidColumnIndex(path, table, "UserDetail", "is_active");
             indicesMap.put("is_active", this.is_activeIndex);
 
+            this.groupIDIndex = getValidColumnIndex(path, table, "UserDetail", "groupID");
+            indicesMap.put("groupID", this.groupIDIndex);
+
             setIndicesMap(indicesMap);
         }
     }
@@ -76,6 +80,7 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
         fieldNames.add("lastname");
         fieldNames.add("sexid");
         fieldNames.add("is_active");
+        fieldNames.add("groupID");
         FIELD_NAMES = Collections.unmodifiableList(fieldNames);
     }
 
@@ -185,6 +190,17 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
         proxyState.getRow$realm().setLong(columnInfo.is_activeIndex, value);
     }
 
+    @SuppressWarnings("cast")
+    public int realmGet$groupID() {
+        proxyState.getRealm$realm().checkIfValid();
+        return (int) proxyState.getRow$realm().getLong(columnInfo.groupIDIndex);
+    }
+
+    public void realmSet$groupID(int value) {
+        proxyState.getRealm$realm().checkIfValid();
+        proxyState.getRow$realm().setLong(columnInfo.groupIDIndex, value);
+    }
+
     public static Table initTable(ImplicitTransaction transaction) {
         if (!transaction.hasTable("class_UserDetail")) {
             Table table = transaction.getTable("class_UserDetail");
@@ -195,6 +211,7 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
             table.addColumn(RealmFieldType.STRING, "lastname", Table.NULLABLE);
             table.addColumn(RealmFieldType.STRING, "sexid", Table.NULLABLE);
             table.addColumn(RealmFieldType.INTEGER, "is_active", Table.NOT_NULLABLE);
+            table.addColumn(RealmFieldType.INTEGER, "groupID", Table.NOT_NULLABLE);
             table.addSearchIndex(table.getColumnIndex("email"));
             table.setPrimaryKey("email");
             return table;
@@ -205,11 +222,11 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
     public static UserDetailColumnInfo validateTable(ImplicitTransaction transaction) {
         if (transaction.hasTable("class_UserDetail")) {
             Table table = transaction.getTable("class_UserDetail");
-            if (table.getColumnCount() != 7) {
-                throw new RealmMigrationNeededException(transaction.getPath(), "Field count does not match - expected 7 but was " + table.getColumnCount());
+            if (table.getColumnCount() != 8) {
+                throw new RealmMigrationNeededException(transaction.getPath(), "Field count does not match - expected 8 but was " + table.getColumnCount());
             }
             Map<String, RealmFieldType> columnTypes = new HashMap<String, RealmFieldType>();
-            for (long i = 0; i < 7; i++) {
+            for (long i = 0; i < 8; i++) {
                 columnTypes.put(table.getColumnName(i), table.getColumnType(i));
             }
 
@@ -283,6 +300,15 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
             }
             if (table.isColumnNullable(columnInfo.is_activeIndex)) {
                 throw new RealmMigrationNeededException(transaction.getPath(), "Field 'is_active' does support null values in the existing Realm file. Use corresponding boxed type for field 'is_active' or migrate using RealmObjectSchema.setNullable().");
+            }
+            if (!columnTypes.containsKey("groupID")) {
+                throw new RealmMigrationNeededException(transaction.getPath(), "Missing field 'groupID' in existing Realm file. Either remove field or migrate using io.realm.internal.Table.addColumn().");
+            }
+            if (columnTypes.get("groupID") != RealmFieldType.INTEGER) {
+                throw new RealmMigrationNeededException(transaction.getPath(), "Invalid type 'int' for field 'groupID' in existing Realm file.");
+            }
+            if (table.isColumnNullable(columnInfo.groupIDIndex)) {
+                throw new RealmMigrationNeededException(transaction.getPath(), "Field 'groupID' does support null values in the existing Realm file. Use corresponding boxed type for field 'groupID' or migrate using RealmObjectSchema.setNullable().");
             }
             return columnInfo;
         } else {
@@ -377,6 +403,13 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
                 ((UserDetailRealmProxyInterface) obj).realmSet$is_active((int) json.getInt("is_active"));
             }
         }
+        if (json.has("groupID")) {
+            if (json.isNull("groupID")) {
+                throw new IllegalArgumentException("Trying to set non-nullable field groupID to null.");
+            } else {
+                ((UserDetailRealmProxyInterface) obj).realmSet$groupID((int) json.getInt("groupID"));
+            }
+        }
         return obj;
     }
 
@@ -435,6 +468,13 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
                     throw new IllegalArgumentException("Trying to set non-nullable field is_active to null.");
                 } else {
                     ((UserDetailRealmProxyInterface) obj).realmSet$is_active((int) reader.nextInt());
+                }
+            } else if (name.equals("groupID")) {
+                if (reader.peek() == JsonToken.NULL) {
+                    reader.skipValue();
+                    throw new IllegalArgumentException("Trying to set non-nullable field groupID to null.");
+                } else {
+                    ((UserDetailRealmProxyInterface) obj).realmSet$groupID((int) reader.nextInt());
                 }
             } else {
                 reader.skipValue();
@@ -499,6 +539,7 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
             ((UserDetailRealmProxyInterface) realmObject).realmSet$lastname(((UserDetailRealmProxyInterface) newObject).realmGet$lastname());
             ((UserDetailRealmProxyInterface) realmObject).realmSet$sexid(((UserDetailRealmProxyInterface) newObject).realmGet$sexid());
             ((UserDetailRealmProxyInterface) realmObject).realmSet$is_active(((UserDetailRealmProxyInterface) newObject).realmGet$is_active());
+            ((UserDetailRealmProxyInterface) realmObject).realmSet$groupID(((UserDetailRealmProxyInterface) newObject).realmGet$groupID());
             return realmObject;
         }
     }
@@ -534,6 +575,7 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
             Table.nativeSetString(tableNativePtr, columnInfo.sexidIndex, rowIndex, realmGet$sexid);
         }
         Table.nativeSetLong(tableNativePtr, columnInfo.is_activeIndex, rowIndex, ((UserDetailRealmProxyInterface)object).realmGet$is_active());
+        Table.nativeSetLong(tableNativePtr, columnInfo.groupIDIndex, rowIndex, ((UserDetailRealmProxyInterface)object).realmGet$groupID());
         return rowIndex;
     }
 
@@ -572,6 +614,7 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
                     Table.nativeSetString(tableNativePtr, columnInfo.sexidIndex, rowIndex, realmGet$sexid);
                 }
                 Table.nativeSetLong(tableNativePtr, columnInfo.is_activeIndex, rowIndex, ((UserDetailRealmProxyInterface)object).realmGet$is_active());
+                Table.nativeSetLong(tableNativePtr, columnInfo.groupIDIndex, rowIndex, ((UserDetailRealmProxyInterface)object).realmGet$groupID());
             }
         }
     }
@@ -632,6 +675,7 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
             Table.nativeSetNull(tableNativePtr, columnInfo.sexidIndex, rowIndex);
         }
         Table.nativeSetLong(tableNativePtr, columnInfo.is_activeIndex, rowIndex, ((UserDetailRealmProxyInterface)object).realmGet$is_active());
+        Table.nativeSetLong(tableNativePtr, columnInfo.groupIDIndex, rowIndex, ((UserDetailRealmProxyInterface)object).realmGet$groupID());
         return rowIndex;
     }
 
@@ -695,6 +739,7 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
                     Table.nativeSetNull(tableNativePtr, columnInfo.sexidIndex, rowIndex);
                 }
                 Table.nativeSetLong(tableNativePtr, columnInfo.is_activeIndex, rowIndex, ((UserDetailRealmProxyInterface)object).realmGet$is_active());
+                Table.nativeSetLong(tableNativePtr, columnInfo.groupIDIndex, rowIndex, ((UserDetailRealmProxyInterface)object).realmGet$groupID());
             }
         }
     }
@@ -724,6 +769,7 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
         ((UserDetailRealmProxyInterface) unmanagedObject).realmSet$lastname(((UserDetailRealmProxyInterface) realmObject).realmGet$lastname());
         ((UserDetailRealmProxyInterface) unmanagedObject).realmSet$sexid(((UserDetailRealmProxyInterface) realmObject).realmGet$sexid());
         ((UserDetailRealmProxyInterface) unmanagedObject).realmSet$is_active(((UserDetailRealmProxyInterface) realmObject).realmGet$is_active());
+        ((UserDetailRealmProxyInterface) unmanagedObject).realmSet$groupID(((UserDetailRealmProxyInterface) realmObject).realmGet$groupID());
         return unmanagedObject;
     }
 
@@ -734,6 +780,7 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
         ((UserDetailRealmProxyInterface) realmObject).realmSet$lastname(((UserDetailRealmProxyInterface) newObject).realmGet$lastname());
         ((UserDetailRealmProxyInterface) realmObject).realmSet$sexid(((UserDetailRealmProxyInterface) newObject).realmGet$sexid());
         ((UserDetailRealmProxyInterface) realmObject).realmSet$is_active(((UserDetailRealmProxyInterface) newObject).realmGet$is_active());
+        ((UserDetailRealmProxyInterface) realmObject).realmSet$groupID(((UserDetailRealmProxyInterface) newObject).realmGet$groupID());
         return realmObject;
     }
 
@@ -769,6 +816,10 @@ public class UserDetailRealmProxy extends com.xstock.models.UserDetail
         stringBuilder.append(",");
         stringBuilder.append("{is_active:");
         stringBuilder.append(realmGet$is_active());
+        stringBuilder.append("}");
+        stringBuilder.append(",");
+        stringBuilder.append("{groupID:");
+        stringBuilder.append(realmGet$groupID());
         stringBuilder.append("}");
         stringBuilder.append("]");
         return stringBuilder.toString();

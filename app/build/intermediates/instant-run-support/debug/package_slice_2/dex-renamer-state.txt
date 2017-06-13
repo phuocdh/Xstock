@@ -1,4 +1,4 @@
-#Sun Jun 04 19:02:28 ICT 2017
+#Wed Jun 14 02:01:38 ICT 2017
 base.0=D\:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
 renamed.0=classes.dex
 file.0=D\:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

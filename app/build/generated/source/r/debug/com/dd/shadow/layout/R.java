@@ -19,8 +19,8 @@ public final class R {
         public static final int default_shadow_color = 0x7f0a0044;
     }
     public static final class dimen {
-        public static final int default_corner_radius = 0x7f07006f;
-        public static final int default_shadow_radius = 0x7f070070;
+        public static final int default_corner_radius = 0x7f070303;
+        public static final int default_shadow_radius = 0x7f070304;
     }
     public static final class styleable {
         public static final int[] ShadowLayout = { 0x7f01012b, 0x7f01012c, 0x7f01012d, 0x7f01012e, 0x7f01012f };

@@ -126,7 +126,7 @@ public class FragmentNews extends Fragment {
     }
 
     public interface FragmentNewsCommunicator {
-        public void passDataToActivity(String str, int visible);
+         void passDataToActivity(String str, int visible);
     }
 
     protected class LoadNextPage extends AsyncTask<Integer, Void, String> {
@@ -158,7 +158,7 @@ public class FragmentNews extends Fragment {
 
         @Override
         protected ArrayList<GetNewsHeader> doInBackground(String... params) {
-            lstGetNewsHeader = new ArrayList<GetNewsHeader>();
+            lstGetNewsHeader = new ArrayList<>();
             SessionManager session = new SessionManager(context);
             lstGetNewsHeader = SrvGetNewsHeader.GetNewsHeader(session.GetPrefToken(), 1);
             if (lstGetNewsHeader.size() > 0) {

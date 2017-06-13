@@ -6,28 +6,28 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1496581193577"
+    timestamp="1497380474084"
     token="-448058285539793378"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="4761" />
+        duration="5240" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="143" />
+        duration="17" />
     <task
         name="verifier"
-        duration="79" />
+        duration="5" />
 
     <artifact
-        location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
         location="D:\xstock\Project\Xstock\app\build\outputs\apk\app-debug.apk"
@@ -35,11 +35,8 @@
 
     <build
         build-mode="FULL"
-        timestamp="1496568537277"
+        timestamp="1497379243946"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
         <artifact
             location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
@@ -47,64 +44,47 @@
             location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\xstock\Project\Xstock\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1496577135745"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
             location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1496577682819"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="D:\xstock\Project\Xstock\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1496581017520"
+        timestamp="1497379679319"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1497379875122"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\xstock\Project\Xstock\app\build\outputs\apk\app-debug.apk"
@@ -112,13 +92,13 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1496581193577"
+        timestamp="1497380474084"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="D:\xstock\Project\Xstock\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="D:\xstock\Project\Xstock\app\build\outputs\apk\app-debug.apk"

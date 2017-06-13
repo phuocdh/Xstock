@@ -22,12 +22,12 @@ public final class R {
         public static final int material_blue_500 = 0x7f0a0065;
     }
     public static final class dimen {
-        public static final int fab_elevation_lollipop = 0x7f070088;
-        public static final int fab_press_translation_z = 0x7f070089;
-        public static final int fab_scroll_threshold = 0x7f07008a;
-        public static final int fab_shadow_size = 0x7f07008b;
-        public static final int fab_size_mini = 0x7f07008c;
-        public static final int fab_size_normal = 0x7f07008d;
+        public static final int fab_elevation_lollipop = 0x7f07031c;
+        public static final int fab_press_translation_z = 0x7f07031d;
+        public static final int fab_scroll_threshold = 0x7f07031e;
+        public static final int fab_shadow_size = 0x7f07031f;
+        public static final int fab_size_mini = 0x7f070320;
+        public static final int fab_size_normal = 0x7f070321;
     }
     public static final class drawable {
         public static final int fab_shadow = 0x7f02007f;

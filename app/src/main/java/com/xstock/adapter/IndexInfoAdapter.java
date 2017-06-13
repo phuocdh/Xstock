@@ -68,6 +68,11 @@ public class IndexInfoAdapter extends BaseAdapter {
     }
 
     @Override
+    public int getViewTypeCount() {
+        return getCount();
+    }
+
+    @Override
     public long getItemId(int position) {
         return position;
     }

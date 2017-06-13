@@ -12,7 +12,7 @@ public final class R {
         public static final int shadow_start = 0x7f0a00ac;
     }
     public static final class dimen {
-        public static final int shadow_size = 0x7f0700ad;
+        public static final int shadow_size = 0x7f070341;
     }
     public static final class drawable {
         public static final int shadow_bottom = 0x7f0200bf;

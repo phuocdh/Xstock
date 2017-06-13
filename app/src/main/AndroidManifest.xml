@@ -28,11 +28,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!--<activity-->
-            <!--android:name="com.xstock.activity.ActivityLogin"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@style/Theme.MyAppTheme" />-->
         <activity
             android:name="com.xstock.activity.ActivityMain"
             android:theme="@style/Theme.MyAppTheme" />
@@ -78,10 +73,4 @@
             </intent-filter>
         </service>
     </application>
-    <!--<meta-data-->
-    <!--android:name="com.google.firebase.messaging.default_notification_icon"-->
-    <!--android:resource="@drawable/xstock" />-->
-    <!--<meta-data-->
-    <!--android:name="com.google.firebase.messaging.default_notification_color"-->
-    <!--android:resource="@color/white" />-->
 </manifest>

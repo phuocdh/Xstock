@@ -22,6 +22,7 @@ import com.xstock.realm.RealmController;
 import com.xstock.rippleview.RippleView;
 import com.xstock.service.SrvAddDevice;
 import com.xstock.service.SrvGetUserDetail;
+import com.xstock.service.SrvGetUserProduct;
 import com.xstock.utils.Utils;
 
 import java.util.ArrayList;
@@ -150,28 +151,37 @@ public class ActivityLogin extends Activity {
                 if (token.trim().equals(Constant.RETURN_NG) == true || token.isEmpty() == true) {
                     Common.ShowToast(mContext, Constant.MSG_LOGIN_FAIL, Toast.LENGTH_LONG);
                 } else {
-                    session.SetPrefToken(token);
-                    session.SetPrefSavePass(swSavePass.isChecked());
-                    realmController.clearUserDetail(realm);
                     lstGetUserDetail = SrvGetUserDetail.GetUserDetail(token);
-                    // Save UserDetail in db
-                    realm.executeTransaction(new Realm.Transaction() {
-                        @Override
-                        public void execute(Realm realm) {
-                            // Add a UserDetail
-                            UserDetail userDetail = realm.createObject(UserDetail.class);
-                            userDetail.setEmail(edtEmail.getText().toString().trim());
-                            userDetail.setPassword(edtPassword.getText().toString().trim());
-                            userDetail.setUsername(lstGetUserDetail.get(0).getUsername());
-                            userDetail.setFirstname(lstGetUserDetail.get(0).getFirstname());
-                            userDetail.setLastname(lstGetUserDetail.get(0).getLastname());
-                            userDetail.setSexid(lstGetUserDetail.get(0).getSexid());
-                            userDetail.setIsActive(lstGetUserDetail.get(0).getIsActive());
-                        }
-                    });
-                    SrvAddDevice.AddDevice(token, session.GetPrefDeviceToken());
-                    Intent activityMain = new Intent(ActivityLogin.this, ActivityMain.class);
-                    startActivity(activityMain);
+                    if (lstGetUserDetail.get(0).getIsActive() == 0) {
+                        Common.ShowToast(mContext, Constant.MSG_INACTIVE, Toast.LENGTH_LONG);
+                    } else {
+                        session.SetPrefGroupID(lstGetUserDetail.get(0).getGroupID());
+                        session.SetPrefToken(token);
+                        session.SetPrefSavePass(swSavePass.isChecked());
+                        realmController.clearUserDetail(realm);
+
+                        // Save UserDetail in db
+                        realm.executeTransaction(new Realm.Transaction() {
+                            @Override
+                            public void execute(Realm realm) {
+                                // Add a UserDetail
+                                UserDetail userDetail = realm.createObject(UserDetail.class);
+                                userDetail.setEmail(edtEmail.getText().toString().trim());
+                                userDetail.setPassword(edtPassword.getText().toString().trim());
+                                userDetail.setUsername(lstGetUserDetail.get(0).getUsername());
+                                userDetail.setFirstname(lstGetUserDetail.get(0).getFirstname());
+                                userDetail.setLastname(lstGetUserDetail.get(0).getLastname());
+                                userDetail.setSexid(lstGetUserDetail.get(0).getSexid());
+                                userDetail.setIsActive(lstGetUserDetail.get(0).getIsActive());
+                                userDetail.setGroupID(lstGetUserDetail.get(0).getGroupID());
+                            }
+                        });
+
+                        SrvGetUserProduct.SetUserProductLicense(session, token);
+                        SrvAddDevice.AddDevice(token, session.GetPrefDeviceToken());
+                        Intent activityMain = new Intent(ActivityLogin.this, ActivityMain.class);
+                        startActivity(activityMain);
+                    }
                 }
             }
 

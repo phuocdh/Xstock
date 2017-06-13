@@ -47,6 +47,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\6d51ca6268185744b185440dec3f49d0a4fab9aa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="11262f887015dc774ff36eb66698308df0a376d1">
+        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0fccb2d72f299439b6c466a3498183f0f17df4dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Administrator\.android\build-cache\a0242e13f9d0da7122f610ed84a9aba0195c31a1\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -439,21 +448,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6cb25d294ac9102773ec58a89ff67d44b6891bdc">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_73cd9475b94ffe50fb4f2168f99ca7462602ee00\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\xstock\Project\Xstock\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6e0b457d3cb1505302c980cd1afe7dcdd8ee0e0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\xstock\Project\Xstock\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd50ee825241d200a81372e5cd18ca6496e2667d">
+        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_73cd9475b94ffe50fb4f2168f99ca7462602ee00\classes.dex" />
     </item>
     <item
         is-multidex="true"

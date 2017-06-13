@@ -67,7 +67,8 @@ public class SrvGetUserDetail {
                     jsonObject.getString("first_name").toString(),
                     jsonObject.getString("last_name").toString(),
                     jsonObject.getString("sex_id").toString(),
-                    jsonObject.getInt("is_active")));
+                    jsonObject.getInt("is_active"),
+                    jsonObject.getInt("group_id")));
 //            }
         } catch (Exception e) {
             e.toString();

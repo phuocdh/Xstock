@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.Xstock"
-    android:versionCode="1"
-    android:versionName="1.0.0" > <!-- <meta-data -->
-    <!-- android:name="com.google.firebase.messaging.default_notification_icon" -->
-    <!-- android:resource="@drawable/xstock" /> -->
-    <!-- <meta-data -->
-    <!-- android:name="com.google.firebase.messaging.default_notification_color" -->
-    <!-- android:resource="@color/white" /> -->
+    android:versionCode="4"
+    android:versionName="1.0.0" >
+
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="13"
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -48,11 +44,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- <activity -->
-        <!-- android:name="com.xstock.activity.ActivityLogin" -->
-        <!-- android:screenOrientation="portrait" -->
-        <!-- android:theme="@style/Theme.MyAppTheme" /> -->
         <activity
             android:name="com.xstock.activity.ActivityMain"
             android:theme="@style/Theme.MyAppTheme" />

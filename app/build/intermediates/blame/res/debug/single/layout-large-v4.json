@@ -12,12 +12,12 @@
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\activity_registry.xml"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\residemenu_item.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\residemenu_item.xml"
-    },
-    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\fragment_index_info_item.xml",
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\fragment_index_info_item.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\residemenu_item.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\residemenu_item.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_login.xml",
@@ -36,12 +36,12 @@
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\fragment_stock_chart.xml"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\fragment_index_info.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\fragment_index_info.xml"
-    },
-    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\fragment_setting.xml",
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\fragment_setting.xml"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\fragment_index_info.xml",
+        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-large\\fragment_index_info.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\swipe_msg_item_1.xml",
