@@ -1,7 +1,6 @@
 package com.xstock.service;
 
 import com.xstock.app.AppConfig;
-import com.xstock.constants.Constant;
 
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.PropertyInfo;
@@ -10,9 +9,7 @@ import org.ksoap2.serialization.SoapPrimitive;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
 
-import java.net.HttpURLConnection;
 import java.net.SocketTimeoutException;
-import java.net.URL;
 
 public class SrvOnOffPushDevice {
 
@@ -25,22 +22,6 @@ public class SrvOnOffPushDevice {
         final String METHOD_NAME = AppConfig.ON_OFF_PUSH_DEVICE;
         final String NAMESPACE = AppConfig.SOAP_NAMESPACE;
         final String XSTOCK_URL = AppConfig.XSTOCK_URL_SERVICE;
-        try {
-            HttpURLConnection urlc = (HttpURLConnection) new URL(XSTOCK_URL).openConnection();
-            urlc.setConnectTimeout(Constant.TIME_OUT);
-            if (urlc.getResponseCode() != HttpURLConnection.HTTP_OK) {
-                str = Constant.TIMEOUT;
-                return str;
-            }
-        } catch (SocketTimeoutException e) {
-            str = Constant.TIMEOUT;
-            return str;
-        } catch (java.io.IOException e) {
-            str = Constant.TIMEOUT;
-            return str;
-        }
-        // Chứa table của dataset trả về thông qua SoapObject
-        SoapObject table = null;
 
         // Its the client petition to the web
         SoapObject client = null;
@@ -66,7 +47,7 @@ public class SrvOnOffPushDevice {
 
             PropertyInfo osInfo = new PropertyInfo();
             osInfo.setName("os");
-            osInfo.setValue("android");
+            osInfo.setValue(AppConfig.ANDROID);
             osInfo.setType(String.class);
             client.addProperty(osInfo);
 

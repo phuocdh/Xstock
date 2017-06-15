@@ -41,9 +41,9 @@ public class FragmentWeb extends Fragment {
     }
 
     public interface FragmentWebCommunicator {
-        public void passDataToActivity(String str, int visible);
+        void passDataToActivity(String str, int visible);
 
-        public void onBackData(WebView wv);
+        void onBackData(WebView wv);
     }
 
     private class AsyncWebLoading extends

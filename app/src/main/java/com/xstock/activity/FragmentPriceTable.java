@@ -61,7 +61,7 @@ public class FragmentPriceTable extends Fragment {
     }
 
     public interface FragmentPriceTableCommunicator {
-        public void passDataToActivity(String str, int visible);
+        void passDataToActivity(String str, int visible);
     }
 
     private class AsyncGetDataPrice extends

@@ -1,57 +1,53 @@
 package com.xstock.activity;
 
 import android.app.Activity;
+import android.content.Context;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.kyleduo.switchbutton.SwitchButton;
 import com.xstock.R;
+import com.xstock.commons.Common;
+import com.xstock.constants.Constant;
 import com.xstock.helper.SessionManager;
+import com.xstock.service.SrvGetPushDeviceStatus;
 import com.xstock.service.SrvOnOffPushDevice;
+import com.xstock.utils.Utils;
 
-/**
- * User: special
- * Date: 13-12-22
- * Time: 下午1:33
- * Mail: specialcyci@gmail.com
- */
 public class FragmentSettings extends Fragment {
 
     public static final String TAG = FragmentSettings.class.getSimpleName();
     FragmentSettingsCommunicator activityCommunicator;
-    SwitchButton swReceiveMesage;
+    SwitchButton swReceiveMessage;
     SessionManager session;
+    private Context context;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_setting, container, false);
-        swReceiveMesage = (SwitchButton) v.findViewById(R.id.swReceiveMesage);
+        this.context = getContext();
+        swReceiveMessage = (SwitchButton) v.findViewById(R.id.swReceiveMesage);
         session = new SessionManager(getContext());
-        swReceiveMesage.setChecked(session.GetPrefOnOff());
-
-        if (swReceiveMesage.isChecked() == true) {
-            new ThreadSetting(1).run();
-        } else {
-            new ThreadSetting(0).run();
-        }
-
-        swReceiveMesage.setOnClickListener(new View.OnClickListener() {
+        activityCommunicator.passDataToActivity(getResources().getString(R.string.item_settings), View.INVISIBLE);
+        new AsyncGetSetting().execute();
+        swReceiveMessage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int isPush;
-                if (swReceiveMesage.isChecked() == true) {
+                if (swReceiveMessage.isChecked() == true) {
                     isPush = 1;
                 } else {
                     isPush = 0;
                 }
-                session.SetPrefOnOff(swReceiveMesage.isChecked());
-                new ThreadSetting(isPush).run();
+                new AsyncSetting().execute(isPush);
             }
         });
-        activityCommunicator.passDataToActivity(getResources().getString(R.string.item_settings), View.INVISIBLE);
+
         return v;
     }
 
@@ -62,22 +58,58 @@ public class FragmentSettings extends Fragment {
     }
 
     public interface FragmentSettingsCommunicator {
-        public void passDataToActivity(String str, int visible);
+        void passDataToActivity(String str, int visible);
     }
 
+    private class AsyncGetSetting extends
+            AsyncTask<String, Void, Integer> {
 
-    public class ThreadSetting extends Thread {
-        int isPush = 0;
-
-        public ThreadSetting(int isPush) {
-            this.isPush = isPush;
+        @Override
+        protected Integer doInBackground(String... params) {
+            return SrvGetPushDeviceStatus.GetPushDeviceStatus(session.GetPrefToken(), session.GetPrefDeviceToken());
         }
 
-        // overriden from Runnable, which Thread implements
-        public void run() {
+        @Override
+        protected void onPostExecute(Integer isPush) {
+            swReceiveMessage.setChecked(isPush == 1 ? true : false);
+            Utils.hideLoadingDialog();
+        }
+
+        @Override
+        protected void onPreExecute() {
+            Utils.showLoadingDialog(context);
+        }
+
+        @Override
+        protected void onProgressUpdate(Void... values) {
+        }
+    }
+
+    private class AsyncSetting extends
+            AsyncTask<Integer, Void, String> {
+
+        @Override
+        protected String doInBackground(Integer... params) {
             String token = session.GetPrefToken();
             String deviceToken = session.GetPrefDeviceToken();
-            SrvOnOffPushDevice.OnOffPushDevice(token, deviceToken, isPush);
+            return SrvOnOffPushDevice.OnOffPushDevice(token, deviceToken, params[0]);
+        }
+
+        @Override
+        protected void onPostExecute(String sPush) {
+            Utils.hideLoadingDialog();
+            if(!sPush.equals("OK")){
+                Common.ShowToast(context, Constant.MSG_ERROR, Toast.LENGTH_LONG);
+            }
+        }
+
+        @Override
+        protected void onPreExecute() {
+            Utils.showLoadingDialog(context);
+        }
+
+        @Override
+        protected void onProgressUpdate(Void... values) {
         }
     }
 }

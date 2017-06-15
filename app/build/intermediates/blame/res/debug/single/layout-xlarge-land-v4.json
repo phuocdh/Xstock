@@ -1,11 +1,31 @@
 [
     {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\fragment_index_info.xml",
+        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge-land\\fragment_index_info.xml"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\fragment_stock_chart.xml",
+        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge-land\\fragment_stock_chart.xml"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\residemenu_item.xml",
+        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge-land\\residemenu_item.xml"
+    },
+    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\fragment_stock_chart.xml",
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-xlarge-land\\fragment_stock_chart.xml"
     },
     {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\fragment_index_info_item.xml",
+        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge-land\\fragment_index_info_item.xml"
+    },
+    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\residemenu_item.xml",
         "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-xlarge-land\\residemenu_item.xml"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\fragment_setting.xml",
+        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge-land\\fragment_setting.xml"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\fragment_setting.xml",

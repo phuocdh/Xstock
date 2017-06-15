@@ -36,4 +36,5 @@ public class Constant {
     public static final String MSG_EMPTY_DATA = "Không tìm thấy dữ liệu phù hợp !";
 
     public static final String MSG_LICENSE = "Sản phẩm %s chưa được đăng ký mua hoặc gia hạn !";
+    public static final String MSG_ERROR = "Có lỗi trong quá trình xử lý !";
 }

@@ -4,32 +4,28 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_ic_googleplayservices.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
@@ -48,80 +44,80 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fab_shadow_mini.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\e0a99c2d9961336e3db438c94e21ddeb2093a550\\output\\res\\drawable-hdpi-v4\\fab_shadow_mini.png"
+    },
+    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_navigation_arrow_back_inverted.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\694081000f022132e6d513ed8bddca7ca9f60b75\\output\\res\\drawable-hdpi-v4\\ic_action_navigation_arrow_back_inverted.png"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fab_shadow.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b5d94a6a8b3707de3344b01d30a7a696130d757a\\output\\res\\drawable-hdpi-v4\\fab_shadow.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_action_search.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\6b650a235fccdd52e0d03613b809ad752ec5b4c7\\output\\res\\drawable-hdpi-v4\\ic_action_action_search.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_voice_search_inverted.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\6b650a235fccdd52e0d03613b809ad752ec5b4c7\\output\\res\\drawable-hdpi-v4\\ic_action_voice_search_inverted.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_navigation_close_inverted.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\6b650a235fccdd52e0d03613b809ad752ec5b4c7\\output\\res\\drawable-hdpi-v4\\ic_action_navigation_close_inverted.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
@@ -136,14 +132,6 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
     },
@@ -152,12 +140,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_navigation_close.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\6b650a235fccdd52e0d03613b809ad752ec5b4c7\\output\\res\\drawable-hdpi-v4\\ic_action_navigation_close.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fab_shadow_mini.png",
@@ -168,6 +156,374 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_navigation_close_inverted.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\694081000f022132e6d513ed8bddca7ca9f60b75\\output\\res\\drawable-hdpi-v4\\ic_action_navigation_close_inverted.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fab_shadow.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\e0a99c2d9961336e3db438c94e21ddeb2093a550\\output\\res\\drawable-hdpi-v4\\fab_shadow.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_navigation_arrow_back.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\694081000f022132e6d513ed8bddca7ca9f60b75\\output\\res\\drawable-hdpi-v4\\ic_action_navigation_arrow_back.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_action_search.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\694081000f022132e6d513ed8bddca7ca9f60b75\\output\\res\\drawable-hdpi-v4\\ic_action_action_search.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fab_shadow.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b5d94a6a8b3707de3344b01d30a7a696130d757a\\output\\res\\drawable-hdpi-v4\\fab_shadow.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_navigation_arrow_back.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\6b650a235fccdd52e0d03613b809ad752ec5b4c7\\output\\res\\drawable-hdpi-v4\\ic_action_navigation_arrow_back.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
@@ -176,8 +532,8 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
@@ -186,6 +542,18 @@
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_voice_search.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\6b650a235fccdd52e0d03613b809ad752ec5b4c7\\output\\res\\drawable-hdpi-v4\\ic_action_voice_search.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
@@ -208,10 +576,6 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
     },
@@ -220,40 +584,36 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_navigation_arrow_back_inverted.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\6b650a235fccdd52e0d03613b809ad752ec5b4c7\\output\\res\\drawable-hdpi-v4\\ic_action_navigation_arrow_back_inverted.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_voice_search_inverted.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\694081000f022132e6d513ed8bddca7ca9f60b75\\output\\res\\drawable-hdpi-v4\\ic_action_voice_search_inverted.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_navigation_close_inverted.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\694081000f022132e6d513ed8bddca7ca9f60b75\\output\\res\\drawable-hdpi-v4\\ic_action_navigation_close_inverted.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_navigation_close.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\694081000f022132e6d513ed8bddca7ca9f60b75\\output\\res\\drawable-hdpi-v4\\ic_action_navigation_close.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
@@ -262,10 +622,6 @@
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
@@ -284,6 +640,14 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_suggestion.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\6b650a235fccdd52e0d03613b809ad752ec5b4c7\\output\\res\\drawable-hdpi-v4\\ic_suggestion.png"
+    },
+    {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
     },
@@ -292,64 +656,60 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_navigation_arrow_back.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\694081000f022132e6d513ed8bddca7ca9f60b75\\output\\res\\drawable-hdpi-v4\\ic_action_navigation_arrow_back.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_action_search.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\694081000f022132e6d513ed8bddca7ca9f60b75\\output\\res\\drawable-hdpi-v4\\ic_action_action_search.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_voice_search.png",
@@ -360,7 +720,11 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\694081000f022132e6d513ed8bddca7ca9f60b75\\output\\res\\drawable-hdpi-v4\\ic_suggestion.png"
     },
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     }
 ]

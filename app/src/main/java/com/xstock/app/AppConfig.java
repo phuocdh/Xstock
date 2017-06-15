@@ -38,8 +38,10 @@ public class AppConfig {
     public static String ADD_DEVICE = "AddDevice";
     public static String DELETE_MESSAGE_LIST = "DeleteMessageList";
     public static String ON_OFF_PUSH_DEVICE = "OnOffPushDevice";
+    public static String GET_PUSH_DEVICE_STATUS = "GetPushDeviceStatus";
     public static String REGISTER_USER = "RegisterUser";
     public static String GET_LIST_HELP = "GetListHelp";
     public static String GET_HELP = "GetHelp";
     public static String GET_HELP_CONTENT = "GetHelpContent";
+    public static String CHECK_TRIAL_LICENCE = "CheckTrialLicence";
 }
