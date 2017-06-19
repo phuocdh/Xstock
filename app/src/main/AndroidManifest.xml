@@ -19,7 +19,7 @@
         <activity
             android:name="com.xstock.activity.ActivityLogin"
             android:configChanges="locale|orientation|keyboardHidden"
-            android:launchMode="singleTask"
+            android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MyAppTheme"
             android:windowSoftInputMode="stateHidden">
@@ -61,13 +61,13 @@
             android:name="com.xstock.activity.ActivityGuideContent"
             android:theme="@style/Theme.MyAppTheme" />
 
-        <service android:name="com.xstock.fcm.FCM_Messaging_Service">
+        <service android:name=".fcm.FCM_Messaging_Service">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
-        <service android:name="com.xstock.fcm.FCM_Instance_ID_Service">
+        <service android:name=".fcm.FCM_Instance_ID_Service">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>

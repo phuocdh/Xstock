@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_keyboard_backspace_black_36dp.png",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_keyboard_backspace_black_36dp.png"
-    },
-    {
         "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_keyboard_backspace_black_36dp.png",
         "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_keyboard_backspace_black_36dp.png"
     }

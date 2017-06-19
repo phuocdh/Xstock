@@ -39,63 +39,63 @@ public class FragmentMain extends Fragment {
         btn_item_index_info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activityCommunicator.passDataToActivity(new FragmentIndexInfo(), getResources().getString(R.string.item_index_info), View.INVISIBLE, FragmentStockChart.TAG);
+                activityCommunicator.passDataToActivity(new FragmentIndexInfo(), getResources().getString(R.string.item_index_info), View.INVISIBLE, FragmentIndexInfo.TAG);
             }
         });
 
         btn_item_news.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activityCommunicator.passDataToActivity(new FragmentNews(), getResources().getString(R.string.item_news), View.INVISIBLE, FragmentStockChart.TAG);
+                activityCommunicator.passDataToActivity(new FragmentNews(), getResources().getString(R.string.item_news), View.INVISIBLE, FragmentNews.TAG);
             }
         });
 
         btn_item_price_table.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activityCommunicator.passDataToActivity(new FragmentPriceTable(), getResources().getString(R.string.item_price_table), View.INVISIBLE, FragmentStockChart.TAG);
+                activityCommunicator.passDataToActivity(new FragmentPriceTable(), getResources().getString(R.string.item_price_table), View.INVISIBLE, FragmentPriceTable.TAG);
             }
         });
 
         btn_item_message.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activityCommunicator.passDataToActivity(new FragmentMessage(), getResources().getString(R.string.item_messages), View.INVISIBLE, FragmentStockChart.TAG);
+                activityCommunicator.passDataToActivity(new FragmentMessage(), getResources().getString(R.string.item_messages), View.INVISIBLE, FragmentMessage.TAG);
             }
         });
 
         btn_item_favorite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activityCommunicator.passDataToActivity(new FragmentListCode(), getResources().getString(R.string.item_messages), View.INVISIBLE, FragmentStockChart.TAG);
+                activityCommunicator.passDataToActivity(new FragmentListCode(), getResources().getString(R.string.item_messages), View.INVISIBLE, FragmentListCode.TAG);
             }
         });
 
         btn_item_web.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activityCommunicator.passDataToActivity(new FragmentWeb(), getResources().getString(R.string.item_web), View.INVISIBLE, FragmentStockChart.TAG);
+                activityCommunicator.passDataToActivity(new FragmentWeb(), getResources().getString(R.string.item_web), View.INVISIBLE, FragmentWeb.TAG);
             }
         });
 
         btn_item_guide.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activityCommunicator.passDataToActivity(new FragmentGuide(), getResources().getString(R.string.item_guide), View.INVISIBLE, FragmentStockChart.TAG);
+                activityCommunicator.passDataToActivity(new FragmentGuide(), getResources().getString(R.string.item_guide), View.INVISIBLE, FragmentGuide.TAG);
             }
         });
 
         btn_item_settings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activityCommunicator.passDataToActivity(new FragmentSettings(), getResources().getString(R.string.item_settings), View.INVISIBLE, FragmentStockChart.TAG);
+                activityCommunicator.passDataToActivity(new FragmentSettings(), getResources().getString(R.string.item_settings), View.INVISIBLE, FragmentSettings.TAG);
             }
         });
 
         btn_item_contact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activityCommunicator.passDataToActivity(new FragmentContact(), getResources().getString(R.string.item_contact), View.INVISIBLE, FragmentStockChart.TAG);
+                activityCommunicator.passDataToActivity(new FragmentContact(), getResources().getString(R.string.item_contact), View.INVISIBLE, FragmentContact.TAG);
             }
         });
 
@@ -118,6 +118,6 @@ public class FragmentMain extends Fragment {
 
     public interface FragmentMainCommunicator {
         void passDataToActivity(String str, int visible);
-        void passDataToActivity(Fragment targetFragment, String str, int visiable, String tag);
+        void passDataToActivity(Fragment targetFragment, String str, int visible, String tag);
     }
 }

@@ -25,6 +25,7 @@ public class FragmentStockChart extends Fragment {
     public static final String TAG = FragmentStockChart.class.getSimpleName();
     private Context context;
     FragmentStockChartCommunicator activityCommunicator;
+    SessionManager session;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -35,69 +36,126 @@ public class FragmentStockChart extends Fragment {
         RippleView btn_x24traders = (RippleView) v.findViewById(R.id.btn_x24traders);
         RippleView btn_x24traders_plus = (RippleView) v.findViewById(R.id.btn_x24traders_plus);
         RippleView btn_x24plus = (RippleView) v.findViewById(R.id.btn_x24plus);
-        final SessionManager session = new SessionManager(context);
+        session = new SessionManager(context);
 
         btn_x24basic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (session.GetPrefGroupID() == 5) {
-                    Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
-                    activityX24Basic.putExtra("TRADE_TYPE", 1);
-                    startActivity(activityX24Basic);
-                }
-                if (session.GetPrefGroupID() == 1
+                    new AsyncTrialLicence().execute(1);
+                } else if (session.GetPrefGroupID() == 1
                         || (session.GetPrefX24BasicLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 3 || session.GetPrefGroupID() == 5 || session.GetPrefGroupID() == 6))
+                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))
                         || (session.GetPrefX24TradersLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 5 || session.GetPrefGroupID() == 6))
+                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))
                         || (session.GetPrefX24PlusLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 6 || session.GetPrefGroupID() == 5 || session.GetPrefGroupID() == 6))) {
+                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))) {
                     Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
                     activityX24Basic.putExtra("TRADE_TYPE", 1);
                     startActivity(activityX24Basic);
                 } else {
-                    Common.ShowToast(context, String.format(Constant.MSG_LICENSE, ""), Toast.LENGTH_LONG);
+                    Common.ShowToast(context, String.format(Constant.MSG_LICENSE, "X24Basic"), Toast.LENGTH_LONG);
                 }
             }
         });
 
-        btn_x24basic_plus.setOnClickListener(new View.OnClickListener() {
+        btn_x24basic_plus.setOnClickListener(new View.OnClickListener()
+
+        {
             @Override
             public void onClick(View v) {
-                Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
-                activityX24Basic.putExtra("TRADE_TYPE", 4);
-                startActivity(activityX24Basic);
+                if (session.GetPrefGroupID() == 5) {
+                    new AsyncTrialLicence().execute(4);
+                } else if (session.GetPrefGroupID() == 1
+                        || (session.GetPrefX24BasicLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))
+                        || (session.GetPrefX24TradersLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))
+                        || (session.GetPrefX24PlusLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))) {
+                    Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
+                    activityX24Basic.putExtra("TRADE_TYPE", 4);
+                    startActivity(activityX24Basic);
+                } else {
+                    Common.ShowToast(context, String.format(Constant.MSG_LICENSE, "X24Basic Plus"), Toast.LENGTH_LONG);
+                }
             }
         });
 
-        btn_x24traders.setOnClickListener(new View.OnClickListener() {
+        btn_x24traders.setOnClickListener(new View.OnClickListener()
+
+        {
             @Override
             public void onClick(View v) {
-                Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
-                activityX24Basic.putExtra("TRADE_TYPE", 2);
-                startActivity(activityX24Basic);
+                if (session.GetPrefGroupID() == 5) {
+                    new AsyncTrialLicence().execute(2);
+                } else if (session.GetPrefGroupID() == 1
+                        || (session.GetPrefX24BasicLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))
+                        || (session.GetPrefX24TradersLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))
+                        || (session.GetPrefX24PlusLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))) {
+                    Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
+                    activityX24Basic.putExtra("TRADE_TYPE", 2);
+                    startActivity(activityX24Basic);
+                } else {
+                    Common.ShowToast(context, String.format(Constant.MSG_LICENSE, "X24Traders"), Toast.LENGTH_LONG);
+                }
             }
         });
 
-        btn_x24traders_plus.setOnClickListener(new View.OnClickListener() {
+        btn_x24traders_plus.setOnClickListener(new View.OnClickListener()
+
+        {
             @Override
             public void onClick(View v) {
-                Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
-                activityX24Basic.putExtra("TRADE_TYPE", 5);
-                startActivity(activityX24Basic);
+                if (session.GetPrefGroupID() == 5) {
+                    new AsyncTrialLicence().execute(5);
+                } else if (session.GetPrefGroupID() == 1
+                        || (session.GetPrefX24BasicLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))
+                        || (session.GetPrefX24TradersLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))
+                        || (session.GetPrefX24PlusLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))) {
+                    Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
+                    activityX24Basic.putExtra("TRADE_TYPE", 5);
+                    startActivity(activityX24Basic);
+                } else {
+                    Common.ShowToast(context, String.format(Constant.MSG_LICENSE, "X24Traders Plus"), Toast.LENGTH_LONG);
+                }
             }
         });
 
-        btn_x24plus.setOnClickListener(new View.OnClickListener() {
+        btn_x24plus.setOnClickListener(new View.OnClickListener()
+
+        {
             @Override
             public void onClick(View v) {
-                Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
-                activityX24Basic.putExtra("TRADE_TYPE", 3);
-                startActivity(activityX24Basic);
+                if (session.GetPrefGroupID() == 5) {
+                    new AsyncTrialLicence().execute(3);
+                } else if (session.GetPrefGroupID() == 1
+                        || (session.GetPrefX24BasicLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))
+                        || (session.GetPrefX24TradersLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))
+                        || (session.GetPrefX24PlusLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))) {
+                    Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
+                    activityX24Basic.putExtra("TRADE_TYPE", 3);
+                    startActivity(activityX24Basic);
+                } else {
+                    Common.ShowToast(context, String.format(Constant.MSG_LICENSE, "X24Plus"), Toast.LENGTH_LONG);
+                }
             }
         });
 
-        activityCommunicator.passDataToActivity(getResources().getString(R.string.item_stock_chart), View.INVISIBLE);
+        activityCommunicator.passDataToActivity(
+
+                getResources().
+
+                        getString(R.string.item_stock_chart), View.INVISIBLE);
         return v;
     }
 
@@ -118,58 +176,28 @@ public class FragmentStockChart extends Fragment {
         @Override
         protected String doInBackground(Integer... params) {
             tradeType = params[0];
-            SessionManager session = new SessionManager(context);
             String token = session.GetPrefToken();
             return SrvCheckTrialLicence.CheckTrialLicence(token);
         }
 
         @Override
         protected void onPostExecute(String sTrialLicence) {
-            String msg = "";
-
-//            switch (tradeType) {
-//                case 1:
-//                    Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
-//                    activityX24Basic.putExtra("TRADE_TYPE", 1);
-//                    startActivity(activityX24Basic);
-//                    break;
-//                case 2:
-//                    tvTitleX24.setText(R.string.txt_X24_traders);
-//                    rvX24BasicChart.setVisibility(View.VISIBLE);
-//                    break;
-//                case 3:
-//                    tvTitleX24.setText(R.string.txt_X24_plus);
-//                    rvX24BasicChart.setVisibility(View.INVISIBLE);
-//                    break;
-//                case 4:
-//                    tvTitleX24.setText(R.string.txt_X24_basic_plus);
-//                    rvX24BasicChart.setVisibility(View.INVISIBLE);
-//                    break;
-//                case 5:
-//                    tvTitleX24.setText(R.string.txt_X24_traders_plus);
-//                    rvX24BasicChart.setVisibility(View.INVISIBLE);
-//                    break;
-//                default:
-//                    break;
-//            }
-//            Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
-//            activityX24Basic.putExtra("TRADE_TYPE", tradeType);
-//            startActivity(activityX24Basic);
-//
-//            if (sTrialLicence.equals("OK")) {
-//                Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
-//                activityX24Basic.putExtra("TRADE_TYPE", 1);
-//                startActivity(activityX24Basic);
-//            } else {
-//
-//                Common.ShowToast(context, Constant.MSG_ERROR, Toast.LENGTH_LONG);
-//            }
-
             Utils.hideLoadingDialog();
+            if (sTrialLicence.equals("OK")) {
+                Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
+                activityX24Basic.putExtra("TRADE_TYPE", tradeType);
+                startActivity(activityX24Basic);
+                return;
+            } else {
+                if (sTrialLicence.isEmpty()) {
+                    Common.ShowToast(context, Constant.MSG_ERROR, Toast.LENGTH_LONG);
+                    return;
+                }
+            }
 
             new AlertDialog.Builder(context)
                     .setTitle("Xstock.vn")
-                    .setMessage(msg)
+                    .setMessage(String.format(Constant.MSG_TRIAL, sTrialLicence.split(";")))
                     .setCancelable(false)
                     .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                         @Override

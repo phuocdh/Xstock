@@ -1,23 +1,11 @@
 [
     {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\residemenu_item.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-land\\residemenu_item.xml"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_date_picker_dialog.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4082d2754f448ea4118e0c9e7cbc8a958da55904\\output\\res\\layout-land\\mdtp_date_picker_dialog.xml"
-    },
-    {
         "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragment_news_detail_item.xml",
         "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-land\\fragment_news_detail_item.xml"
     },
     {
         "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_time_picker_dialog.xml",
         "source": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\layout-land\\mdtp_time_picker_dialog.xml"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\x24traders_sort_dialog.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-land\\x24traders_sort_dialog.xml"
     },
     {
         "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_date_picker_dialog.xml",
@@ -30,18 +18,6 @@
     {
         "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragment_news_item.xml",
         "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-land\\fragment_news_item.xml"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragment_news_detail_item.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-land\\fragment_news_detail_item.xml"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_time_picker_dialog.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4082d2754f448ea4118e0c9e7cbc8a958da55904\\output\\res\\layout-land\\mdtp_time_picker_dialog.xml"
-    },
-    {
-        "merged": "D:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragment_news_item.xml",
-        "source": "D:\\xstock\\Project\\Xstock\\app\\src\\main\\res\\layout-land\\fragment_news_item.xml"
     },
     {
         "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\residemenu_item.xml",

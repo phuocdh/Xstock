@@ -34,7 +34,7 @@
         <activity
             android:name="com.xstock.activity.ActivityLogin"
             android:configChanges="locale|orientation|keyboardHidden"
-            android:launchMode="singleTask"
+            android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MyAppTheme"
             android:windowSoftInputMode="stateHidden" >

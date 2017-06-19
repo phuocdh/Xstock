@@ -21,8 +21,11 @@ public class FCM_Messaging_Service extends FirebaseMessagingService {
 
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
+        System.out.print("FCM_Messaging_Service1");
         super.onMessageReceived(remoteMessage);
         Log.d("FCM_Messaging_Service","aaaaaaaaaaaaaa");
+        System.out.print("FCM_Messaging_Service2");
+        Log.wtf("FCM_Messaging_Service", "bbbbbbbbbbbbbbbbb");
         CreateNotification(remoteMessage.getData().get("body"));
     }
 

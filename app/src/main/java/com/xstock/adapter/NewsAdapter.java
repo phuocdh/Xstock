@@ -17,8 +17,11 @@
  */
 package com.xstock.adapter;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,8 +37,11 @@ import com.xstock.R;
 import com.xstock.activity.ActivityNewsDetail;
 import com.xstock.commons.Common;
 import com.xstock.constants.Constant;
+import com.xstock.helper.SessionManager;
 import com.xstock.models.GetNewsHeader;
 import com.xstock.realm.RealmController;
+import com.xstock.service.SrvCheckTrialLicence;
+import com.xstock.utils.Utils;
 import com.xstock.viewBadger.BadgeView;
 
 import java.util.List;
@@ -52,14 +58,18 @@ public class NewsAdapter extends BaseAdapter {
     public List<GetNewsHeader> lstGetNewsHeader;
     boolean isPublic = false;
     int isActive = 0;
+    SessionManager session;
 
     public NewsAdapter(Context context, List<GetNewsHeader> lstObject) {
         this.lstGetNewsHeader = lstObject;
         this._context = context;
         this.layoutInflater = LayoutInflater.from(_context);
+        session = new SessionManager(_context);
         Realm realm = Realm.getDefaultInstance();
         RealmController realmController = new RealmController();
         isActive = realmController.getUserDetail(realm).get(0).getIsActive();
+//        if (session.GetPrefGroupID() == 5) {
+
     }
 
     public class ViewHolder {
@@ -83,6 +93,7 @@ public class NewsAdapter extends BaseAdapter {
     public int getItemViewType(int position) {
         return position;
     }
+
     @Override
     public long getItemId(int position) {
         return position;
@@ -123,18 +134,82 @@ public class NewsAdapter extends BaseAdapter {
             @Override
             public void onClick(View v) {
                 isPublic = getNewsHeader.getPublish();
-                if (isPublic == true || isActive == 1) {
+                if (!isPublic) {
+                    if (session.GetPrefGroupID() == 5) {
+                        new AsyncTrialLicence().execute(getNewsHeader.getId());
+                    } else if (session.GetPrefGroupID() == 1 || (session.GetPrefNewsLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                            || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))) {
+                        Intent newsHeaderDetail = new Intent(_context,
+                                ActivityNewsDetail.class);
+                        Bundle bundle = new Bundle();
+                        bundle.putString(Constant.BUNDLE_NEWS_ID, getNewsHeader.getId());
+                        newsHeaderDetail.putExtras(bundle);
+                        _context.startActivity(newsHeaderDetail);
+                    } else {
+                        Common.ShowToast(_context, Constant.MSG_VIP, Toast.LENGTH_SHORT);
+                    }
+                } else {
                     Intent newsHeaderDetail = new Intent(_context,
                             ActivityNewsDetail.class);
                     Bundle bundle = new Bundle();
                     bundle.putString(Constant.BUNDLE_NEWS_ID, getNewsHeader.getId());
                     newsHeaderDetail.putExtras(bundle);
                     _context.startActivity(newsHeaderDetail);
-                } else if (isPublic == false && isActive == 0) {
-                    Common.ShowToast(_context, Constant.MSG_VIP, Toast.LENGTH_SHORT);
                 }
             }
         });
         return convertView;
+    }
+
+    private class AsyncTrialLicence extends
+            AsyncTask<String, Void, String> {
+        String id = "";
+
+        @Override
+        protected String doInBackground(String... params) {
+            id = params[0];
+            SessionManager session = new SessionManager(_context);
+            String token = session.GetPrefToken();
+            return SrvCheckTrialLicence.CheckTrialLicence(token);
+        }
+
+        @Override
+        protected void onPostExecute(String sTrialLicence) {
+            Utils.hideLoadingDialog();
+            if (sTrialLicence.equals("OK")) {
+                Intent newsHeaderDetail = new Intent(_context,
+                        ActivityNewsDetail.class);
+                Bundle bundle = new Bundle();
+                bundle.putString(Constant.BUNDLE_NEWS_ID, id);
+                newsHeaderDetail.putExtras(bundle);
+                _context.startActivity(newsHeaderDetail);
+                return;
+            } else {
+                if (sTrialLicence.isEmpty()) {
+                    Common.ShowToast(_context, Constant.MSG_ERROR, Toast.LENGTH_LONG);
+                    return;
+                }
+            }
+
+            new AlertDialog.Builder(_context)
+                    .setTitle("Xstock.vn")
+                    .setMessage(String.format(Constant.MSG_TRIAL, sTrialLicence.split(";")))
+                    .setCancelable(false)
+                    .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    }).show();
+        }
+
+        @Override
+        protected void onPreExecute() {
+            Utils.showLoadingDialog(_context);
+        }
+
+        @Override
+        protected void onProgressUpdate(Void... values) {
+        }
     }
 }

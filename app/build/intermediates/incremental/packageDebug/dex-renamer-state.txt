@@ -1,7 +1,7 @@
-#Wed Jun 14 01:51:24 ICT 2017
-base.0=D\:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_73cd9475b94ffe50fb4f2168f99ca7462602ee00
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6e0b457d3cb1505302c980cd1afe7dcdd8ee0e0e\\classes.dex
-base.1=D\:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6e0b457d3cb1505302c980cd1afe7dcdd8ee0e0e
-file.0=D\:\\xstock\\Project\\Xstock\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_73cd9475b94ffe50fb4f2168f99ca7462602ee00\\classes.dex
+#Mon Jun 19 18:02:36 ICT 2017
+base.0=E\:\\PhuocDH\\Xstock\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d56741ae8dd864b6d7ee3a2b53386479b5ef17f9
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\PhuocDH\\Xstock\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9a0efce999261c3103da6564e9d6ef5ee490fb06\\classes.dex
+base.1=E\:\\PhuocDH\\Xstock\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9a0efce999261c3103da6564e9d6ef5ee490fb06
+file.0=E\:\\PhuocDH\\Xstock\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d56741ae8dd864b6d7ee3a2b53386479b5ef17f9\\classes.dex

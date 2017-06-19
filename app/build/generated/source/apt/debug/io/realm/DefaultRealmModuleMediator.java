@@ -25,9 +25,8 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
     private static final Set<Class<? extends RealmModel>> MODEL_CLASSES;
     static {
         Set<Class<? extends RealmModel>> modelClasses = new HashSet<Class<? extends RealmModel>>();
-        modelClasses.add(com.xstock.models.GetTradeList.class);
-        modelClasses.add(com.xstock.models.GetUserProduct.class);
         modelClasses.add(com.xstock.models.UserDetail.class);
+        modelClasses.add(com.xstock.models.GetTradeList.class);
         MODEL_CLASSES = Collections.unmodifiableSet(modelClasses);
     }
 
@@ -35,12 +34,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
     public Table createTable(Class<? extends RealmModel> clazz, ImplicitTransaction transaction) {
         checkClass(clazz);
 
-        if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-            return io.realm.GetTradeListRealmProxy.initTable(transaction);
-        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-            return io.realm.GetUserProductRealmProxy.initTable(transaction);
-        } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+        if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return io.realm.UserDetailRealmProxy.initTable(transaction);
+        } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+            return io.realm.GetTradeListRealmProxy.initTable(transaction);
         } else {
             throw getMissingProxyClassException(clazz);
         }
@@ -50,12 +47,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
     public ColumnInfo validateTable(Class<? extends RealmModel> clazz, ImplicitTransaction transaction) {
         checkClass(clazz);
 
-        if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-            return io.realm.GetTradeListRealmProxy.validateTable(transaction);
-        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-            return io.realm.GetUserProductRealmProxy.validateTable(transaction);
-        } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+        if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return io.realm.UserDetailRealmProxy.validateTable(transaction);
+        } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+            return io.realm.GetTradeListRealmProxy.validateTable(transaction);
         } else {
             throw getMissingProxyClassException(clazz);
         }
@@ -65,12 +60,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
     public List<String> getFieldNames(Class<? extends RealmModel> clazz) {
         checkClass(clazz);
 
-        if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-            return io.realm.GetTradeListRealmProxy.getFieldNames();
-        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-            return io.realm.GetUserProductRealmProxy.getFieldNames();
-        } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+        if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return io.realm.UserDetailRealmProxy.getFieldNames();
+        } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+            return io.realm.GetTradeListRealmProxy.getFieldNames();
         } else {
             throw getMissingProxyClassException(clazz);
         }
@@ -80,12 +73,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
     public String getTableName(Class<? extends RealmModel> clazz) {
         checkClass(clazz);
 
-        if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-            return io.realm.GetTradeListRealmProxy.getTableName();
-        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-            return io.realm.GetUserProductRealmProxy.getTableName();
-        } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+        if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return io.realm.UserDetailRealmProxy.getTableName();
+        } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+            return io.realm.GetTradeListRealmProxy.getTableName();
         } else {
             throw getMissingProxyClassException(clazz);
         }
@@ -95,12 +86,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
     public <E extends RealmModel> E newInstance(Class<E> clazz, ColumnInfo columnInfo) {
         checkClass(clazz);
 
-        if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-            return clazz.cast(new io.realm.GetTradeListRealmProxy(columnInfo));
-        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-            return clazz.cast(new io.realm.GetUserProductRealmProxy(columnInfo));
-        } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+        if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return clazz.cast(new io.realm.UserDetailRealmProxy(columnInfo));
+        } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+            return clazz.cast(new io.realm.GetTradeListRealmProxy(columnInfo));
         } else {
             throw getMissingProxyClassException(clazz);
         }
@@ -117,12 +106,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
         // generated by RealmProxy or the original type extending directly from RealmObject
         @SuppressWarnings("unchecked") Class<E> clazz = (Class<E>) ((obj instanceof RealmObjectProxy) ? obj.getClass().getSuperclass() : obj.getClass());
 
-        if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-            return clazz.cast(io.realm.GetTradeListRealmProxy.copyOrUpdate(realm, (com.xstock.models.GetTradeList) obj, update, cache));
-        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-            return clazz.cast(io.realm.GetUserProductRealmProxy.copyOrUpdate(realm, (com.xstock.models.GetUserProduct) obj, update, cache));
-        } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+        if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return clazz.cast(io.realm.UserDetailRealmProxy.copyOrUpdate(realm, (com.xstock.models.UserDetail) obj, update, cache));
+        } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+            return clazz.cast(io.realm.GetTradeListRealmProxy.copyOrUpdate(realm, (com.xstock.models.GetTradeList) obj, update, cache));
         } else {
             throw getMissingProxyClassException(clazz);
         }
@@ -134,12 +121,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
         // generated by RealmProxy or the original type extending directly from RealmObject
         @SuppressWarnings("unchecked") Class<RealmModel> clazz = (Class<RealmModel>) ((object instanceof RealmObjectProxy) ? object.getClass().getSuperclass() : object.getClass());
 
-        if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-            io.realm.GetTradeListRealmProxy.insert(realm, (com.xstock.models.GetTradeList) object, cache);
-        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-            io.realm.GetUserProductRealmProxy.insert(realm, (com.xstock.models.GetUserProduct) object, cache);
-        } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+        if (clazz.equals(com.xstock.models.UserDetail.class)) {
             io.realm.UserDetailRealmProxy.insert(realm, (com.xstock.models.UserDetail) object, cache);
+        } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+            io.realm.GetTradeListRealmProxy.insert(realm, (com.xstock.models.GetTradeList) object, cache);
         } else {
             throw getMissingProxyClassException(clazz);
         }
@@ -157,22 +142,18 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
             // generated by RealmProxy or the original type extending directly from RealmObject
             @SuppressWarnings("unchecked") Class<RealmModel> clazz = (Class<RealmModel>) ((object instanceof RealmObjectProxy) ? object.getClass().getSuperclass() : object.getClass());
 
-            if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-                io.realm.GetTradeListRealmProxy.insert(realm, (com.xstock.models.GetTradeList) object, cache);
-            } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-                io.realm.GetUserProductRealmProxy.insert(realm, (com.xstock.models.GetUserProduct) object, cache);
-            } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+            if (clazz.equals(com.xstock.models.UserDetail.class)) {
                 io.realm.UserDetailRealmProxy.insert(realm, (com.xstock.models.UserDetail) object, cache);
+            } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+                io.realm.GetTradeListRealmProxy.insert(realm, (com.xstock.models.GetTradeList) object, cache);
             } else {
                 throw getMissingProxyClassException(clazz);
             }
             if (iterator.hasNext()) {
-                if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-                    io.realm.GetTradeListRealmProxy.insert(realm, iterator, cache);
-                } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-                    io.realm.GetUserProductRealmProxy.insert(realm, iterator, cache);
-                } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+                if (clazz.equals(com.xstock.models.UserDetail.class)) {
                     io.realm.UserDetailRealmProxy.insert(realm, iterator, cache);
+                } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+                    io.realm.GetTradeListRealmProxy.insert(realm, iterator, cache);
                 } else {
                     throw getMissingProxyClassException(clazz);
                 }
@@ -186,12 +167,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
         // generated by RealmProxy or the original type extending directly from RealmObject
         @SuppressWarnings("unchecked") Class<RealmModel> clazz = (Class<RealmModel>) ((obj instanceof RealmObjectProxy) ? obj.getClass().getSuperclass() : obj.getClass());
 
-        if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-            io.realm.GetTradeListRealmProxy.insertOrUpdate(realm, (com.xstock.models.GetTradeList) obj, cache);
-        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-            io.realm.GetUserProductRealmProxy.insertOrUpdate(realm, (com.xstock.models.GetUserProduct) obj, cache);
-        } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+        if (clazz.equals(com.xstock.models.UserDetail.class)) {
             io.realm.UserDetailRealmProxy.insertOrUpdate(realm, (com.xstock.models.UserDetail) obj, cache);
+        } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+            io.realm.GetTradeListRealmProxy.insertOrUpdate(realm, (com.xstock.models.GetTradeList) obj, cache);
         } else {
             throw getMissingProxyClassException(clazz);
         }
@@ -209,22 +188,18 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
             // generated by RealmProxy or the original type extending directly from RealmObject
             @SuppressWarnings("unchecked") Class<RealmModel> clazz = (Class<RealmModel>) ((object instanceof RealmObjectProxy) ? object.getClass().getSuperclass() : object.getClass());
 
-            if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-                io.realm.GetTradeListRealmProxy.insertOrUpdate(realm, (com.xstock.models.GetTradeList) object, cache);
-            } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-                io.realm.GetUserProductRealmProxy.insertOrUpdate(realm, (com.xstock.models.GetUserProduct) object, cache);
-            } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+            if (clazz.equals(com.xstock.models.UserDetail.class)) {
                 io.realm.UserDetailRealmProxy.insertOrUpdate(realm, (com.xstock.models.UserDetail) object, cache);
+            } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+                io.realm.GetTradeListRealmProxy.insertOrUpdate(realm, (com.xstock.models.GetTradeList) object, cache);
             } else {
                 throw getMissingProxyClassException(clazz);
             }
             if (iterator.hasNext()) {
-                if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-                    io.realm.GetTradeListRealmProxy.insertOrUpdate(realm, iterator, cache);
-                } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-                    io.realm.GetUserProductRealmProxy.insertOrUpdate(realm, iterator, cache);
-                } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+                if (clazz.equals(com.xstock.models.UserDetail.class)) {
                     io.realm.UserDetailRealmProxy.insertOrUpdate(realm, iterator, cache);
+                } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+                    io.realm.GetTradeListRealmProxy.insertOrUpdate(realm, iterator, cache);
                 } else {
                     throw getMissingProxyClassException(clazz);
                 }
@@ -237,12 +212,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
         throws JSONException {
         checkClass(clazz);
 
-        if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-            return clazz.cast(io.realm.GetTradeListRealmProxy.createOrUpdateUsingJsonObject(realm, json, update));
-        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-            return clazz.cast(io.realm.GetUserProductRealmProxy.createOrUpdateUsingJsonObject(realm, json, update));
-        } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+        if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return clazz.cast(io.realm.UserDetailRealmProxy.createOrUpdateUsingJsonObject(realm, json, update));
+        } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+            return clazz.cast(io.realm.GetTradeListRealmProxy.createOrUpdateUsingJsonObject(realm, json, update));
         } else {
             throw getMissingProxyClassException(clazz);
         }
@@ -253,12 +226,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
         throws IOException {
         checkClass(clazz);
 
-        if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-            return clazz.cast(io.realm.GetTradeListRealmProxy.createUsingJsonStream(realm, reader));
-        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-            return clazz.cast(io.realm.GetUserProductRealmProxy.createUsingJsonStream(realm, reader));
-        } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+        if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return clazz.cast(io.realm.UserDetailRealmProxy.createUsingJsonStream(realm, reader));
+        } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+            return clazz.cast(io.realm.GetTradeListRealmProxy.createUsingJsonStream(realm, reader));
         } else {
             throw getMissingProxyClassException(clazz);
         }
@@ -270,12 +241,10 @@ class DefaultRealmModuleMediator extends RealmProxyMediator {
         // generated by RealmProxy or the original type extending directly from RealmObject
         @SuppressWarnings("unchecked") Class<E> clazz = (Class<E>) realmObject.getClass().getSuperclass();
 
-        if (clazz.equals(com.xstock.models.GetTradeList.class)) {
-            return clazz.cast(io.realm.GetTradeListRealmProxy.createDetachedCopy((com.xstock.models.GetTradeList) realmObject, 0, maxDepth, cache));
-        } else if (clazz.equals(com.xstock.models.GetUserProduct.class)) {
-            return clazz.cast(io.realm.GetUserProductRealmProxy.createDetachedCopy((com.xstock.models.GetUserProduct) realmObject, 0, maxDepth, cache));
-        } else if (clazz.equals(com.xstock.models.UserDetail.class)) {
+        if (clazz.equals(com.xstock.models.UserDetail.class)) {
             return clazz.cast(io.realm.UserDetailRealmProxy.createDetachedCopy((com.xstock.models.UserDetail) realmObject, 0, maxDepth, cache));
+        } else if (clazz.equals(com.xstock.models.GetTradeList.class)) {
+            return clazz.cast(io.realm.GetTradeListRealmProxy.createDetachedCopy((com.xstock.models.GetTradeList) realmObject, 0, maxDepth, cache));
         } else {
             throw getMissingProxyClassException(clazz);
         }

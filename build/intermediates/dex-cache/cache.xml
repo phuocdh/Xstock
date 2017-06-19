@@ -3,287 +3,111 @@
 
     <item
         is-multidex="true"
-        jar="D:\Android\AndroidStudio\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_aee136567933b5f6a9bba7f6dd0b68333b66be6d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\guava\guava\18.0\guava-18.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="cce0823396aa693798f8882e64213b1772032b09">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\guava-18.0_23ae9d619c9ad952ac11ce7bff78df802e3e98c2\classes.dex" />
-    </item>
-    <item
-        jar="D:\xstock\Project\Xstock\app\libs\java-json.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="edad9c5de6fb8df07c535a47045956026011ffa3">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\java-json_875e39ff2fc256f2b900420161a55ba35f7dc2b9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\libs\json-lib-2.4-jdk15.jar"
+        jar="C:\Users\neolab\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="136743e0d12df4e785e62b48618cee169b2ae546">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\json-lib-2.4-jdk15_e2774153c0c5cacb3107d7145dde14e044d91dea\classes.dex" />
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_83e4c2085a579bca255bb733a5006d9aabe9e6e7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_dd460f45d27a359687729c3c169358b1eda3100b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\6d51ca6268185744b185440dec3f49d0a4fab9aa\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="11262f887015dc774ff36eb66698308df0a376d1">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0fccb2d72f299439b6c466a3498183f0f17df4dd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\a0242e13f9d0da7122f610ed84a9aba0195c31a1\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4efe39d3e4a0876a227abdbb12d0413320d600a0">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eeca2ca43e54f1113a910d528364927335c50c1a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.realm\realm-annotations\1.1.0\4459414c171c7b60cdc2f089ffa72d19d773835e\realm-annotations-1.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="4459414c171c7b60cdc2f089ffa72d19d773835e">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\realm-annotations-1.1.0_58d615215d95994c4db48c66166a7e1b429530f1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\7c27d6c5a11710f0282d077239ba30b98562f675\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="264f0bc4c0680cfe7a60fea1f12a43f1ab48e7c8">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_804ec8b3e3205adad1b9c86c8adde9b3d6ba9015\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\821601b05fa438f513b1ea7bfe136c2bb71207a5\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b7173b3df4c7029699919414400041f64519e34">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_faef0c95ac7ef681b4cc91513099fd5909af0019\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\libs\ksoap2-android-assembly-2.5.5-jar-with-dependencies.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bba626f0c650e1077750168dc6c786952af42c2c">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-2.5.5-jar-with-dependencies_a84bd5fb00926213adc7d07cf55fae347c3a1ec9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\77e77a0f5f8df63ca8d4eef8ae3404b81635ae78\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_356f2583f3a6e51575f21acd1a511245d0dd4256\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\a01b40c0737b0ceb08f1574e0b609fe83783c026\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_204c0682c99229854de238b461dc92b19ffee651\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\libs\gradle-wrapper.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="24262cc91673acafd6c0b64458bad67dc0b7e4a1">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\gradle-wrapper_a439ecb7adf37f69b3446273b393358b36cb8eb7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\163a8bf0a50b2e41791f4b32fa9862ed94f6357d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ad1bc9adcac124234c88dc9fd89e08f6ec1d32da\classes.dex" />
-    </item>
-    <item
-        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\libs\java-json.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="edad9c5de6fb8df07c535a47045956026011ffa3">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\java-json_875e39ff2fc256f2b900420161a55ba35f7dc2b9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\acbf45fa28f854aa155ccad8b687aeeb27c3b75b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8ec8378e8d7aa3104f60823e6350f2728d3609ba">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0083482350654f54b1c4f949d4cabe2e9f8f22ff\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\ec84d4df0a53cf2b27c2db91e3aba29b0abc361f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e84b30031d4bab89a2b5c45af4eb9213828524dd">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_02cd47dda185b4186ea64fa950c00150adedad2c\classes.dex" />
-    </item>
-    <item
-        jar="D:\xstock\Project\Xstock\app\libs\ksoap2-android-assembly-2.5.5-jar-with-dependencies.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="bba626f0c650e1077750168dc6c786952af42c2c">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-2.5.5-jar-with-dependencies_a84bd5fb00926213adc7d07cf55fae347c3a1ec9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\4082d2754f448ea4118e0c9e7cbc8a958da55904\output\jars\classes.jar"
+        jar="C:\Users\neolab\.android\build-cache\897059ff6070e33a4aa187fa68647a71e1a87135\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="80522ba6e4a2f02e84137da63f7add6cbd954af5">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c3dde816732dd8e58503924eb4ee5827868ae05\classes.dex" />
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5a9eed4b6f92e1558470273083dff6548f21e86a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\95a178456083188331c617b8d44137cd6c3fa758\output\jars\classes.jar"
+        jar="C:\Users\neolab\.gradle\caches\modules-2\files-2.1\io.realm\realm-annotations\1.1.0\4459414c171c7b60cdc2f089ffa72d19d773835e\realm-annotations-1.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bd8a576b503c10389924f56c8699461276861d9a\classes.dex" />
+        sha1="4459414c171c7b60cdc2f089ffa72d19d773835e">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\realm-annotations-1.1.0_617bb9786e68f644d3438306e5696cb57cc8c6d4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_2428dbd5eabf65ae69bc01abd6e4b72d08e545aa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\f572bfece107a5b51aa553b511183c792858d026\output\jars\classes.jar"
+        jar="C:\Users\neolab\.android\build-cache\36263b3424208a17648b650ef5f80d50cf484ac3\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_60ecab7e251905d066a257222b63e49143efbc27\classes.dex" />
+        sha1="4efe39d3e4a0876a227abdbb12d0413320d600a0">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6a3eb461dc7f2a0062bdea32b6003a8a08511d3d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\908ffbaa3dee0cd245f31fae51f7721b50f0018b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2d33dacd6b4b9c5ed44d3ddb968bf525edad96db\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\7d8727e3e51a6cab824e459c35fe78e82c4edbfe\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8176c9e5b07f40760355ae0b1e3038d7e27e7f86\classes.dex" />
-    </item>
-    <item
-        jar="D:\xstock\Project\Xstock\app\libs\json-lib-2.4-jdk15.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="136743e0d12df4e785e62b48618cee169b2ae546">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\json-lib-2.4-jdk15_e2774153c0c5cacb3107d7145dde14e044d91dea\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_dd460f45d27a359687729c3c169358b1eda3100b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\b5d94a6a8b3707de3344b01d30a7a696130d757a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2bd6a36d5072f203e7b9572a135c7f2ad1903aaa">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fbd6e242876ad4a9661a0edcaa2703b685420277\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Android\AndroidStudio\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_aee136567933b5f6a9bba7f6dd0b68333b66be6d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\0daed065436089d3b1f0cf1bfb94e32d6619d4cc\output\jars\classes.jar"
+        jar="C:\Users\neolab\.android\build-cache\021aeda294bc6884510abc52ab37e5bf18a6fe9a\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8aa819c9076a08d5103c0d9644f0fb7dc80a4b90\classes.dex" />
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4a13cd64b8c75a274907ffd85c13265a4e19fad2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\93a65425b7ce424fe0c61390c4c28b04fb304830\output\jars\classes.jar"
+        jar="C:\Users\neolab\.android\build-cache\53484ed45b3a8f659d0828998bc7c3d9e1577f62\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="db73bb0b63ec60c9467b564baaf7c1e5d469c9f2">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_37743cf45f0ba44b64010665132774d636013b53\classes.dex" />
+        sha1="15951c8b278068117d24f899708be59cb82cf73f">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6acc510a360636cef78cfcff240bba25395cccd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\e359f6bf9c361c95a8ab0c76d9b1b78571f54a0e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c2161489e49bcb64d2873e5739ddffbd8417ba72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\3c19cb2bbbf495a0f3b88532e9f82fe0fd1fc9e4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5035aaf60d244038bb143ffad4fbb7cba92ecdc7">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aece561965ba0bf6c68b0147f7f52fc9958d6cbf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\f79096ee704f2d1c09cc36c99942bd3f927fb85e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3985d5bf7a47cea8487f5c2c56ee6034b88e6fc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\e166c589a9bc28911bc9e5443e8f61360bd31056\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="11262f887015dc774ff36eb66698308df0a376d1">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a08820cef6ae4015d94bad8bd5300302f6caa383\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PhuocDH\Xstock\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a854a0676c6c7c2cd2330ee5c44cb064e232b8e9">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d56741ae8dd864b6d7ee3a2b53386479b5ef17f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_f80dc9c913922b855ea7f5ed02e1706a67f2e621\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -292,7 +116,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="cce0823396aa693798f8882e64213b1772032b09">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\guava-18.0_23ae9d619c9ad952ac11ce7bff78df802e3e98c2\classes.dex" />
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\guava-18.0_23ae9d619c9ad952ac11ce7bff78df802e3e98c2\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -301,204 +125,250 @@
         optimize="true"
         revision="25.0.0"
         sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e\classes.dex" />
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\libs\json-lib-2.4-jdk15.jar"
+        jar="E:\PhuocDH\Xstock\app\libs\gradle-wrapper.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.2"
+        revision="25.0.0"
+        sha1="24262cc91673acafd6c0b64458bad67dc0b7e4a1">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\gradle-wrapper_191e12a865bb193756f0f5d7a322adcced7b31f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PhuocDH\Xstock\app\libs\json-lib-2.4-jdk15.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="136743e0d12df4e785e62b48618cee169b2ae546">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\json-lib-2.4-jdk15_e2774153c0c5cacb3107d7145dde14e044d91dea\classes.dex" />
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\json-lib-2.4-jdk15_851957ab207de85e794bd38d4e9938f5e8862719\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\c908ace46a32389b1c185723e566fd04493f843d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_44e34da4c7f872960621700587c51dae0761a44a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\7a6f4ce2a65fc41b79dbaa555ea79b61f3eb023c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0c955bb7739842f6a2d210aca760a05f43d99efe\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\11dde06732834669b37528b893ffc9639bd4efd7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4383af396be1eb601cec8cc8403ac6ccb77fcdc7">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_876ce41bd0cab0661bbe8975d76950f45ac137d9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\ecedcbc609168ac00651ef44789ab4644c1a7a10\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1dc118275774728c5b80b8da0857bd468d22f5c1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.realm\realm-annotations\1.1.0\4459414c171c7b60cdc2f089ffa72d19d773835e\realm-annotations-1.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4459414c171c7b60cdc2f089ffa72d19d773835e">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\realm-annotations-1.1.0_58d615215d95994c4db48c66166a7e1b429530f1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\libs\gradle-wrapper.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="24262cc91673acafd6c0b64458bad67dc0b7e4a1">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\gradle-wrapper_a439ecb7adf37f69b3446273b393358b36cb8eb7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\libs\ksoap2-android-assembly-2.5.5-jar-with-dependencies.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="bba626f0c650e1077750168dc6c786952af42c2c">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-2.5.5-jar-with-dependencies_a84bd5fb00926213adc7d07cf55fae347c3a1ec9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\86aad34d26eee6588ba0f7ad4eabcc88ecbc001f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_43746e3cf3a60bdc81c17971e81d43162ef8667e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\db30d0ce3a87c6be5d722187584018cfc181d51a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_85951b8083fed9ff0a9d171b311dc70ae0a9fd02\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\2708cd533f857a4a21bce65c46b7de853f12ae99\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5035aaf60d244038bb143ffad4fbb7cba92ecdc7">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f1ef026b4ab33458b52b5b560f349c8661892935\classes.dex" />
-    </item>
-    <item
-        jar="D:\xstock\Project\Xstock\app\libs\gradle-wrapper.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="24262cc91673acafd6c0b64458bad67dc0b7e4a1">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\gradle-wrapper_a439ecb7adf37f69b3446273b393358b36cb8eb7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\c6ee2c4a9a25f84140a2add8b952848388b0c4f6\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e97340324727737f5dacfafb9119e5e2b6518c26\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\694081000f022132e6d513ed8bddca7ca9f60b75\output\jars\classes.jar"
+        jar="C:\Users\neolab\.android\build-cache\6b650a235fccdd52e0d03613b809ad752ec5b4c7\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="b4554fba12122e71634d3506b0b94cdc976f3ec3">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1138516c69a1e9c12aaa5b21dd92c844a06513f6\classes.dex" />
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dc7e4446644f2b8f04af0bcbe3dc7af2ddeec721\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\d43677c867af1aa7338a50ace4a5ab7c42e4c24d\output\jars\classes.jar"
+        jar="C:\Users\neolab\.android\build-cache\bfbbc9e4c735153775ac68c86755a55c77c29081\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="15951c8b278068117d24f899708be59cb82cf73f">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_22f8a830cda57001cfb5af2ed16f75806482bab9\classes.dex" />
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5b9115385461c8511190f51ede6532b36723866f\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\neolab\.android\build-cache\0fc08198bbf6e4105363cd787e5b62a2fd2d6662\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6e0b457d3cb1505302c980cd1afe7dcdd8ee0e0e\classes.dex" />
+        sha1="e84b30031d4bab89a2b5c45af4eb9213828524dd">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ec56ee2c60c4f93d1015a6fc8ffae6c62d5eb186\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\neolab\.android\build-cache\426c7269085254f9fb75345118c5a2e40ecb7bc8\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="dd50ee825241d200a81372e5cd18ca6496e2667d">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_73cd9475b94ffe50fb4f2168f99ca7462602ee00\classes.dex" />
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b793b13b6effd557ce4d60ba7abd825c82503ee2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jar="C:\Users\neolab\.android\build-cache\cca842026148e7236e494c17756b27b4bc3929a7\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_2428dbd5eabf65ae69bc01abd6e4b72d08e545aa\classes.dex" />
+        sha1="4383af396be1eb601cec8cc8403ac6ccb77fcdc7">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f4d58c2e6dabbcb2ac658b01554590bc0ec2cf3f\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\xstock\Project\Xstock\app\libs\java-json.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="edad9c5de6fb8df07c535a47045956026011ffa3">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\java-json_875e39ff2fc256f2b900420161a55ba35f7dc2b9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\ecedcbc609168ac00651ef44789ab4644c1a7a10\output\jars\libs\internal_impl-23.4.0.jar"
+        jar="C:\Users\neolab\.android\build-cache\bd84c5a7f1165354efa6215b3ff1d320a0ed1b8d\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_fd92a4f27d425769f7873e1b1872b799327af1b4\classes.dex" />
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_07a670c8d43f357fb94277f230ecbda79c7c91b6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\802576c4e310583463099d2388afc4c5bce632c7\output\jars\classes.jar"
+        jar="C:\Users\neolab\.android\build-cache\27840bf72c0887d5d6db389932d1a397c245ed53\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f3904ca117bcca0cf24a5a2297e48f8b8a1d9395\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\a24967d5407bf971c2dfd434e33095f6b5fe21e4\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="8237b7ac8e3ac88b6c8e1d93404f83868328b772">
-        <dex dex="D:\xstock\Project\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_949917bfb5366e367fc1d8f7a976dda4d5937581\classes.dex" />
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2b8b34237a00b7f2e23a77663b5b974afba31ff3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PhuocDH\Xstock\app\libs\ksoap2-android-assembly-2.5.5-jar-with-dependencies.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bba626f0c650e1077750168dc6c786952af42c2c">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-2.5.5-jar-with-dependencies_72d2fb65922fb236348927e9fd5277b05131b275\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PhuocDH\Xstock\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9a0efce999261c3103da6564e9d6ef5ee490fb06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\b9dc34213f3ac6fc837180725a4cf26091dcc297\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_559d82c96f7f93a7ca5713c0e2c0f315350006c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\e0a99c2d9961336e3db438c94e21ddeb2093a550\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2bd6a36d5072f203e7b9572a135c7f2ad1903aaa">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fee54ec040990e80c521e92b9a0b16e4753a3aca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\4f66a124eba1198d896bf4d4d510f19aa7768201\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="264f0bc4c0680cfe7a60fea1f12a43f1ab48e7c8">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2f64cea333c459ab961eea9199939c15b62e9bb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\d7e2133dc8bd472aecdd9b5495fa678a91c2b46f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6feae423c21e76ad70ffdd763697245c9fa0ce1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\44032305d9c50f4d37e5721d37d89ad6fd290aa7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2bacc53cea56cd72e5f8ff5fd4e6c646723cc521\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c331e63c5b0758df8ba568798560f58421b5c268\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\8b05790dea0e070f877c4af5cdd498632a49adaf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ec8378e8d7aa3104f60823e6350f2728d3609ba">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5d1ccb709dd1382168941cc02982faafe4ec51e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\946ef0244b0fcf4b95253f29eac629b4a7fe023c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_69c617b1271a170bab97a4b56ba98088734ddfc1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\bfbbc9e4c735153775ac68c86755a55c77c29081\output\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_898866a31222a5c797ce5bab0f91b891a3f416a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\089c48efc37c085a833f695efa26603cde6f1093\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db73bb0b63ec60c9467b564baaf7c1e5d469c9f2">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f953e83e5c78dfad9eb5efb0bb618348fe78a18c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PhuocDH\Xstock\app\libs\java-json.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="edad9c5de6fb8df07c535a47045956026011ffa3">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\2\java-json_5afb7fe2f8f9d28073c356d0b3b84b1f97db7c35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\1c7b49a52722a9a4639e16205b4941a28287e0e5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b3c98303a142c2f84bf8832f647c1f688bc54f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\f34ad0a68917aca73cb60453eac34d1d40120174\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_346eaa989b3207a2d8366b78a287a86f809d4997\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\e2a97887a239179a61e578762f5f19b6db68fc51\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a0c7c026f1e64334910f09a83537cd4dd02c700e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_15f5d4517e18bbc6da94a0bfcc367f75b3f88aca\classes.dex" />
     </item>
 
 </items>

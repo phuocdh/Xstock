@@ -37,4 +37,8 @@ public class Constant {
 
     public static final String MSG_LICENSE = "Sản phẩm %s chưa được đăng ký mua hoặc gia hạn !";
     public static final String MSG_ERROR = "Có lỗi trong quá trình xử lý !";
+    public static final String MSG_TRIAL = "Thời gian dùng thử từ %sh%s ~ %sh%s trong khoảng từ ngày %s đến ngày %s hằng tháng." +
+            "\nĐể không bị giới hạn thời gian sử dụng Anh/Chị vui lòng mua sản phẩm để sử dụng với đầy đủ tính năng." +
+            "\nHiện tại, đang ngoài khung thời gian dùng thử, để tiếp tục dùng thử Anh/Chị vui lòng chờ đến tháng sau với thời gian như trên." +
+            "\nHoặc để không bị giới hạn thời gian sử dụng Anh/Chị vui lòng mua sản phẩm để sử dụng với đầy đủ tính năng.";
 }

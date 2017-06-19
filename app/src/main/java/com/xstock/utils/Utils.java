@@ -24,6 +24,7 @@ public class Utils {
             }
             dialog = null;
         }
+
         dialog = new Dialog(context, android.R.style.Theme_Translucent);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         //here we set layout of progress dialog

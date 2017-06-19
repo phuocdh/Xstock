@@ -1,6 +1,10 @@
 package com.xstock.activity;
 
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -12,11 +16,17 @@ import android.view.WindowManager;
 import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.xstock.R;
+import com.xstock.commons.Common;
+import com.xstock.constants.Constant;
+import com.xstock.helper.SessionManager;
 import com.xstock.realm.RealmController;
 import com.xstock.residemenu.ResideMenu;
 import com.xstock.residemenu.ResideMenuItem;
+import com.xstock.service.SrvCheckTrialLicence;
+import com.xstock.utils.Utils;
 
 import io.realm.Realm;
 
@@ -44,17 +54,22 @@ public class ActivityMain extends FragmentActivity implements View.OnClickListen
     private ResideMenuItem itemLogOut;
     private TextView txtTitleBar;
     private Button btTrades;
+    private Context context;
+    private SessionManager session;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        this.context = this;
+        session = new SessionManager(context);
         getActionBar().hide();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         txtTitleBar = (TextView) findViewById(R.id.txtTitleBar);
         btTrades = (Button) findViewById(R.id.btTrades);
         btTrades.setVisibility(View.INVISIBLE);
+
         setUpMenu();
         if (savedInstanceState == null) {
             changeFragment(new FragmentMain(), getResources().getString(R.string.app_name), View.INVISIBLE, FragmentMain.TAG);
@@ -76,7 +91,7 @@ public class ActivityMain extends FragmentActivity implements View.OnClickListen
         RealmController realmController = new RealmController();
         String name = realmController.getUserDetail(realm).get(0).getEmail();
 
-        resideMenu = new ResideMenu(this, name);
+        resideMenu = new ResideMenu(context, name);
         resideMenu.setUse3D(true);
 //        resideMenu.setBackground(R.drawable.menu_background);
         resideMenu.setBackground(R.color.blue);
@@ -183,17 +198,37 @@ public class ActivityMain extends FragmentActivity implements View.OnClickListen
     };
 
     private void changeFragment(Fragment targetFragment, String text, int visible, String tag) {
-        if (!tag.equals(FragmentMain.TAG)) {
-            clearFragmentByTag(tag);
+        if (tag.equals(FragmentIndexInfo.TAG)) {
+            if (session.GetPrefGroupID() == 5) {
+                new AsyncTrialLicence().execute(targetFragment, text, visible, tag);
+            } else if (session.GetPrefGroupID() == 1
+                    || (session.GetPrefX24BasicLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                    || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))) {
+                clearFragmentByTag(tag);
+                txtTitleBar.setText(text);
+                btTrades.setVisibility(visible);
+                resideMenu.clearIgnoredViewList();
+                FragmentManager fragmentManager = getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.main_fragment, targetFragment, tag);
+                fragmentTransaction.addToBackStack(tag);
+                fragmentTransaction.commitAllowingStateLoss();
+            } else {
+                Common.ShowToast(context, String.format(Constant.MSG_LICENSE, "này"), Toast.LENGTH_LONG);
+            }
+        } else {
+            if (!tag.equals(FragmentMain.TAG)) {
+                clearFragmentByTag(tag);
+            }
+            txtTitleBar.setText(text);
+            btTrades.setVisibility(visible);
+            resideMenu.clearIgnoredViewList();
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.main_fragment, targetFragment, tag);
+            fragmentTransaction.addToBackStack(tag);
+            fragmentTransaction.commitAllowingStateLoss();
         }
-        txtTitleBar.setText(text);
-        btTrades.setVisibility(visible);
-        resideMenu.clearIgnoredViewList();
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.main_fragment, targetFragment, tag);
-        fragmentTransaction.addToBackStack(tag);
-        fragmentTransaction.commitAllowingStateLoss();
     }
 
     private Fragment getCurrentFragment() {
@@ -257,5 +292,65 @@ public class ActivityMain extends FragmentActivity implements View.OnClickListen
     @Override
     public void passDataToActivity(Fragment targetFragment, String str, int visible, String tag) {
         changeFragment(targetFragment, str, visible, tag);
+    }
+
+    private class AsyncTrialLicence extends
+            AsyncTask<Object, Void, String> {
+        String text;
+        Fragment targetFragment;
+        int visible;
+        String tag;
+
+        @Override
+        protected String doInBackground(Object... params) {
+            targetFragment = (Fragment) params[0];
+            text = (String) params[1];
+            visible = (int) params[2];
+            tag = (String) params[3];
+            String token = session.GetPrefToken();
+            return SrvCheckTrialLicence.CheckTrialLicence(token);
+        }
+
+        @Override
+        protected void onPostExecute(String sTrialLicence) {
+            Utils.hideLoadingDialog();
+            if (sTrialLicence.equals("OK")) {
+                clearFragmentByTag(tag);
+                txtTitleBar.setText(text);
+                btTrades.setVisibility(visible);
+                resideMenu.clearIgnoredViewList();
+                FragmentManager fragmentManager = getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.main_fragment, targetFragment, tag);
+                fragmentTransaction.addToBackStack(tag);
+                fragmentTransaction.commitAllowingStateLoss();
+                return;
+            } else {
+                if (sTrialLicence.isEmpty()) {
+                    Common.ShowToast(context, Constant.MSG_ERROR, Toast.LENGTH_LONG);
+                    return;
+                }
+            }
+
+            new AlertDialog.Builder(context)
+                    .setTitle("Xstock.vn")
+                    .setMessage(String.format(Constant.MSG_TRIAL, sTrialLicence.split(";")))
+                    .setCancelable(false)
+                    .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    }).show();
+        }
+
+        @Override
+        protected void onPreExecute() {
+            Utils.showLoadingDialog(context);
+        }
+
+        @Override
+        protected void onProgressUpdate(Void... values) {
+        }
     }
 }

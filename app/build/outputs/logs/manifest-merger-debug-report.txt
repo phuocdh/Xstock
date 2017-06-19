@@ -74,7 +74,7 @@ ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:19:9-30:20
 	android:screenOrientation
 		ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:23:13-49
 	android:launchMode
-		ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:22:13-44
+		ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:22:13-43
 	android:windowSoftInputMode
 		ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:25:13-54
 	android:configChanges
@@ -160,7 +160,7 @@ ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:60:9-62:55
 service#com.xstock.fcm.FCM_Messaging_Service
 ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:64:9-68:19
 	android:name
-		ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:64:18-69
+		ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:64:18-59
 intent-filter#com.google.firebase.MESSAGING_EVENT
 ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:65:13-67:29
 action#com.google.firebase.MESSAGING_EVENT
@@ -170,7 +170,7 @@ ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:66:17-78
 service#com.xstock.fcm.FCM_Instance_ID_Service
 ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:70:9-74:19
 	android:name
-		ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:70:18-71
+		ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:70:18-61
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
 ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:71:13-73:29
 action#com.google.firebase.INSTANCE_ID_EVENT
@@ -179,7 +179,6 @@ ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:72:17-80
 		ADDED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml:72:25-77
 uses-sdk
 INJECTED from E:\PhuocDH\Xstock\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\neolab\.android\build-cache\6c2a2a5ed51b2a3e2e52f92123ff023fec6e60a7\output\AndroidManifest.xml:18:5-42
 MERGED from [io.realm:realm-android-library:1.1.0] C:\Users\neolab\.android\build-cache\089c48efc37c085a833f695efa26603cde6f1093\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.getkeepsafe.relinker:relinker:1.2.1] C:\Users\neolab\.android\build-cache\4f66a124eba1198d896bf4d4d510f19aa7768201\output\AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:design:23.4.0] C:\Users\neolab\.android\build-cache\44032305d9c50f4d37e5721d37d89ad6fd290aa7\output\AndroidManifest.xml:20:5-43
