@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-land-v4\\fragment_stock_chart.xml",
+        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-large-land\\fragment_stock_chart.xml"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-land-v4\\fragment_index_info_item.xml",
+        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-large-land\\fragment_index_info_item.xml"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-land-v4\\fragment_index_info.xml",
+        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-large-land\\fragment_index_info.xml"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-land-v4\\residemenu_item.xml",
+        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-large-land\\residemenu_item.xml"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\release\\layout-large-land-v4\\fragment_setting.xml",
+        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-large-land\\fragment_setting.xml"
+    }
+]

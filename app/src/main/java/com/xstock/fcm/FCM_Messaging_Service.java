@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
-import android.util.Log;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
@@ -21,12 +20,8 @@ public class FCM_Messaging_Service extends FirebaseMessagingService {
 
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
-        System.out.print("FCM_Messaging_Service1");
         super.onMessageReceived(remoteMessage);
-        Log.d("FCM_Messaging_Service","aaaaaaaaaaaaaa");
-        System.out.print("FCM_Messaging_Service2");
-        Log.wtf("FCM_Messaging_Service", "bbbbbbbbbbbbbbbbb");
-        CreateNotification(remoteMessage.getData().get("body"));
+        CreateNotification(remoteMessage.getData().get("message"));
     }
 
     private void CreateNotification(String contentText) {

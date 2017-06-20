@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="3dp"
+        android:text="@string/dialog_x24Traders_sort_title"
+        android:textColor="@color/border"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/border"
+        android:orientation="vertical">
+
+        <com.xstock.rippleview.RippleView
+            android:id="@+id/rvX24SortDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/dialog_x24Traders_date"
+            android:textColor="#8DAFDA"
+            android:textSize="20sp"
+            app:alphaFactor="0.7"
+            app:hover="true"
+            app:mrippleColor="@color/pressed" />
+
+        <com.xstock.rippleview.RippleView
+            android:id="@+id/rvX24SortOpen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/dialog_x24Traders_open"
+            android:textColor="#8DAFDA"
+            android:textSize="20sp"
+            app:alphaFactor="0.7"
+            app:hover="true"
+            app:mrippleColor="@color/pressed" />
+
+        <com.xstock.rippleview.RippleView
+            android:id="@+id/rvX24SortClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/dialog_x24Traders_close"
+            android:textColor="#8DAFDA"
+            android:textSize="20sp"
+            app:alphaFactor="0.7"
+            app:hover="true"
+            app:mrippleColor="@color/pressed" />
+
+        <com.xstock.rippleview.RippleView
+            android:id="@+id/rvX24SortHigh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/dialog_x24Traders_high"
+            android:textColor="#8DAFDA"
+            android:textSize="20sp"
+            app:alphaFactor="0.7"
+            app:hover="true"
+            app:mrippleColor="@color/pressed" />
+
+        <com.xstock.rippleview.RippleView
+            android:id="@+id/rvX24SortLow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/dialog_x24Traders_low"
+            android:textColor="#8DAFDA"
+            android:textSize="20sp"
+            app:alphaFactor="0.7"
+            app:hover="true"
+            app:mrippleColor="@color/pressed" />
+
+        <com.xstock.rippleview.RippleView
+            android:id="@+id/rvX24SortBuy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/dialog_x24Traders_buy"
+            android:textColor="#8DAFDA"
+            android:textSize="20sp"
+            app:alphaFactor="0.7"
+            app:hover="true"
+            app:mrippleColor="@color/pressed" />
+
+        <com.xstock.rippleview.RippleView
+            android:id="@+id/rvX24SortSell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="@string/dialog_x24Traders_sell"
+            android:textColor="#8DAFDA"
+            android:textSize="20sp"
+            app:alphaFactor="0.7"
+            app:hover="true"
+            app:mrippleColor="@color/pressed" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border" />
+
+    <com.xstock.rippleview.RippleView
+        android:id="@+id/dialog_x24Traders_sort_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="@string/dialog_x24Traders_sort_button"
+        android:textColor="#8DAFDA"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border" />
+</LinearLayout>

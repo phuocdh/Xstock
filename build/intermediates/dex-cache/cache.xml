@@ -3,12 +3,39 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\69d0bda6fb1dadb1e51761acce714ca48ec2f0a4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_05b9acee1b629077fd6e929b58c33c7dfa1a6ac5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\d12d89a661961da3db32f7288c31a788e94b591d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4acacbab67243d9eb026ea759aefd401d070f3e">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d5a0f82ef9bcb2085d1e42f8955864d467db5d91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\neolab\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
         <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_83e4c2085a579bca255bb733a5006d9aabe9e6e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\66c0920bc68a7dddb7a96d0eb3f49f6d8f784a7e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5bd38c72db0a3b4140d38b7fb527e78e46126d79">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_68fd53be3d2653c7f71427db686663be1dd631ea\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,15 +84,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\neolab\.android\build-cache\e359f6bf9c361c95a8ab0c76d9b1b78571f54a0e\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c2161489e49bcb64d2873e5739ddffbd8417ba72\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\neolab\.android\build-cache\3c19cb2bbbf495a0f3b88532e9f82fe0fd1fc9e4\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -75,12 +93,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\neolab\.android\build-cache\f79096ee704f2d1c09cc36c99942bd3f927fb85e\output\jars\classes.jar"
+        jar="C:\Users\neolab\.android\build-cache\519c02f7ddc8189797c5c47c339848725f8d0611\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3985d5bf7a47cea8487f5c2c56ee6034b88e6fc6\classes.dex" />
+        sha1="32054268e6c9fdff0c9c5deafafd0bd105120fb6">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_df9f617289402cc5992e0bc1b284d1702690d1ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\90e5a28c92a6a22d71b853b408567334e755e463\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b2952443a10a54ea7cf02314cb12abaecb887ae0\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,11 +120,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_9418cceff87ffd501c6cb12bbd4a38840fdb8030\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\PhuocDH\Xstock\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="a854a0676c6c7c2cd2330ee5c44cb064e232b8e9">
+        sha1="d094a74cdc635b5050e90a940174312fe82f01f9">
         <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d56741ae8dd864b6d7ee3a2b53386479b5ef17f9\classes.dex" />
     </item>
     <item
@@ -156,12 +192,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\neolab\.android\build-cache\bfbbc9e4c735153775ac68c86755a55c77c29081\output\jars\classes.jar"
+        jar="C:\Users\neolab\.android\build-cache\baabcb70da4e04f6538209a3a19b9c61221360bc\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5b9115385461c8511190f51ede6532b36723866f\classes.dex" />
+        sha1="21160c044ba984fb2e33b833c89a496becb85cfd">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_34400041fd499a0a98ad6154c7cc6271ce6fa9f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\6b8a740dd843ef717691c0e23a35267bbc006394\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6178e31397c24ab1bfc09766832cdcf519621eb7">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_89f88269af6f3d676f82fff251e36d0b147dabb6\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -174,15 +219,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\neolab\.android\build-cache\426c7269085254f9fb75345118c5a2e40ecb7bc8\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
-        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b793b13b6effd557ce4d60ba7abd825c82503ee2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\neolab\.android\build-cache\cca842026148e7236e494c17756b27b4bc3929a7\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -192,21 +228,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\neolab\.android\build-cache\bd84c5a7f1165354efa6215b3ff1d320a0ed1b8d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
-        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_07a670c8d43f357fb94277f230ecbda79c7c91b6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\neolab\.android\build-cache\27840bf72c0887d5d6db389932d1a397c245ed53\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
         <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f3904ca117bcca0cf24a5a2297e48f8b8a1d9395\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\ce6b943c9016c4dcaadcd3f4fba77d94852be0f0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_62d3d11d4a9b7dc2c9a43f7759dc326397f5988c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\da3ae9a861f0d8083ba6ed71e3541b570eea3550\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b3d5c1c009c56a1a2dff4144d6b916356bc2570b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -228,30 +273,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\PhuocDH\Xstock\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9a0efce999261c3103da6564e9d6ef5ee490fb06\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\neolab\.android\build-cache\b9dc34213f3ac6fc837180725a4cf26091dcc297\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_559d82c96f7f93a7ca5713c0e2c0f315350006c0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\neolab\.android\build-cache\e0a99c2d9961336e3db438c94e21ddeb2093a550\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="2bd6a36d5072f203e7b9572a135c7f2ad1903aaa">
         <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fee54ec040990e80c521e92b9a0b16e4753a3aca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\PhuocDH\Xstock\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9a0efce999261c3103da6564e9d6ef5ee490fb06\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -264,12 +300,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\neolab\.android\build-cache\d7e2133dc8bd472aecdd9b5495fa678a91c2b46f\output\jars\classes.jar"
+        jar="C:\Users\neolab\.android\build-cache\45be9d6aeb5808cd106a65e0aa4277b13c2b27b9\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3b7173b3df4c7029699919414400041f64519e34">
-        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6feae423c21e76ad70ffdd763697245c9fa0ce1b\classes.dex" />
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8dd2c3b09528f9884fc2eb9ed0a023e7102cc7f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\57f1fdbc1b6c1e1bbde5572434393d3715967e73\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_df4c00df59480bc73aaa4ceb588910b8639ecc3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\ff883e828b336c7b37404f3e2b9d3d1b559d8572\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="54511008bf7d1aabd871d8d3a26781b3f2bd9617">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_13a4f20c96fe5c3b0c11b391d0e67460f49735d0\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -282,12 +336,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\neolab\.android\build-cache\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\output\jars\classes.jar"
+        jar="C:\Users\neolab\.android\build-cache\599fd0c3e798ee30f92bd7cad94ab08b27e6a85b\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c331e63c5b0758df8ba568798560f58421b5c268\classes.dex" />
+        sha1="cb238c479cbda3db7cef9a99c11e5fd4851445fe">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a3ed9438b21a382240060763c2cd210d3e300833\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -309,21 +363,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\neolab\.android\build-cache\bfbbc9e4c735153775ac68c86755a55c77c29081\output\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_898866a31222a5c797ce5bab0f91b891a3f416a1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\neolab\.android\build-cache\089c48efc37c085a833f695efa26603cde6f1093\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="db73bb0b63ec60c9467b564baaf7c1e5d469c9f2">
         <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f953e83e5c78dfad9eb5efb0bb618348fe78a18c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\neolab\.android\build-cache\c0f5311475bdfb7c670cd75baa0b5bd91c479da2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e00b71dcf2fbecaf59b0d487d11839522dd7863d">
+        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1945ab2a2f2d9798e44832400b60cbdb9f8ecb6c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -342,33 +396,6 @@
         revision="25.0.0"
         sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
         <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b3c98303a142c2f84bf8832f647c1f688bc54f1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\neolab\.android\build-cache\f34ad0a68917aca73cb60453eac34d1d40120174\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_346eaa989b3207a2d8366b78a287a86f809d4997\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\neolab\.android\build-cache\e2a97887a239179a61e578762f5f19b6db68fc51\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
-        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a0c7c026f1e64334910f09a83537cd4dd02c700e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="E:\PhuocDH\Xstock\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_15f5d4517e18bbc6da94a0bfcc367f75b3f88aca\classes.dex" />
     </item>
 
 </items>

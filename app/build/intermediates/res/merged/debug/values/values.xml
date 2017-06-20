@@ -75,22 +75,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
-    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
-    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
-    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
-    <color name="common_google_signin_btn_text_light_default">#90000000</color>
-    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
-    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
-    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
-    <color name="common_plus_signin_btn_text_dark_default">@android:color/white</color>
-    <color name="common_plus_signin_btn_text_dark_disabled">#FFAAAAAA</color>
-    <color name="common_plus_signin_btn_text_dark_focused">@android:color/white</color>
-    <color name="common_plus_signin_btn_text_dark_pressed">@android:color/white</color>
-    <color name="common_plus_signin_btn_text_light_default">#FF737373</color>
-    <color name="common_plus_signin_btn_text_light_disabled">#FFAAAAAA</color>
-    <color name="common_plus_signin_btn_text_light_focused">#FF737373</color>
-    <color name="common_plus_signin_btn_text_light_pressed">#DE000000</color>
     <color name="default_background_label">#ff303030</color>
     <color name="default_fill_color">#ffffff</color>
     <color name="default_shadow_color">#88757575</color>
@@ -248,7 +232,6 @@
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
-    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
     <declare-styleable name="MaterialSearchView"><attr format="integer" name="searchBackground"/><attr format="integer" name="searchVoiceIcon"/><attr format="integer" name="searchCloseIcon"/><attr format="integer" name="searchBackIcon"/><attr format="integer" name="searchSuggestionIcon"/><attr format="integer" name="searchSuggestionBackground"/><attr name="android:hint"/><attr name="android:textColor"/><attr name="android:textColorHint"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="showAsAction"><flag name="never" value="0"/><flag name="ifRoom" value="1"/><flag name="always" value="2"/><flag name="withText" value="4"/><flag name="collapseActionView" value="8"/></attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/></declare-styleable>
@@ -267,7 +250,6 @@
     <declare-styleable name="ScrollingViewBehavior_Params"><attr format="dimension" name="behavior_overlapTop"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
     <declare-styleable name="ShadowLayout"><attr format="dimension" name="sl_cornerRadius"/><attr format="dimension" name="sl_shadowRadius"/><attr format="color" name="sl_shadowColor"/><attr format="dimension" name="sl_dx"/><attr format="dimension" name="sl_dy"/></declare-styleable>
-    <declare-styleable name="SignInButton"><attr format="reference|enum" name="buttonSize"><enum name="standard" value="0"/><enum name="wide" value="1"/><enum name="icon_only" value="2"/></attr><attr format="reference|enum" name="colorScheme"><enum name="dark" value="0"/><enum name="light" value="1"/><enum name="auto" value="2"/></attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
     <declare-styleable name="SnackbarLayout"><attr name="android:maxWidth"/><attr name="elevation"/><attr format="dimension" name="maxActionInlineWidth"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
     <declare-styleable name="SwipeLayout"><attr name="drag_edge"><flag name="left" value="1"/><flag name="right" value="2"/><flag name="top" value="4"/><flag name="bottom" value="8"/></attr><attr format="dimension" name="leftEdgeSwipeOffset"/><attr format="dimension" name="rightEdgeSwipeOffset"/><attr format="dimension" name="topEdgeSwipeOffset"/><attr format="dimension" name="bottomEdgeSwipeOffset"/><attr format="enum" name="show_mode"><enum name="lay_down" value="0"/><enum name="pull_out" value="1"/></attr><attr format="boolean" name="clickToClose"/></declare-styleable>
@@ -489,7 +471,7 @@
     <integer name="bottom_sheet_slide_duration">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
-    <integer name="google_play_services_version">9452000</integer>
+    <integer name="google_play_services_version">11011000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="Exit">Thoát</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
@@ -520,26 +502,7 @@
     <string name="btn_logout">Đăng xuất</string>
     <string name="btn_register">Đăng ký</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
-    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
-    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
-    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
-    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. If the problem persists, please contact the developer for assistance.</string>
-    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
-    <string name="common_google_play_services_unsupported_title">Google Play services</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
-    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
-    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
-    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
-    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
-    <string name="common_open_on_phone">Open on phone</string>
-    <string name="common_signin_button_text">Sign in</string>
-    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
     <string name="cross">Cross</string>
     <string name="default_web_client_id" translatable="false">812254725857-ns0m4cg9uhhp4ihjgj1akfeo1vngc177.apps.googleusercontent.com</string>
     <string name="define_FloatingActionButton"/>
@@ -556,6 +519,7 @@
     <string name="dialog_x24Traders_sort_title">Sắp xếp theo :</string>
     <string name="err_msg_email">Vui lòng nhập địa chỉ email</string>
     <string name="err_msg_password">Vui lòng nhập mật khẩu</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="firebase_database_url" translatable="false">https://xstock-956f6.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">812254725857</string>
     <string name="google_api_key" translatable="false">AIzaSyAz5BY_U6OHh8XaFs5PlqR9AXMtR--pjsU</string>
@@ -621,6 +585,7 @@
     <string name="mdtp_time_placeholder" translatable="false">00</string>
     <string name="mdtp_time_separator" translatable="false">:</string>
     <string name="mdtp_year_picker_description">Year list</string>
+    <string name="project_id" translatable="false">xstock-956f6</string>
     <string name="receive_message">Nhận tin nhắn thông báo</string>
     <string name="rg_email">Email</string>
     <string name="rg_mobile">Số điện thoại di động</string>

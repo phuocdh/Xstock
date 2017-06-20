@@ -48,6 +48,10 @@ public class ActivityLogin extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        Intent intent = new Intent();
+        intent.setAction("com.google.firebase.MESSAGING_EVENT");
+        intent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
+        sendBroadcast(intent);
         NotificationManager notificationManager =
                 (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.cancelAll();

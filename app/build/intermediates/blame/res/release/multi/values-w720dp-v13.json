@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\values-w720dp-v13\\values-w720dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 76,
+                        "endOffset": 127
+                    }
+                }
+            }
+        ]
+    }
+]

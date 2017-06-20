@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lnLoginLoading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ic_xstock_4" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/border_as_gradient"
+                        android:hint="@string/hint_email"
+                        android:inputType="textEmailAddress"
+                        android:padding="5dp"
+                        android:textColor="@color/input_login"
+                        android:textColorHint="@color/input_login_hint"
+                        android:textSize="@dimen/tv_login_4in" />
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/border_as_gradient"
+                        android:hint="@string/hint_password"
+                        android:inputType="textPassword"
+                        android:padding="5dp"
+                        android:textColor="@color/input_login"
+                        android:textColorHint="@color/input_login_hint"
+                        android:textSize="@dimen/tv_login_4in" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/save_pass"
+                            android:textColor="@color/input_login"
+                            android:textSize="20sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:orientation="vertical">
+
+                            <com.kyleduo.switchbutton.SwitchButton
+                                android:id="@+id/swSavePass"
+                                style="@style/SwitchButtonStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                app:kswThumbHeight="20dp"
+                                app:kswThumbWidth="25dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <com.xstock.rippleview.RippleView
+                        android:id="@+id/btnLogin"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/btn_login"
+                        android:gravity="center"
+                        android:text="@string/btn_login"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/tv_login_4in"
+                        android:textStyle="bold"
+                        app:alphaFactor="0.7"
+                        app:hover="true"
+                        app:mrippleColor="#58FAAC" />
+
+                    <com.xstock.rippleview.RippleView
+                        android:id="@+id/btnRegister"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/btn_register"
+                        android:gravity="center"
+                        android:text="@string/btn_register"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/tv_login_4in"
+                        android:textStyle="bold"
+                        app:alphaFactor="0.7"
+                        app:hover="true"
+                        app:mrippleColor="#58FAAC" />
+
+                    <com.xstock.rippleview.RippleView
+                        android:id="@+id/btnForgotPass"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/btn_forgot_pass"
+                        android:gravity="center"
+                        android:text="@string/btn_forgot_pass"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/tv_login_4in"
+                        android:textStyle="bold"
+                        app:alphaFactor="0.7"
+                        app:hover="true"
+                        app:mrippleColor="#58FAAC" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

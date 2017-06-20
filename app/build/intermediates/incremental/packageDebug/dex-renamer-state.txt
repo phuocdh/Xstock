@@ -1,4 +1,4 @@
-#Mon Jun 19 18:02:36 ICT 2017
+#Tue Jun 20 17:24:20 ICT 2017
 base.0=E\:\\PhuocDH\\Xstock\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d56741ae8dd864b6d7ee3a2b53386479b5ef17f9
 renamed.1=classes2.dex
 renamed.0=classes.dex

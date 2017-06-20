@@ -368,17 +368,17 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 1940,
-                    "endColumn": 105,
-                    "endOffset": 2041
+                    "endColumn": 179,
+                    "endOffset": 2115
                 },
                 "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
+                    "file": "C:\\Users\\neolab\\.android\\build-cache\\6b8a740dd843ef717691c0e23a35267bbc006394\\output\\res\\values-ko\\values.xml",
                     "position": {
                         "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 329,
-                        "endColumn": 105,
-                        "endOffset": 430
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 179,
+                        "endOffset": 464
                     }
                 }
             },
@@ -386,370 +386,9 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2046,
-                    "endColumn": 170,
-                    "endOffset": 2212
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 435,
-                        "endColumn": 170,
-                        "endOffset": 601
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 2217,
-                    "endColumn": 117,
-                    "endOffset": 2330
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 606,
-                        "endColumn": 117,
-                        "endOffset": 719
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 2335,
-                    "endColumn": 119,
-                    "endOffset": 2450
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 724,
-                        "endColumn": 119,
-                        "endOffset": 839
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 25,
-                    "startColumn": 4,
-                    "startOffset": 2455,
-                    "endColumn": 181,
-                    "endOffset": 2632
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 844,
-                        "endColumn": 181,
-                        "endOffset": 1021
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 26,
-                    "startColumn": 4,
-                    "startOffset": 2637,
-                    "endColumn": 181,
-                    "endOffset": 2814
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 1026,
-                        "endColumn": 181,
-                        "endOffset": 1203
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 27,
-                    "startColumn": 4,
-                    "startOffset": 2819,
-                    "endColumn": 118,
-                    "endOffset": 2933
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 1208,
-                        "endColumn": 118,
-                        "endOffset": 1322
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 28,
-                    "startColumn": 4,
-                    "startOffset": 2938,
-                    "endColumn": 123,
-                    "endOffset": 3057
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1327,
-                        "endColumn": 123,
-                        "endOffset": 1446
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 29,
-                    "startColumn": 4,
-                    "startOffset": 3062,
-                    "endColumn": 198,
-                    "endOffset": 3256
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\e359f6bf9c361c95a8ab0c76d9b1b78571f54a0e\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 331,
-                        "endColumn": 198,
-                        "endOffset": 525
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 30,
-                    "startColumn": 4,
-                    "startOffset": 3261,
-                    "endColumn": 199,
-                    "endOffset": 3456
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1451,
-                        "endColumn": 199,
-                        "endOffset": 1646
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 3461,
-                    "endColumn": 118,
-                    "endOffset": 3575
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1651,
-                        "endColumn": 118,
-                        "endOffset": 1765
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 32,
-                    "startColumn": 4,
-                    "startOffset": 3580,
-                    "endColumn": 104,
-                    "endOffset": 3680
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1770,
-                        "endColumn": 104,
-                        "endOffset": 1870
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 33,
-                    "startColumn": 4,
-                    "startOffset": 3685,
-                    "endColumn": 166,
-                    "endOffset": 3847
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1875,
-                        "endColumn": 166,
-                        "endOffset": 2037
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 34,
-                    "startColumn": 4,
-                    "startOffset": 3852,
-                    "endColumn": 119,
-                    "endOffset": 3967
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 2042,
-                        "endColumn": 119,
-                        "endOffset": 2157
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 35,
-                    "startColumn": 4,
-                    "startOffset": 3972,
-                    "endColumn": 176,
-                    "endOffset": 4144
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 2162,
-                        "endColumn": 176,
-                        "endOffset": 2334
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 36,
-                    "startColumn": 4,
-                    "startOffset": 4149,
-                    "endColumn": 123,
-                    "endOffset": 4268
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 2339,
-                        "endColumn": 123,
-                        "endOffset": 2458
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 37,
-                    "startColumn": 4,
-                    "startOffset": 4273,
-                    "endColumn": 148,
-                    "endOffset": 4417
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 2463,
-                        "endColumn": 148,
-                        "endOffset": 2607
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 38,
-                    "startColumn": 4,
-                    "startOffset": 4422,
-                    "endColumn": 88,
-                    "endOffset": 4506
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 2612,
-                        "endColumn": 88,
-                        "endOffset": 2696
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 39,
-                    "startColumn": 4,
-                    "startOffset": 4511,
-                    "endColumn": 87,
-                    "endOffset": 4594
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2701,
-                        "endColumn": 87,
-                        "endOffset": 2784
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 40,
-                    "startColumn": 4,
-                    "startOffset": 4599,
-                    "endColumn": 103,
-                    "endOffset": 4698
-                },
-                "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\be6ab24ae38e37bb6da28f910dfbe35ae10c2eb7\\output\\res\\values-ko\\values.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2789,
-                        "endColumn": 103,
-                        "endOffset": 2888
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 41,
-                    "startColumn": 4,
-                    "startOffset": 4703,
+                    "startOffset": 2120,
                     "endColumn": 61,
-                    "endOffset": 4760
+                    "endOffset": 2177
                 },
                 "from": {
                     "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-ko\\values-ko.xml",
@@ -764,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 4765,
+                    "startOffset": 2182,
                     "endColumn": 99,
-                    "endOffset": 4860
+                    "endOffset": 2277
                 },
                 "from": {
                     "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-ko\\values-ko.xml",
@@ -783,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 4865,
+                    "startOffset": 2282,
                     "endColumn": 107,
-                    "endOffset": 4968
+                    "endOffset": 2385
                 },
                 "from": {
                     "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-ko\\values-ko.xml",
@@ -802,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 4973,
+                    "startOffset": 2390,
                     "endColumn": 76,
-                    "endOffset": 5045
+                    "endOffset": 2462
                 },
                 "from": {
                     "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-ko\\values-ko.xml",
@@ -821,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 45,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 5050,
+                    "startOffset": 2467,
                     "endColumn": 97,
-                    "endOffset": 5143
+                    "endOffset": 2560
                 },
                 "from": {
                     "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-ko\\values-ko.xml",
@@ -840,11 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 5148,
+                    "startOffset": 2565,
                     "endColumn": 117,
-                    "endOffset": 5261
+                    "endOffset": 2678
                 },
                 "from": {
                     "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-ko\\values-ko.xml",
@@ -859,11 +498,11 @@
             },
             {
                 "to": {
-                    "startLine": 47,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 5266,
+                    "startOffset": 2683,
                     "endColumn": 98,
-                    "endOffset": 5360
+                    "endOffset": 2777
                 },
                 "from": {
                     "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-ko\\values-ko.xml",
@@ -878,11 +517,11 @@
             },
             {
                 "to": {
-                    "startLine": 48,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 5365,
+                    "startOffset": 2782,
                     "endColumn": 80,
-                    "endOffset": 5441
+                    "endOffset": 2858
                 },
                 "from": {
                     "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-ko\\values-ko.xml",
@@ -897,11 +536,11 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 5446,
+                    "startOffset": 2863,
                     "endColumn": 81,
-                    "endOffset": 5523
+                    "endOffset": 2940
                 },
                 "from": {
                     "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-ko\\values-ko.xml",
@@ -916,11 +555,11 @@
             },
             {
                 "to": {
-                    "startLine": 50,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 5528,
+                    "startOffset": 2945,
                     "endColumn": 82,
-                    "endOffset": 5606
+                    "endOffset": 3023
                 },
                 "from": {
                     "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-ko\\values-ko.xml",
@@ -935,11 +574,11 @@
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 5611,
+                    "startOffset": 3028,
                     "endColumn": 80,
-                    "endOffset": 5687
+                    "endOffset": 3104
                 },
                 "from": {
                     "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-ko\\values-ko.xml",
@@ -954,11 +593,11 @@
             },
             {
                 "to": {
-                    "startLine": 52,
+                    "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 5692,
+                    "startOffset": 3109,
                     "endColumn": 88,
-                    "endOffset": 5776
+                    "endOffset": 3193
                 },
                 "from": {
                     "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-ko\\values-ko.xml",
@@ -973,11 +612,11 @@
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 5781,
+                    "startOffset": 3198,
                     "endColumn": 100,
-                    "endOffset": 5877
+                    "endOffset": 3294
                 },
                 "from": {
                     "file": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\values-ko\\values-ko.xml",

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1px"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/item_index_info_display"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/item_index_info_volume"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/item_index_info_pclose"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/item_index_info_updowns"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/lstIndexInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@null" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </FrameLayout>
+</LinearLayout>

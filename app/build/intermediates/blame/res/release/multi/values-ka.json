@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ka\\values-ka.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 201,
+                    "endOffset": 302
+                },
+                "from": {
+                    "file": "C:\\Users\\neolab\\.android\\build-cache\\6b8a740dd843ef717691c0e23a35267bbc006394\\output\\res\\values-ka\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 201,
+                        "endOffset": 486
+                    }
+                }
+            }
+        ]
+    }
+]

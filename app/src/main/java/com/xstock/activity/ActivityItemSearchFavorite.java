@@ -80,15 +80,11 @@ public class ActivityItemSearchFavorite extends Activity implements SearchView.O
         @Override
         public void HalfSwipeListView(int position) {
             // TODO Auto-generated method stub
-
-
-//            Toast.makeText(getContext(),searchAdapter.getItem(position).getName(), Toast.LENGTH_SHORT).show();
         }
 
         @Override
         public void onDismiss(ListView listView, int[] reverseSortedPositions) {
             // TODO Auto-generated method stub
-//            Toast.makeText(getContext(),"Delete", Toast.LENGTH_SHORT).show();
             for (int i : reverseSortedPositions) {
                 new ThreadAddDeleteUserTradeList(searchAdapter.getItem(i).getId(), searchAdapter.getItem(i).getName(), 0).run();
             }
@@ -121,7 +117,7 @@ public class ActivityItemSearchFavorite extends Activity implements SearchView.O
 
         @Override
         protected ArrayList<GetTradeListItem> doInBackground(String... params) {
-            ArrayList<GetTradeListItem> alstGetTradeList = new ArrayList<GetTradeListItem>();
+            ArrayList<GetTradeListItem> alstGetTradeList;
 
             SessionManager session = new SessionManager(context);
             String token = session.GetPrefToken();

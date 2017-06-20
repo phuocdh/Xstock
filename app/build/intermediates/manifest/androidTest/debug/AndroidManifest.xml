@@ -3,7 +3,7 @@
     package="com.Xstock.test" >
 
     <uses-sdk
-        android:minSdkVersion="13"
+        android:minSdkVersion="14"
         android:targetSdkVersion="23" />
 
     <instrumentation

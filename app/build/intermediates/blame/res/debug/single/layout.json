@@ -36,20 +36,20 @@
         "source": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\layout\\mdtp_date_picker_selected_date.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
         "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "C:\\Users\\neolab\\.android\\build-cache\\44032305d9c50f4d37e5721d37d89ad6fd290aa7\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\neolab\\.android\\build-cache\\44032305d9c50f4d37e5721d37d89ad6fd290aa7\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\swipe_msg_item_1.xml",
@@ -96,12 +96,12 @@
         "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout\\residemenu_item.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
         "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\neolab\\.android\\build-cache\\021aeda294bc6884510abc52ab37e5bf18a6fe9a\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\swipe_item_1.xml",

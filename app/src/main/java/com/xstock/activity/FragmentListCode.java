@@ -151,11 +151,9 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
         protected ArrayList<GetTradeListItem> doInBackground(String... params) {
             ArrayList<GetTradeListItem> alstGetTradeList = new ArrayList<GetTradeListItem>();
 
-            // Open the Realm for the UI thread.
             SessionManager session = new SessionManager(context);
             String token = session.GetPrefToken();
             alstGetTradeList = SrvGetTradeList.GetUserTradeList(token);
-//            alstGetTradeList = GetTradeListFavorite(token);
             return alstGetTradeList;
         }
 

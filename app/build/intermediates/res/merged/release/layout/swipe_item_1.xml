@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SingleProfile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/tvTradeName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|center"
+        android:paddingRight="5dp"
+        android:textColor="@color/input_login_hint"
+        android:textSize="15sp" />
+</LinearLayout>
