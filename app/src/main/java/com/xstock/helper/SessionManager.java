@@ -20,18 +20,18 @@ public class SessionManager {
 
     private static final String KEY_PREF_TOKEN = "token";
     private static final String KEY_PREF_SAVE_PASS = "save_pass";
-    private static final String KEY_PREF_ON_OFF = "on_off";
     private static final String KEY_PREF_DEVICE_TOKEN = "devicetoken";
 
     private static final String KEY_PREF_X24BASIC_LICENSE = "x24basic_license";
-    private static final String KEY_PREF_X24TRADERS_LICENSE = "X24TRADERS_LICENSE";
+    private static final String KEY_PREF_X24TRADERS_LICENSE = "x24traders_license";
     private static final String KEY_PREF_X24PLUS_LICENSE = "x24plus_license";
     private static final String KEY_PREF_NEWS_LICENSE = "news_license";
-    private static final String KEY_PREF_INDEXINFO_LICENSE = "indexinfo_license";
+    private static final String KEY_PREF_INDEX_INFO_LICENSE = "index_info_license";
     private static final String KEY_PREF_5TRADE_LICENSE = "5trade_license";
     private static final String KEY_PREF_10TRADE_LICENSE = "10trade_license";
     private static final String KEY_PREF_15TRADE_LICENSE = "15trade_license";
     private static final String KEY_PREF_GROUP_ID = "group_id";
+    private static final String KEY_PREF_COUNT_TRADE = "count_trade";
 
     public SessionManager(Context context) {
         this._context = context;
@@ -55,15 +55,6 @@ public class SessionManager {
 
     public Boolean GetPrefSavePass() {
         return pref.getBoolean(KEY_PREF_SAVE_PASS, false);
-    }
-
-    public void SetPrefOnOff(Boolean isOnOff) {
-        editor.putBoolean(KEY_PREF_ON_OFF, isOnOff);
-        editor.commit();
-    }
-
-    public Boolean GetPrefOnOff() {
-        return pref.getBoolean(KEY_PREF_ON_OFF, false);
     }
 
     public void SetPrefDeviceToken(String token) {
@@ -112,12 +103,12 @@ public class SessionManager {
     }
 
     public void SetPrefIndexInfoLicense(Boolean isIndexInfoLicense) {
-        editor.putBoolean(KEY_PREF_INDEXINFO_LICENSE, isIndexInfoLicense);
+        editor.putBoolean(KEY_PREF_INDEX_INFO_LICENSE, isIndexInfoLicense);
         editor.commit();
     }
 
     public Boolean GetPrefIndexInfoLicense() {
-        return pref.getBoolean(KEY_PREF_INDEXINFO_LICENSE, false);
+        return pref.getBoolean(KEY_PREF_INDEX_INFO_LICENSE, false);
     }
 
     public void SetPref5TradeLicense(Boolean is5TradeLicense) {
@@ -125,7 +116,7 @@ public class SessionManager {
         editor.commit();
     }
 
-    public Boolean getPref5TradeLicense() {
+    public Boolean GetPref5TradeLicense() {
         return pref.getBoolean(KEY_PREF_5TRADE_LICENSE, false);
     }
 
@@ -154,5 +145,14 @@ public class SessionManager {
 
     public int GetPrefGroupID() {
         return pref.getInt(KEY_PREF_GROUP_ID, 0);
+    }
+
+    public void SetPrefCountTrade(int groupID) {
+        editor.putInt(KEY_PREF_COUNT_TRADE, groupID);
+        editor.commit();
+    }
+
+    public int GetPrefCountTrade() {
+        return pref.getInt(KEY_PREF_COUNT_TRADE, 0);
     }
 }

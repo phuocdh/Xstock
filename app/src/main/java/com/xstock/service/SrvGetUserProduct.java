@@ -27,8 +27,8 @@ public class SrvGetUserProduct {
         final String URL = AppConfig.XSTOCK_URL_SERVICE;
 
         // Its the client petition to the web
-        SoapObject client = null;
-        SoapSerializationEnvelope sse = null;
+        SoapObject client;
+        SoapSerializationEnvelope sse;
 
         sse = new SoapSerializationEnvelope(SoapEnvelope.VER11);
         sse.dotNet = true;
@@ -58,25 +58,41 @@ public class SrvGetUserProduct {
             String json = responseBody.toString();
             JSONArray jsonArray = new JSONArray(json);
             int count = jsonArray.length();
+            session.SetPrefX24BasicLicense(false);
+            session.SetPrefX24TradersLicense(false);
+            session.SetPrefX24PlusLicense(false);
+            session.SetPrefNewsLicense(false);
+            session.SetPrefIndexInfoLicense(false);
+            session.SetPref5TradeLicense(false);
+            session.SetPref10TradeLicense(false);
+            session.SetPref15TradeLicense(false);
             for (int i = 0; i < count; i++) {
                 JSONObject jsonObject = jsonArray.getJSONObject(i);
-                switch (Integer.valueOf(jsonObject.getString("user_id"))) {
+                switch (Integer.valueOf(jsonObject.getString("product_id"))) {
                     case 1:
                         session.SetPrefX24BasicLicense(true);
+                        break;
                     case 2:
                         session.SetPrefX24TradersLicense(true);
+                        break;
                     case 3:
                         session.SetPrefX24PlusLicense(true);
+                        break;
                     case 4:
                         session.SetPrefNewsLicense(true);
+                        break;
                     case 5:
                         session.SetPrefIndexInfoLicense(true);
+                        break;
                     case 9:
                         session.SetPref5TradeLicense(true);
+                        break;
                     case 10:
                         session.SetPref10TradeLicense(true);
+                        break;
                     case 11:
                         session.SetPref15TradeLicense(true);
+                        break;
                 }
             }
         } catch (Exception e) {

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
+        "outputFile": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 321
                 },
                 "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\6b8a740dd843ef717691c0e23a35267bbc006394\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\f9c81d49114c8ad8ab45eb84cb1c882a17088dc8\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,

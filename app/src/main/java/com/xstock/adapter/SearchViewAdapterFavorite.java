@@ -30,7 +30,7 @@ public class SearchViewAdapterFavorite extends BaseAdapter {
         mContext = context;
         this.getTradeListItem = getTradeListItem;
         inflater = LayoutInflater.from(mContext);
-        this.arraylist = new ArrayList<GetTradeListItem>();
+        this.arraylist = new ArrayList<>();
         this.arraylist.addAll(getTradeListItem);
         this.note = note;
     }

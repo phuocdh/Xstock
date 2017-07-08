@@ -1,66 +1,66 @@
 [
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\fragment_stock_chart.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\fragment_stock_chart.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\fragment_setting.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\fragment_setting.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\fragment_index_info_item.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\fragment_index_info_item.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\fragment_index_info.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\fragment_index_info.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\fragment_index_info.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\fragment_index_info.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\residemenu_item.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\residemenu_item.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\fragment_price_table_item.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\fragment_price_table_item.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\swipe_msg_item_1.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\swipe_msg_item_1.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_registry.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\activity_registry.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_main.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\activity_main.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_login.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\activity_login.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_x24_basic_trade_image.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\activity_x24_basic_trade_image.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\residemenu_custom_left_scrollview.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\residemenu_custom_left_scrollview.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\fragment_index_info_item.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\fragment_index_info_item.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_main.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\activity_main.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\fragment_main.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\fragment_main.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\fragment_main.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\fragment_main.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_list_code_favorite.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\activity_list_code_favorite.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_list_code_favorite.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\activity_list_code_favorite.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_item_search.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\activity_item_search.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\fragment_setting.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\fragment_setting.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\fragment_price_table_item.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\fragment_price_table_item.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_item_search.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\activity_item_search.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\residemenu_custom_left_scrollview.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\residemenu_custom_left_scrollview.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\residemenu_item.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\residemenu_item.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_x24_basic.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\activity_x24_basic.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_x24_basic_trade_image.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\activity_x24_basic_trade_image.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\fragment_stock_chart.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\fragment_stock_chart.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\swipe_msg_item_1.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\swipe_msg_item_1.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_registry.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\activity_registry.xml"
     },
     {
-        "merged": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_x24_basic.xml",
-        "source": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\layout-xlarge\\activity_x24_basic.xml"
+        "merged": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_login.xml",
+        "source": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\layout-xlarge\\activity_login.xml"
     }
 ]

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w560dp-land-v13\\values-w560dp-land-v13.xml",
+        "outputFile": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w560dp-land-v13\\values-w560dp-land-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 115
                 },
                 "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-w560dp-land-v13\\values-w560dp-land-v13.xml",
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\f6c4b84333e4361619cfe21c3ea218372213ecb6\\output\\res\\values-w560dp-land-v13\\values-w560dp-land-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 169
                 },
                 "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-w560dp-land-v13\\values-w560dp-land-v13.xml",
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\f6c4b84333e4361619cfe21c3ea218372213ecb6\\output\\res\\values-w560dp-land-v13\\values-w560dp-land-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 220
                 },
                 "from": {
-                    "file": "C:\\Users\\neolab\\.android\\build-cache\\897059ff6070e33a4aa187fa68647a71e1a87135\\output\\res\\values-w560dp-land-v13\\values-w560dp-land-v13.xml",
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\f6c4b84333e4361619cfe21c3ea218372213ecb6\\output\\res\\values-w560dp-land-v13\\values-w560dp-land-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

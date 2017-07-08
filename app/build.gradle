@@ -6,7 +6,7 @@ android {
         Xstock {
             keyAlias 'Xstock'
             keyPassword 'Xstock'
-            storeFile file('E:/PhuocDH/Xstock/Xstock.jks')
+            storeFile file('D:/xstock/Project/xstock.vn/Xstock.jks')
             storePassword 'Xstock'
         }
     }

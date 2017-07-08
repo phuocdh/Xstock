@@ -45,11 +45,7 @@ public class FragmentStockChart extends Fragment {
                     new AsyncTrialLicence().execute(1);
                 } else if (session.GetPrefGroupID() == 1
                         || (session.GetPrefX24BasicLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))
-                        || (session.GetPrefX24TradersLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))
-                        || (session.GetPrefX24PlusLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))) {
+                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))) {
                     Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
                     activityX24Basic.putExtra("TRADE_TYPE", 1);
                     startActivity(activityX24Basic);
@@ -68,11 +64,7 @@ public class FragmentStockChart extends Fragment {
                     new AsyncTrialLicence().execute(4);
                 } else if (session.GetPrefGroupID() == 1
                         || (session.GetPrefX24BasicLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))
-                        || (session.GetPrefX24TradersLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))
-                        || (session.GetPrefX24PlusLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))) {
+                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))) {
                     Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
                     activityX24Basic.putExtra("TRADE_TYPE", 4);
                     startActivity(activityX24Basic);
@@ -90,12 +82,8 @@ public class FragmentStockChart extends Fragment {
                 if (session.GetPrefGroupID() == 5) {
                     new AsyncTrialLicence().execute(2);
                 } else if (session.GetPrefGroupID() == 1
-                        || (session.GetPrefX24BasicLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))
                         || (session.GetPrefX24TradersLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))
-                        || (session.GetPrefX24PlusLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))) {
+                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))) {
                     Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
                     activityX24Basic.putExtra("TRADE_TYPE", 2);
                     startActivity(activityX24Basic);
@@ -113,12 +101,8 @@ public class FragmentStockChart extends Fragment {
                 if (session.GetPrefGroupID() == 5) {
                     new AsyncTrialLicence().execute(5);
                 } else if (session.GetPrefGroupID() == 1
-                        || (session.GetPrefX24BasicLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))
                         || (session.GetPrefX24TradersLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))
-                        || (session.GetPrefX24PlusLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))) {
+                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))) {
                     Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
                     activityX24Basic.putExtra("TRADE_TYPE", 5);
                     startActivity(activityX24Basic);
@@ -136,12 +120,8 @@ public class FragmentStockChart extends Fragment {
                 if (session.GetPrefGroupID() == 5) {
                     new AsyncTrialLicence().execute(3);
                 } else if (session.GetPrefGroupID() == 1
-                        || (session.GetPrefX24BasicLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))
-                        || (session.GetPrefX24TradersLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))
                         || (session.GetPrefX24PlusLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
-                        || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))) {
+                        || session.GetPrefGroupID() == 4 ||session.GetPrefGroupID() == 6))) {
                     Intent activityX24Basic = new Intent(context, ActivityX24BasicMain.class);
                     activityX24Basic.putExtra("TRADE_TYPE", 3);
                     startActivity(activityX24Basic);

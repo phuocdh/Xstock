@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\PhuocDH\\Xstock\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+        "outputFile": "D:\\xstock\\Project\\xstock.vn\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 89
                 },
                 "from": {
-                    "file": "E:\\PhuocDH\\Xstock\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "file": "D:\\xstock\\Project\\xstock.vn\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

@@ -202,7 +202,7 @@ public class ActivityMain extends FragmentActivity implements View.OnClickListen
             if (session.GetPrefGroupID() == 5) {
                 new AsyncTrialLicence().execute(targetFragment, text, visible, tag);
             } else if (session.GetPrefGroupID() == 1
-                    || (session.GetPrefX24BasicLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
+                    || (session.GetPrefIndexInfoLicense() && (session.GetPrefGroupID() == 2 || session.GetPrefGroupID() == 3
                     || session.GetPrefGroupID() == 4 || session.GetPrefGroupID() == 6))) {
                 clearFragmentByTag(tag);
                 txtTitleBar.setText(text);

@@ -1,7 +1,7 @@
--injars 'E:\PhuocDH\Xstock\app\build\intermediates\transforms\jarMerging\release\jars\1\1f\combined.jar'
--outjars 'E:\PhuocDH\Xstock\app\build\intermediates\multi-dex\release\componentClasses.jar'
+-injars 'D:\xstock\Project\xstock.vn\app\build\intermediates\transforms\jarMerging\release\jars\1\1f\combined.jar'
+-outjars 'D:\xstock\Project\xstock.vn\app\build\intermediates\multi-dex\release\componentClasses.jar'
 
--libraryjars 'E:\AndroidSDK\build-tools\25.0.0\lib\shrinkedAndroid.jar'
+-libraryjars 'D:\Android\AndroidStudio\AndroidSDK\build-tools\25.0.0\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **
 -dontwarn **
--printconfiguration 'E:\PhuocDH\Xstock\app\build\intermediates\multi-dex\release\components.flags'
+-printconfiguration 'D:\xstock\Project\xstock.vn\app\build\intermediates\multi-dex\release\components.flags'
 
 
 -keep public class * extends android.app.Instrumentation {

@@ -33,10 +33,11 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
     public static final String TAG = FragmentListCode.class.getSimpleName();
     SearchViewAdapterFavorite searchAdapter;
     SearchView svSearchTradeList;
-    private Context context;
+    private Context mContext;
     ListView lvTradeList;
     FragmentListCodeCommunicator activityCommunicator;
     SwipeRefreshLayout swipeRefresh;
+    SessionManager session;
 
     @Override
     public void onAttach(Activity activity) {
@@ -51,7 +52,8 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_list_code, container, false);
-        context = this.getContext();
+        mContext = this.getContext();
+        session = new SessionManager(mContext);
         svSearchTradeList = (SearchView) v.findViewById(R.id.svListSearchItem);
         swipeRefresh = (SwipeRefreshLayout) v.findViewById(R.id.swipeRefresh);
         lvTradeList = (ListView) v.findViewById(R.id.lvTradeList);
@@ -98,10 +100,7 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
         public void onDismiss(ListView listView, int[] reverseSortedPositions) {
             // TODO Auto-generated method stub
             for (int i : reverseSortedPositions) {
-                new ThreadAddDeleteUserTradeList(searchAdapter.getItem(i).getId(), "", 1).run();
-                searchAdapter.getTradeListItem.remove(i);
-                searchAdapter.arraylist.remove(i);
-                searchAdapter.notifyDataSetChanged();
+                new AsyncAddDeleteUserTradeList().execute(searchAdapter.getItem(i).getId(), "", "1", i + "");
             }
         }
 
@@ -134,8 +133,8 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
     }
 
     @Override
-    public void onStart() {
-        super.onStart();
+    public void onResume() {
+        super.onResume();
         new AsyncGetTradeListItem().execute();
         ListViewSwipeGesture touchListener = new ListViewSwipeGesture(
                 lvTradeList, swipeListener, getActivity());
@@ -149,24 +148,21 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
 
         @Override
         protected ArrayList<GetTradeListItem> doInBackground(String... params) {
-            ArrayList<GetTradeListItem> alstGetTradeList = new ArrayList<GetTradeListItem>();
-
-            SessionManager session = new SessionManager(context);
             String token = session.GetPrefToken();
-            alstGetTradeList = SrvGetTradeList.GetUserTradeList(token);
+            ArrayList<GetTradeListItem> alstGetTradeList = SrvGetTradeList.GetUserTradeList(token);
             return alstGetTradeList;
         }
 
         @Override
         protected void onPostExecute(final ArrayList<GetTradeListItem> alstGetTradeList) {
-            searchAdapter = new SearchViewAdapterFavorite(context, alstGetTradeList, Constant.NOTE_FAVORITE_DELETE);
+            searchAdapter = new SearchViewAdapterFavorite(mContext, alstGetTradeList, Constant.NOTE_FAVORITE_DELETE);
             lvTradeList.setAdapter(searchAdapter);
             Utils.hideLoadingDialog();
         }
 
         @Override
         protected void onPreExecute() {
-            Utils.showLoadingDialog(context);
+            Utils.showLoadingDialog(mContext);
         }
 
         @Override
@@ -174,33 +170,40 @@ public class FragmentListCode extends Fragment implements SearchView.OnQueryText
         }
     }
 
-    public class ThreadAddDeleteUserTradeList extends Thread {
-        String tradeid = "";
-        String tradeName = "";
-        int modify = 0;
+    private class AsyncAddDeleteUserTradeList extends
+            AsyncTask<String, Void, String[]> {
 
-        public ThreadAddDeleteUserTradeList(String tradeid, String tradeName, int modify) {
-            this.tradeid = tradeid;
-            this.modify = modify;
-            this.tradeName = tradeName;
+        @Override
+        protected String[] doInBackground(String... params) {
+            return params;
         }
 
-        // overriden from Runnable, which Thread implements
-        public void run() {
-            SessionManager session = new SessionManager(context);
+        @Override
+        protected void onPostExecute(String[] param) {
             String token = session.GetPrefToken();
-            final String check = SrvAddUserTradeList.AddDeleteUserTradeList(token, tradeid, tradeName, modify);
-            Handler handler = new Handler(Looper.getMainLooper());
-            handler.post(new Runnable() {
-                @Override
-                public void run() {
-                    if (check.equals("OK") == true) {
-                        Common.ShowToast(context, Constant.MSG_DELETE_SUCCESS, Toast.LENGTH_SHORT);
-                    } else {
-                        Common.ShowToast(context, Constant.MSG_DELETE_FAIL, Toast.LENGTH_SHORT);
-                    }
-                }
-            });
+            String check = SrvAddUserTradeList.AddDeleteUserTradeList(token, param[0], param[1], Integer.parseInt(param[2]));
+            if (check.equals("OK")) {
+                searchAdapter.getTradeListItem.remove(Integer.parseInt(param[3]));
+                searchAdapter.arraylist.remove(Integer.parseInt(param[3]));
+                searchAdapter.notifyDataSetChanged();
+                Common.ShowToast(mContext, Constant.MSG_DELETE_SUCCESS, Toast.LENGTH_SHORT);
+            } else {
+                Common.ShowToast(mContext, Constant.MSG_DELETE_FAIL, Toast.LENGTH_SHORT);
+            }
         }
+
+        @Override
+        protected void onPreExecute() {
+        }
+
+        @Override
+        protected void onProgressUpdate(Void... values) {
+        }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        session.SetPrefCountTrade(searchAdapter.getTradeListItem.size());
     }
 }

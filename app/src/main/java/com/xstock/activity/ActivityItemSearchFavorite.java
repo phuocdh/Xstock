@@ -34,7 +34,8 @@ public class ActivityItemSearchFavorite extends Activity implements SearchView.O
     ListView lvTradeList;
     SearchViewAdapterFavorite searchAdapter;
     SearchView svSearchTradeList;
-    private Context context;
+    private Context mContext;
+    SessionManager session;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -43,7 +44,8 @@ public class ActivityItemSearchFavorite extends Activity implements SearchView.O
         getActionBar().hide();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        this.context = this;
+        mContext = this;
+        session = new SessionManager(mContext);
         svSearchTradeList = (SearchView) findViewById(R.id.svListSearchItemFavorite);
         lvTradeList = (ListView) findViewById(R.id.lvTradeListFavorite);
         RippleView rvSearchItemBack = (RippleView) findViewById(R.id.rvTradesBack);
@@ -86,7 +88,7 @@ public class ActivityItemSearchFavorite extends Activity implements SearchView.O
         public void onDismiss(ListView listView, int[] reverseSortedPositions) {
             // TODO Auto-generated method stub
             for (int i : reverseSortedPositions) {
-                new ThreadAddDeleteUserTradeList(searchAdapter.getItem(i).getId(), searchAdapter.getItem(i).getName(), 0).run();
+                new AsyncAddDeleteUserTradeList().execute(searchAdapter.getItem(i).getId(), searchAdapter.getItem(i).getName(), "0");
             }
         }
 
@@ -117,24 +119,21 @@ public class ActivityItemSearchFavorite extends Activity implements SearchView.O
 
         @Override
         protected ArrayList<GetTradeListItem> doInBackground(String... params) {
-            ArrayList<GetTradeListItem> alstGetTradeList;
-
-            SessionManager session = new SessionManager(context);
             String token = session.GetPrefToken();
-            alstGetTradeList = SrvGetTradeList.GetTradeList(token);
-            return alstGetTradeList;
+            ArrayList<GetTradeListItem> lstGetTradeList = SrvGetTradeList.GetTradeList(token);
+            return lstGetTradeList;
         }
 
         @Override
-        protected void onPostExecute(final ArrayList<GetTradeListItem> alstGetTradeList) {
-            searchAdapter = new SearchViewAdapterFavorite(context, alstGetTradeList, Constant.NOTE_FAVORITE_ADD);
+        protected void onPostExecute(final ArrayList<GetTradeListItem> lstGetTradeList) {
+            searchAdapter = new SearchViewAdapterFavorite(mContext, lstGetTradeList, Constant.NOTE_FAVORITE_ADD);
             lvTradeList.setAdapter(searchAdapter);
             Utils.hideLoadingDialog();
         }
 
         @Override
         protected void onPreExecute() {
-            Utils.showLoadingDialog(context);
+            Utils.showLoadingDialog(mContext);
         }
 
         @Override
@@ -142,33 +141,50 @@ public class ActivityItemSearchFavorite extends Activity implements SearchView.O
         }
     }
 
-    public class ThreadAddDeleteUserTradeList extends Thread {
-        String tradeid = "";
-        String tradeName = "";
-        int modify = 0;
+    private class AsyncAddDeleteUserTradeList extends
+            AsyncTask<String, Void, String[]> {
 
-        public ThreadAddDeleteUserTradeList(String tradeid, String tradeName, int modify) {
-            this.tradeid = tradeid;
-            this.modify = modify;
-            this.tradeName = tradeName;
+        @Override
+        protected String[] doInBackground(String... params) {
+            return params;
         }
 
-        // overriden from Runnable, which Thread implements
-        public void run() {
-            SessionManager session = new SessionManager(context);
+        @Override
+        protected void onPostExecute(String[] param) {
             String token = session.GetPrefToken();
-            final String check = SrvAddUserTradeList.AddDeleteUserTradeList(token, tradeid, tradeName, modify);
-            Handler handler = new Handler(Looper.getMainLooper());
-            handler.post(new Runnable() {
-                @Override
-                public void run() {
-                    if (check.equals("OK") == true) {
-                        Common.ShowToast(context, Constant.MSG_ADD_SUCCESS, Toast.LENGTH_SHORT);
-                    } else {
-                        Common.ShowToast(context, Constant.MSG_ADD_FAIL, Toast.LENGTH_SHORT);
-                    }
+            String check = SrvAddUserTradeList.AddDeleteUserTradeList(token, param[0], param[1], Integer.parseInt(param[2]));
+            if (check.equals("OK") == true) {
+                session.SetPrefCountTrade(session.GetPrefCountTrade() + 1);
+                Common.ShowToast(mContext, Constant.MSG_ADD_SUCCESS, Toast.LENGTH_SHORT);
+            } else {
+                int countTrade = 5;
+                if (session.GetPref5TradeLicense()) {
+                    countTrade = 5;
                 }
-            });
+                if (session.GetPref10TradeLicense()) {
+                    countTrade += 10;
+                }
+                if (session.GetPref15TradeLicense()) {
+                    countTrade += 15;
+                }
+                if (session.GetPrefGroupID() != 1) {
+                    if (session.GetPrefCountTrade() == countTrade) {
+                        Common.ShowToast(mContext, Constant.MSG_TRADE_LICENSE, Toast.LENGTH_SHORT);
+                    } else {
+                        Common.ShowToast(mContext, Constant.MSG_ADD_FAIL, Toast.LENGTH_SHORT);
+                    }
+                } else {
+                    Common.ShowToast(mContext, Constant.MSG_ADD_FAIL, Toast.LENGTH_SHORT);
+                }
+            }
+        }
+
+        @Override
+        protected void onPreExecute() {
+        }
+
+        @Override
+        protected void onProgressUpdate(Void... values) {
         }
     }
 }
