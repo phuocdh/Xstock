@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="swipeactionadapter-2.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/f1eebbe854750090fabe6db7c9dfe9a992ed7625/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/f1eebbe854750090fabe6db7c9dfe9a992ed7625/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wdullaer/swipeactionadapter/2.0.0/ff1d6a226db3690a79f58dad01ec197adcd3c283/swipeactionadapter-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
